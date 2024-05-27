@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 from psalms import Psalms
 from texout import TeXPrinterOutput
