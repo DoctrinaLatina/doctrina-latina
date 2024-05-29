@@ -3,7 +3,10 @@ class TeXOutput:
     self.dir_fonts = "./../fonts"
     self.dir_images = "./../images"
     self.file_path = "out.tex"
+
+  def start(self):
     self.f = open(self.file_path, "w")
+    self.f.write(self.tex_head)
 
   def finish(self):
     self.f.write(self.tex_tail)
@@ -111,11 +114,8 @@ $TEX_VERSE { $LA }\newline"""
 
   def __init__(self):
     super(TeXPrinterOutput, self).__init__()
-    #TeXOutput.__init__(self)
-
     self.tex_head = self.tex_head.replace("$DIRFONTS", self.dir_fonts)
     self.tex_head = self.tex_head.replace("$DIRIMAGES", self.dir_images)
-    self.f.write(self.tex_head)
 
   def write_section(self, la, en, title="", inscription="", is_numbered=True):
     if title:
