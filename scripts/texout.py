@@ -19,15 +19,18 @@ class TeXPrinterOutput(TeXOutput):
   tex_head = \
 r"""\documentclass[10pt]{book}
 
+\usepackage{marginnote}
 \usepackage[
   papersize={8.5in,11in},
   layout=letterpaper,
-  right=1in,
-  left=1in,
+  %right=1in,
+  %left=1in,
+  inner=0.75in,
+  outer=4in,
   top=0.75in,
   bottom=0.75in,
-  marginparwidth=0.4in,
-  marginparsep=0.0in
+  marginparwidth=2.75in,
+  marginparsep=0.25in
 ]{geometry}
 
 \pagenumbering{gobble}
@@ -174,4 +177,25 @@ $TEX_VERSE { $LA }\newline"""
       self.f.write("\n")
       self.f.write(r"\end{paracol}")
       self.f.write("\n" + r"\end{absolutelynopagebreak}" + "\n")
+
+  def write_section2(self, la, en, title="", inscription="", is_numbered=True):
+    if title:
+      self.f.write(self.tex_section_begin.replace(r"$TITLE", title))
+
+    if inscription:
+      if title: self.f.write(r"\begin{center}")
+      self.f.write(self.tex_inscription.replace(r"$INSCRIPTION", inscription))
+      if title: self.f.write(r"\end{center}")
+      self.f.write(r"\vspace{0.12in}")
+    elif title:
+      self.f.write(r"\vspace{0.30in}")
+    else:
+      self.f.write(r"\vspace{0.12in}")
+
+    verses = sorted(la, key = int)
+    for verse in verses:
+      margin = r" \marginpar{\fontseries{li}\selectfont\scriptsize\raggedright " + en[verse] + "} "
+      line = self.tex_verse_number.replace("$VERSE", verse) + margin + "{ " + la[verse] + " }"
+      self.f.write(line)
+      self.f.write("\n\n")
 
