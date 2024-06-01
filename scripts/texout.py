@@ -26,11 +26,11 @@ r"""\documentclass[10pt]{book}
   %right=1in,
   %left=1in,
   inner=0.75in,
-  outer=4in,
-  top=0.75in,
-  bottom=0.75in,
+  outer=3.75in,
+  top=0.70in,
+  bottom=0.70in,
   marginparwidth=2.75in,
-  marginparsep=0.25in
+  marginparsep=0.25in,
 ]{geometry}
 
 \pagenumbering{gobble}
@@ -61,13 +61,13 @@ r"""\documentclass[10pt]{book}
 \exhyphenpenalty 10000
 
 \usepackage{indentfirst}
-\usepackage[skip=10pt plus1pt, indent=0pt]{parskip}
+\usepackage[skip=7pt plus1pt, indent=0pt]{parskip}
 
 \usepackage[explicit]{titlesec}
 \usepackage{needspace}
 
 \titleformat{\section}[block]
-  {\addfontfeature{LetterSpace=30.0}\bfseries\filcenter}
+  {\addfontfeature{LetterSpace=30.0}\bfseries\filcenter\small\fontdimen2\font=0.8em }
   {\thesection}{}{ #1 }[]
 \titlespacing{\section}{0ex}{3ex}{0ex}
 
@@ -100,7 +100,7 @@ r"""\documentclass[10pt]{book}
 """
 
   tex_inscription = r"""
-\emph{\fontseries{li}\selectfont\footnotesize $INSCRIPTION }
+\parbox{2.5in}{\fontseries{li}\selectfont\small $INSCRIPTION }
 """
 
   tex_verse_number = \
@@ -181,12 +181,12 @@ $TEX_VERSE { $LA }\newline"""
   def write_section2(self, la, en, title="", inscription="", is_numbered=True):
     if title:
       self.f.write(self.tex_section_begin.replace(r"$TITLE", title))
-
+      self.f.write(r"\vspace{0.05in}")
     if inscription:
       if title: self.f.write(r"\begin{center}")
       self.f.write(self.tex_inscription.replace(r"$INSCRIPTION", inscription))
       if title: self.f.write(r"\end{center}")
-      self.f.write(r"\vspace{0.12in}")
+      self.f.write(r"\vspace{0.001in}")
     elif title:
       self.f.write(r"\vspace{0.30in}")
     else:
@@ -196,6 +196,6 @@ $TEX_VERSE { $LA }\newline"""
     for verse in verses:
       margin = r" \marginpar{\fontseries{li}\selectfont\scriptsize\raggedright " + en[verse] + "} "
       line = self.tex_verse_number.replace("$VERSE", verse) + margin + "{ " + la[verse] + " }"
-      self.f.write(line)
-      self.f.write("\n\n")
+      self.f.write(line + r"\Needspace{3\baselineskip}" + "\n\n")
+      #self.f.write("\n\n")
 
