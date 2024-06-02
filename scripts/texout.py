@@ -188,7 +188,7 @@ $TEX_VERSE { $LA }\newline"""
       if title: self.f.write(r"\end{center}")
       self.f.write(r"\vspace{0.001in}")
     elif title:
-      self.f.write(r"\vspace{0.30in}")
+      self.f.write(r"\vspace{0.1in}")
     else:
       self.f.write(r"\vspace{0.12in}")
 

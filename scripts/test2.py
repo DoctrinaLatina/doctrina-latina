@@ -7,10 +7,9 @@ out = TeXPrinterOutput()
 
 out.start()
 
-chapter = 50
-la, en = ps.GetChapter(chapter)
-insc, _ = ps.GetChapterInscription(chapter)
-
-out.write_section2(la, en, "PSALMUS " + str(chapter), insc)
+for n in range(1, 151):
+	la, en = ps.GetChapter(n)
+	#insc, _ = ps.GetChapterInscription(n)
+	out.write_section2(la, en, "PSALMUS " + str(n))
 
 out.finish()
