@@ -5,3 +5,4 @@
 - ēns -> ens
 - īns -> ins
 - īnf -> inf 
+- ārr -> arr
