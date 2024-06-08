@@ -6,3 +6,4 @@
 - īns -> ins
 - īnf -> inf 
 - ārr -> arr
+- āgn -> agn
