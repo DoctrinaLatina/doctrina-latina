@@ -6,3 +6,4 @@ awk -F '^' -v var="ch" '$1 ~ var {print $1}' ./vulgata/01-vetus-testamentum/21-p
 
 
 long vowel + gn
+Jācōb?

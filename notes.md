@@ -4,6 +4,6 @@
 - ēct -> ect
 - ēns -> ens
 - īns -> ins
-- īnf -> inf 
+- īnf -> inf
 - ārr -> arr
 - āgn -> agn
