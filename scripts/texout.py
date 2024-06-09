@@ -1,3 +1,32 @@
+from collections import OrderedDict
+
+def write_roman(num):
+
+    roman = OrderedDict()
+    roman[1000] = "M"
+    roman[900] = "CM"
+    roman[500] = "D"
+    roman[400] = "CD"
+    roman[100] = "C"
+    roman[90] = "XC"
+    roman[50] = "L"
+    roman[40] = "XL"
+    roman[10] = "X"
+    roman[9] = "IX"
+    roman[5] = "V"
+    roman[4] = "IV"
+    roman[1] = "I"
+
+    def roman_num(num):
+        for r in roman.keys():
+            x, y = divmod(num, r)
+            yield roman[r] * x
+            num -= (r * x)
+            if num <= 0:
+                break
+
+    return "".join([a for a in roman_num(num)])
+
 class TeXOutput:
   def __init__(self):
     self.dir_fonts = "./../fonts"
@@ -25,28 +54,26 @@ r"""\documentclass[10pt]{book}
   layout=letterpaper,
   %right=1in,
   %left=1in,
-  inner=0.75in,
-  outer=3.75in,
+  inner=1in,
+  outer=4.4in,
   top=0.70in,
   bottom=0.70in,
-  marginparwidth=2.75in,
-  marginparsep=0.25in,
+  marginparwidth=2.80in,
+  marginparsep=0.6in,
 ]{geometry}
 
 \pagenumbering{gobble}
 
-\usepackage{fontspec}
-\defaultfontfeatures{Ligatures={NoCommon}}
 \setmainfont [
-  Path = $DIRFONTS/bitter/,
-  Extension = .ttf,
-  UprightFont = *-Regular,
+  Path = $DIRFONTS/crimson/OTF/,
+  Extension = .otf,
+  UprightFont = *-Roman,
   BoldFont = *-Bold,
   ItalicFont = *-Italic,
   BoldItalicFont= *-BoldItalic,
-  FontFace={li}{n}{Font=*-LightItalic},
-  FontFace={li}{it}{Font=*-LightItalic},
-]{Bitter}
+  FontFace={li}{n}{Font=*-Italic},
+  FontFace={li}{it}{Font=*-BoldItalic},
+]{Crimson}
 
 \usepackage{graphicx}
 \graphicspath{{$DIRIMAGES}}
@@ -57,17 +84,17 @@ r"""\documentclass[10pt]{book}
   {\par\xdef\tpd{\the\prevdepth}\egroup
    \prevdepth=\tpd}
 
-\hyphenpenalty 10000
-\exhyphenpenalty 10000
+%\hyphenpenalty 10000
+%\exhyphenpenalty 10000
 
 \usepackage{indentfirst}
-\usepackage[skip=7pt plus1pt, indent=0pt]{parskip}
+\usepackage[skip=8pt plus1pt, indent=0pt]{parskip}
 
 \usepackage[explicit]{titlesec}
 \usepackage{needspace}
 
 \titleformat{\section}[block]
-  {\addfontfeature{LetterSpace=30.0}\bfseries\filcenter\small\fontdimen2\font=0.8em }
+  {\addfontfeature{LetterSpace=30.0}\bfseries\filcenter\small\fontdimen2\font=1em }
   {\thesection}{}{ #1 }[]
 \titlespacing{\section}{0ex}{3ex}{0ex}
 
@@ -80,14 +107,17 @@ r"""\documentclass[10pt]{book}
 \setcounter{secnumdepth}{0}
 \usepackage{paracol}
 \twosided[pc]
-%\setlength{\columnseprule}{0.1pt}
+\usepackage{ragged2e}
 \usepackage{setspace}
 \begin{document}
-\begin{flushleft}
+%\begin{flushleft}
+\onehalfspacing
+
+\sloppy\hyphenpenalty=10000 \emergencystretch\textwidth
 """
 
   tex_tail = r"""
-\end{flushleft}
+%\end{flushleft}
 \end{document}
 """
 
@@ -100,11 +130,11 @@ r"""\documentclass[10pt]{book}
 """
 
   tex_inscription = r"""
-\parbox{2.5in}{\fontseries{li}\selectfont\small $INSCRIPTION }
+\parbox{2.5in}{\sc\scriptsize $INSCRIPTION }
 """
 
   tex_verse_number = \
-r"""\hskip0.025in \raisebox{0.75ex}{\emph{\tiny $VERSE}} \hskip0.025in"""
+r"""\hskip0.025in \raisebox{0.75ex}{\tiny $VERSE.} \hskip0.05in"""
 
   tex_line_la = r"""
 \begin{absolutelynopagebreak} 
@@ -184,7 +214,7 @@ $TEX_VERSE { $LA }\newline"""
       self.f.write(r"\vspace{0.05in}")
     if inscription:
       if title: self.f.write(r"\begin{center}")
-      self.f.write(self.tex_inscription.replace(r"$INSCRIPTION", inscription))
+      self.f.write(self.tex_inscription.replace(r"$INSCRIPTION", inscription.lower()))
       if title: self.f.write(r"\end{center}")
       self.f.write(r"\vspace{0.001in}")
     elif title:
@@ -194,8 +224,11 @@ $TEX_VERSE { $LA }\newline"""
 
     verses = sorted(la, key = int)
     for verse in verses:
-      margin = r" \marginpar{\fontseries{li}\selectfont\scriptsize\raggedright " + en[verse] + "} "
-      line = self.tex_verse_number.replace("$VERSE", verse) + margin + "{ " + la[verse] + " }"
+      margin = r" \marginpar{\addfontfeature{LetterSpace=2.0}\fontseries{li}\selectfont\scriptsize\raggedright " + en[verse] + "} "
+      line = self.tex_verse_number.replace("$VERSE", write_roman(int(verse))) + \
+        margin + \
+        r"{\sc " + la[verse].lower() + " }"
+
       self.f.write(line + r"\Needspace{3\baselineskip}" + "\n\n")
       #self.f.write("\n\n")
 

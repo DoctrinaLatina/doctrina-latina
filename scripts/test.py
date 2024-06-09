@@ -11,6 +11,6 @@ chapter = 50
 la, en = ps.GetChapter(chapter)
 insc, _ = ps.GetChapterInscription(chapter)
 
-out.write_section2(la, en, "PSALMUS " + str(chapter), insc)
+out.write_section2(la, en, "PSALMUS L.", insc)
 
 out.finish()
