@@ -4,6 +4,4 @@ ph and th not used in Romance, replace
 search csv by column:
 awk -F '^' -v var="ch" '$1 ~ var {print $1}' ./vulgata/01-vetus-testamentum/21-psalmi/*.csv
 
-
-long vowel + gn
-Jācōb?
+mihi? sibi? tibi?

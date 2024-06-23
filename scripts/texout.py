@@ -1,6 +1,6 @@
 from collections import OrderedDict
 
-def write_roman(num):
+def roman_numeral(num):
 
     roman = OrderedDict()
     roman[1000] = "M"
@@ -46,9 +46,10 @@ class TeXOutput:
 
 class TeXPrinterOutput(TeXOutput):
   tex_head = \
-r"""\documentclass[10pt]{book}
+r"""\documentclass[11pt]{book}
 
 \usepackage{marginnote}
+\usepackage{microtype}
 \usepackage[
   papersize={8.5in,11in},
   layout=letterpaper,
@@ -58,12 +59,13 @@ r"""\documentclass[10pt]{book}
   outer=4.4in,
   top=0.70in,
   bottom=0.70in,
-  marginparwidth=2.80in,
-  marginparsep=0.6in,
+  marginparwidth=3.0in,
+  marginparsep=0.4in,
 ]{geometry}
 
 \pagenumbering{gobble}
 
+\usepackage{fontspec}
 \setmainfont [
   Path = $DIRFONTS/crimson/OTF/,
   Extension = .otf,
@@ -96,7 +98,7 @@ r"""\documentclass[10pt]{book}
 \titleformat{\section}[block]
   {\addfontfeature{LetterSpace=30.0}\bfseries\filcenter\small\fontdimen2\font=1em }
   {\thesection}{}{ #1 }[]
-\titlespacing{\section}{0ex}{3ex}{0ex}
+\titlespacing{\section}{0ex}{8ex}{0ex}
 
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -109,46 +111,33 @@ r"""\documentclass[10pt]{book}
 \twosided[pc]
 \usepackage{ragged2e}
 \usepackage{setspace}
-\begin{document}
-%\begin{flushleft}
-\onehalfspacing
 
-\sloppy\hyphenpenalty=10000 \emergencystretch\textwidth
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+
+\begin{document}
+\setstretch{1.1}
 """
 
   tex_tail = r"""
-%\end{flushleft}
 \end{document}
-"""
-
-  tex_section_begin = r"""
-\pagebreak[3]\section{$TITLE}
-"""
-
-  tex_section_end = r"""
-\Needspace{8\baselineskip}
-"""
-
-  tex_inscription = r"""
-\parbox{2.5in}{\sc\scriptsize $INSCRIPTION }
-"""
-
-  tex_verse_number = \
-r"""\hskip0.025in \raisebox{0.75ex}{\tiny $VERSE.} \hskip0.05in"""
-
-  tex_line_la = r"""
-\begin{absolutelynopagebreak} 
-$TEX_VERSE { $LA }\newline"""
-
-  tex_line_en = r"""
-\noindent\emph{\fontseries{li}\selectfont\scriptsize $EN }
-\end{absolutelynopagebreak}\vspace{0.08in}
 """
 
   def __init__(self):
     super(TeXPrinterOutput, self).__init__()
     self.tex_head = self.tex_head.replace("$DIRFONTS", self.dir_fonts)
     self.tex_head = self.tex_head.replace("$DIRIMAGES", self.dir_images)
+
+  def write_title(self, title):
+    tex_title = \
+    r"\begin{center} " + \
+    r"{\bfseries\addfontfeature{LetterSpace=30.0} " + \
+    title.upper() + \
+    r"}" + "\n" + r"\vspace{0.12in}" + \
+    r"\end{center}"
+    self.f.write(tex_title)
 
   def write_section(self, la, en, title="", inscription="", is_numbered=True):
     if title:
@@ -179,56 +168,69 @@ $TEX_VERSE { $LA }\newline"""
 
     self.f.write(self.tex_section_end)
 
-  def write_section1(self, la, en, title="", inscription="", is_numbered=True):
+  def write_section2(self, la, en, title="", inscription="", is_numbered=True, repeated=0):
     if title:
-      self.f.write(self.tex_section_begin.replace(r"$TITLE", title))
+      tex_section_begin = \
+        r"\pagebreak[3]\section{ " + \
+        title.upper() + \
+        " }" + "\n"
+      self.f.write(tex_section_begin)
 
     if inscription:
       if title: self.f.write(r"\begin{center}")
-      self.f.write(self.tex_inscription.replace(r"$INSCRIPTION", inscription))
-      if title: self.f.write(r"\end{center}")
-      self.f.write(r"\vspace{0.12in}")
-    elif title:
-      self.f.write(r"\vspace{0.30in}")
-    else:
-      self.f.write(r"\vspace{0.12in}")
-
-    verses = sorted(la, key = int)
-    for verse in verses:
-      self.f.write("\columnratio{0.58}")
-      self.f.write(r"\begin{paracol}{2}")
-      self.f.write("\n")
-      line = self.tex_verse_number.replace("$VERSE", verse) + la[verse]
-      self.f.write(line)
-      self.f.write("\n")
-      self.f.write(r"\switchcolumn")
-      self.f.write("\n")
-      self.f.write(r"\emph{\fontseries{li}\selectfont\scriptsize " + en[verse] + "}")
-      self.f.write("\n")
-      self.f.write(r"\end{paracol}")
-      self.f.write("\n" + r"\end{absolutelynopagebreak}" + "\n")
-
-  def write_section2(self, la, en, title="", inscription="", is_numbered=True):
-    if title:
-      self.f.write(self.tex_section_begin.replace(r"$TITLE", title))
-      self.f.write(r"\vspace{0.05in}")
-    if inscription:
-      if title: self.f.write(r"\begin{center}")
-      self.f.write(self.tex_inscription.replace(r"$INSCRIPTION", inscription.lower()))
+      txt = inscription.lower()
+      tex_inscription = \
+        r"\makebox[2in][c]{\emph{\tiny\addfontfeature{LetterSpace=4.0} " + \
+        inscription.upper() + \
+        r" }}" + "\n"
+      self.f.write(tex_inscription)
       if title: self.f.write(r"\end{center}")
       self.f.write(r"\vspace{0.001in}")
+
     elif title:
       self.f.write(r"\vspace{0.1in}")
+
     else:
       self.f.write(r"\vspace{0.12in}")
 
     verses = sorted(la, key = int)
     for verse in verses:
-      margin = r" \marginpar{\addfontfeature{LetterSpace=2.0}\fontseries{li}\selectfont\scriptsize\raggedright " + en[verse] + "} "
-      line = self.tex_verse_number.replace("$VERSE", write_roman(int(verse))) + \
-        margin + \
-        r"{\sc " + la[verse].lower() + " }"
+      tex_margin = \
+        r" \marginpar{" + \
+        r"\emph{\addfontfeature{LetterSpace=1.7}\scriptsize " + \
+        en[verse] + \
+        "}} "
 
-      self.f.write(line + r"\Needspace{3\baselineskip}" + "\n\n")
-      #self.f.write("\n\n")
+      if is_numbered:
+        tex_number = \
+          r"\hskip0.025in \raisebox{0.75ex}{\tiny " + \
+          verse + "." + \
+          r"} \hskip0.05in "
+      else:
+        tex_number = r""
+
+      la_lower = la[verse].lower()
+      idx = la_lower.find(" ")
+      tex_text = la_lower[:idx] + tex_margin + la_lower[idx+1:]
+
+      if 0 != repeated:
+        tex_repeated = \
+          r"\newline " + \
+          r"\phantom{text} \hfill \phantom{text} \hfill " + \
+          r"\phantom{text} \hfill \phantom{text} \hfill " + \
+          r"\emph{\scriptsize\addfontfeature{LetterSpace=12.0} " + \
+          r"- REP. " + str(repeated) + "" + \
+          " \hfill \phantom{text}} "
+      else:
+        tex_repeated = ""
+
+      tex_line = tex_number + \
+        r"{\noindent\sc " + \
+        tex_text + tex_repeated + \
+        r" }" + "\n"
+
+      self.f.write(tex_line + r"\Needspace{3\baselineskip}" + "\n\n")
+
+    tex_section_end = r"\Needspace{8\baselineskip}" + "\n"
+    self.f.write(tex_section_end)
 
