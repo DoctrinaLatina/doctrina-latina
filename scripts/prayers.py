@@ -8,8 +8,7 @@ class Prayer(Enum):
   TRISAGION = auto()
   VENITE = auto()
   GLORIA_PATRI = auto()
-  KYRIE_ELEISON_3 = auto()
-  KYRIE_ELEISON_12 = auto()
+  KYRIE_ELEISON = auto()
   PATER_NOSTER = auto()
   AVE_MARIA = auto()
   TE_LUCIS_ANTE_TERMINUM = auto()
@@ -40,10 +39,8 @@ class Prayers:
       file_name = "venite"
     elif Prayer.GLORIA_PATRI == prayer:
       file_name = "gloria-patri"
-    elif Prayer.KYRIE_ELEISON_3 == prayer:
-      file_name = "kyrie-eleison-3"
-    elif Prayer.KYRIE_ELEISON_12 == prayer:
-      file_name = "kyrie-eleison-12"
+    elif Prayer.KYRIE_ELEISON == prayer:
+      file_name = "kyrie-eleison"
     elif Prayer.PATER_NOSTER == prayer:
       file_name = "pater-noster"
     elif Prayer.AVE_MARIA == prayer:
@@ -74,10 +71,14 @@ class Prayers:
     
     return file_name, title, inscription
 
-  def GetPrayer(self, prayer):
-    file_name, title, inscription = self.__GetFileNameTitleInscription(prayer)
+  def GetText(self, prayer):
+    file_name, _, _ = self.__GetFileNameTitleInscription(prayer)
 
     la = {}
     en = {}
     read_csv(self.__dir_prayers + file_name + ".csv", la, en)
     return la, en
+  
+  def GetTitleInscription(self, prayer):
+    _, title, inscription = self.__GetFileNameTitleInscription(prayer)
+    return title, inscription
