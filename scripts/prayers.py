@@ -47,27 +47,27 @@ class Prayers:
       file_name = "ave-maria"
     elif Prayer.TE_LUCIS_ANTE_TERMINUM == prayer:
       file_name = "te-lucis-ante-terminum"
-      title = "HIMNUS"
+      title = "Himnus"
     elif Prayer.CONFITEOR == prayer:
       file_name = "confiteor"
-      title = "CONFITEOR"
+      title = "Confiteor"
     elif Prayer.CONFITEOR_RESPONSIO == prayer:
       file_name = "confiteor-responsio"
-      inscription = "Respónsio:"
+      inscription = "Respōnsiō:"
     elif Prayer.COMPLETORIUM_LECTIO_BREVIS_1 == prayer:
       file_name = "completorium-lectio-brevis-1"
-      title = "LECTIO BREVIS"
-      inscription = "1 Petri 5:8-9"
+      title = "Lectiō Brevis"
+      inscription = "1 Petrī 5:8-9"
     elif Prayer.COMPLETORIUM_LECTIO_BREVIS_2 == prayer:
       file_name = "completorium-lectio-brevis-2"
-      title = "LECTIO BREVIS"
-      inscription = "Jeremías 14:9"
+      title = "Lectiō Brevis"
+      inscription = "Jēremīās 14:9"
     elif Prayer.COMPLETORIUM_ORATIO_1 == prayer:
       file_name = "completorium-oratio-1"
-      inscription = "Orátio:"
+      inscription = "Ōrātiō:"
     elif Prayer.COMPLETORIUM_ANTIFONA_1:
       file_name = "completorium-antifona-1"
-      inscription = "Antifona:"
+      inscription = "Antifōna:"
     
     return file_name, title, inscription
 

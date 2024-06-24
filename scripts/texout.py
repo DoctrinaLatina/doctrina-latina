@@ -177,14 +177,23 @@ r"""\documentclass[11pt]{book}
       self.f.write(tex_section_begin)
 
     if inscription:
-      if title: self.f.write(r"\begin{center}")
-      txt = inscription.lower()
-      tex_inscription = \
-        r"\makebox[2in][c]{\emph{\tiny\addfontfeature{LetterSpace=4.0} " + \
-        inscription.upper() + \
-        r" }}" + "\n"
+      txt = inscription.upper()
+      
+      if title:
+        tex_inscription = \
+          r"\begin{center}" + "\n" + \
+          r"\makebox[2in][c]{ " + \
+          r"\emph{\tiny\addfontfeature{LetterSpace=4.0} " + \
+          txt + \
+          r" }}" + "\n\n" + \
+          r"\end{center}"
+      else:
+        tex_inscription = \
+          r"\emph{\tiny\addfontfeature{LetterSpace=4.0} " + \
+          txt + \
+          r" }" + "\n\n"
+
       self.f.write(tex_inscription)
-      if title: self.f.write(r"\end{center}")
       self.f.write(r"\vspace{0.001in}")
 
     elif title:
