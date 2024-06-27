@@ -2,6 +2,7 @@ from enum import Enum, auto
 from fileio import read_csv
 
 class Prayer(Enum):
+  ANGELUS = auto()
   PRINCIPIUM = auto()
   REX_CAELESTIS = auto()
   OMNISANCTA_TRINITAS = auto()
@@ -27,7 +28,10 @@ class Prayers:
     title = ""
     inscription = ""
     
-    if Prayer.PRINCIPIUM == prayer:
+    if Prayer.ANGELUS == prayer:
+      file_name = "angelus"
+      title = "Angelus"
+    elif Prayer.PRINCIPIUM == prayer:
       file_name = "principium"
     elif Prayer.REX_CAELESTIS == prayer:
       file_name = "rex-caelestis"

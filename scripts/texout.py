@@ -219,6 +219,8 @@ r"""\documentclass[11pt]{book}
         tex_number = r""
 
       la_lower = la[verse].lower()
+      la_lower = la_lower.replace("$v.", r"\hskip0.025in \emph{\scriptsize v.} \hskip0.075in")
+      la_lower = la_lower.replace("$r.", r"\hskip0.025in \emph{\scriptsize r.} \hskip0.075in")
       idx = la_lower.find(" ")
       tex_text = la_lower[:idx] + tex_margin + la_lower[idx+1:]
 
