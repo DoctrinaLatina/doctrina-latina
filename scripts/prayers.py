@@ -3,6 +3,7 @@ from fileio import read_csv
 
 class Prayer(Enum):
   ANGELUS = auto()
+  CREDO = auto()
   PRINCIPIUM = auto()
   REX_CAELESTIS = auto()
   OMNISANCTA_TRINITAS = auto()
@@ -31,6 +32,9 @@ class Prayers:
     if Prayer.ANGELUS == prayer:
       file_name = "angelus"
       title = "Angelus"
+    elif Prayer.CREDO == prayer:
+      file_name = "credo"
+      title = "Simbolum Nīcaenum"
     elif Prayer.PRINCIPIUM == prayer:
       file_name = "principium"
     elif Prayer.REX_CAELESTIS == prayer:
