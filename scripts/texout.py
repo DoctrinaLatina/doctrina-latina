@@ -228,8 +228,6 @@ r"""\documentclass[11pt]{book}
 
       la_lower = la[verse].lower()
 
-      print(la_lower)
-
       if is_numbered:
         tex_pre = \
           r"\hskip0.025in \raisebox{0.75ex}{\tiny " + \
