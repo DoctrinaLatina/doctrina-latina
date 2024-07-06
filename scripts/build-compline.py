@@ -18,7 +18,7 @@ prayers = Prayers()
 out = TeXPrinterOutput()
 
 out.start()
-out.write_title("COMPLETORIUM")
+out.write_title("COMPLĒTŌRIUM")
 write_prayer(out, prayers, Prayer.PRINCIPIUM)
 write_prayer(out, prayers, Prayer.REX_CAELESTIS)
 write_prayer(out, prayers, Prayer.TRISAGION, 3)

@@ -66,16 +66,27 @@ r"""\documentclass[11pt]{book}
 \pagenumbering{gobble}
 
 \usepackage{fontspec}
+%\setmainfont [
+%  Path = $DIRFONTS/crimson/OTF/,
+%  Extension = .otf,
+%  UprightFont = *-Roman,
+%  BoldFont = *-Bold,
+%  ItalicFont = *-Italic,
+%  BoldItalicFont= *-BoldItalic,
+%  FontFace={li}{n}{Font=*-Italic},
+%  FontFace={li}{it}{Font=*-BoldItalic},
+%]{Crimson}
+
 \setmainfont [
-  Path = $DIRFONTS/crimson/OTF/,
-  Extension = .otf,
-  UprightFont = *-Roman,
+  Path = $DIRFONTS/eb-garamond/,
+  Extension = .ttf,
+  UprightFont = *-Regular,
   BoldFont = *-Bold,
   ItalicFont = *-Italic,
   BoldItalicFont= *-BoldItalic,
-  FontFace={li}{n}{Font=*-Italic},
-  FontFace={li}{it}{Font=*-BoldItalic},
-]{Crimson}
+  FontFace={c}{n}{Font=*SC08-Regular},
+  FontFace={c}{it}{Font=*SC08-Regular},
+]{EBGaramond}
 
 \usepackage{graphicx}
 \graphicspath{{$DIRIMAGES}}
@@ -133,9 +144,9 @@ r"""\documentclass[11pt]{book}
   def write_title(self, title):
     tex_title = \
     r"\begin{center} " + \
-    r"{\bfseries\addfontfeature{LetterSpace=30.0} " + \
+    r"{\bfseries\addfontfeature{LetterSpace=30.0}\fontdimen2\font=1em " + \
     title.upper() + \
-    r"}" + "\n" + r"\vspace{0.12in}" + \
+    r"}" + "\n" + r"\vspace{0.08in}" + \
     r"\end{center}"
     self.f.write(tex_title)
 
@@ -169,6 +180,10 @@ r"""\documentclass[11pt]{book}
     self.f.write(self.tex_section_end)
 
   def write_section2(self, la, en, title="", inscription="", is_numbered=True, repeated=0):
+    la_font = r" \fontseries{c}\selectfont\fontdimen2\font=0.4em "
+    en_font = r" \addfontfeature{LetterSpace=1.7}\scriptsize "
+    repeat_font = r" \normalfont\scriptsize\addfontfeature{LetterSpace=12.0} "
+
     if title:
       tex_section_begin = \
         r"\pagebreak[3]\section{ " + \
@@ -183,13 +198,13 @@ r"""\documentclass[11pt]{book}
         tex_inscription = \
           r"\begin{center}" + "\n" + \
           r"\makebox[2in][c]{ " + \
-          r"\emph{\tiny\addfontfeature{LetterSpace=4.0} " + \
+          r"{\tiny\addfontfeature{LetterSpace=4.0}\fontdimen2\font=1em " + \
           txt + \
           r" }}" + "\n\n" + \
           r"\end{center}"
       else:
         tex_inscription = \
-          r"\emph{\tiny\addfontfeature{LetterSpace=4.0} " + \
+          r"{\tiny\addfontfeature{LetterSpace=4.0}\fontdimen2\font=1em " + \
           txt + \
           r" }" + "\n\n"
 
@@ -204,27 +219,33 @@ r"""\documentclass[11pt]{book}
 
     verses = sorted(la, key = int)
     for verse in verses:
+      tex_pre = ""
       tex_margin = \
         r" \marginpar{" + \
-        r"\emph{\addfontfeature{LetterSpace=1.7}\scriptsize " + \
+        r"\emph{\noindent" + en_font + \
         en[verse] + \
         "}} "
 
+      la_lower = la[verse].lower()
+
+      print(la_lower)
+
       if is_numbered:
-        tex_number = \
+        tex_pre = \
           r"\hskip0.025in \raisebox{0.75ex}{\tiny " + \
           verse + "." + \
           r"} \hskip0.05in "
-      else:
-        tex_number = r""
 
-      la_lower = la[verse].lower()
-      la_lower = la_lower.replace(
-        "$v",
-        r"} \hskip0.025in\textit{\tiny V.}\hskip0.075in {\sc")
-      la_lower = la_lower.replace(
-        "$r",
-        r"} \hskip0.025in\textit{\tiny R.}\hskip0.075in {\sc")
+      elif la_lower.startswith(r"$v"):
+        tex_pre = \
+          r"\hskip0.05in{\tiny V.}\hskip0.1in "
+        la_lower = la_lower.replace("$v", "")
+
+      elif la_lower.startswith(r"$r"): 
+        tex_pre = \
+          r"\hskip0.05in{\tiny R.}\hskip0.1in "
+        la_lower = la_lower.replace("$r", "")
+
       idx = la_lower.find(" ")
       tex_text = la_lower[:idx] + tex_margin + la_lower[idx+1:]
 
@@ -233,18 +254,18 @@ r"""\documentclass[11pt]{book}
           r"\newline " + \
           r"\phantom{text} \hfill \phantom{text} \hfill " + \
           r"\phantom{text} \hfill \phantom{text} \hfill " + \
-          r"\emph{\scriptsize\addfontfeature{LetterSpace=12.0} " + \
+          r"{" + repeat_font + \
           r"- REP. " + str(repeated) + "" + \
           " \hfill \phantom{text}} "
       else:
         tex_repeated = ""
 
-      tex_line = tex_number + \
-        r"{\noindent\sc " + \
+      tex_line = tex_pre + \
+        r"{\noindent" + la_font + \
         tex_text + tex_repeated + \
         r" }" + "\n"
 
-      self.f.write(tex_line + r"\Needspace{3\baselineskip}" + "\n\n")
+      self.f.write(tex_line + r"\Needspace{4\baselineskip}" + "\n\n")
 
     tex_section_end = r"\Needspace{8\baselineskip}" + "\n"
     self.f.write(tex_section_end)
