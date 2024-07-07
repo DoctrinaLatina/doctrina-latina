@@ -1,3 +1,6 @@
+# Substitutions
+- cum (conj.) -> quum
+
 # Suppressions
 - ānc -> anc
 - āns -> ans
