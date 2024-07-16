@@ -1,7 +1,7 @@
 ch lives, used in Romance
 ph and th not used in Romance, replace
 
-Inscription, David, continue with 51
+Inscription, David, continue with 70
 
 search csv by column:
 awk -F '^' -v var="ch" '$1 ~ var {print $1}' ./vulgata/01-vetus-testamentum/21-psalmi/*.csv
