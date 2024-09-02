@@ -9,7 +9,9 @@ line = fin.readline()
 out = []
 
 while line:
-  out.append(str(verse) + "^" + line)
+  line = str(verse) + "^" + line
+  line = line.replace("^", " ^ ")
+  out.append(line)
   verse = verse + 1
   line = fin.readline()
 
