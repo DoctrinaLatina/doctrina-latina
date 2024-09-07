@@ -1,5 +1,6 @@
 # Substitutions
-- cum (conj.) -> quum
+- cum (conjunction) -> quum
+- ōra, ōrae (noun) -> orla, orlāe
 
 # Suppressions
 - ānc -> anc
