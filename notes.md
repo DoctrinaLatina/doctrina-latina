@@ -12,11 +12,14 @@
 - ōra, ōrae (noun) -> orla, orlāe
 
 # Suppressions
+- āct -> act
+- āgn -> agn
 - ānc -> anc
 - āns -> ans
+- ārr -> arr
 - ēct -> ect
 - ēns -> ens
+- īct -> ict
 - īns -> ins
 - īnf -> inf
-- ārr -> arr
-- āgn -> agn
+- ūct -> uct
