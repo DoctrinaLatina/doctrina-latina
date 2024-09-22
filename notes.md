@@ -9,6 +9,7 @@
 - Joseh (noun, indcl.) -> Jōsēf(us), Jōsēfī
 - cum (conjunction) -> quum
 - eō, īre, iī (verb) -> iō, īre, īvī
+- ideō (adverb) -> idiō
 - ōra, ōrae (noun) -> orla, orlāe
 
 # Suppressions

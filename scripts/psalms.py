@@ -32,18 +32,27 @@ class Psalms:
 
   def GetChapter(self, chapter):
     chapter_idx = chapter - 1
+
     return \
       self.__la[chapter_idx], \
       self.__en[chapter_idx]
 
   def GetChapterInscription(self, chapter):
     chapter_str = str(chapter)
+
+    if chapter not in self.__inscriptions_la:
+      return "", ""
+
     return \
       self.__inscriptions_la[chapter_str], \
       self.__inscriptions_en[chapter_str]
 
   def GetAntifon(self, chapter):
     chapter_str = str(chapter)
+
+    if chapter not in self.__antifons_la:
+      return "", ""
+
     return \
-      self.__inscriptions_la[chapter_str], \
-      self.__inscriptions_en[chapter_str]
+      self.__antifons_la[chapter_str], \
+      self.__antifons_en[chapter_str]

@@ -181,7 +181,8 @@ r"""\documentclass[11pt]{book}
 
   def write_section2(self, la, en, title="", inscription="", is_numbered=True, repeated=0):
     la_font = r" \fontseries{c}\selectfont\fontdimen2\font=0.4em "
-    en_font = r" \addfontfeature{LetterSpace=1.7}\scriptsize "
+    en_font = r" \scriptsize "
+    insc_font = r" \fontseries{c}\tiny\addfontfeature{LetterSpace=4.0}\fontdimen2\font=1em "
     repeat_font = r" \normalfont\scriptsize\addfontfeature{LetterSpace=12.0} "
 
     if title:
@@ -192,13 +193,14 @@ r"""\documentclass[11pt]{book}
       self.f.write(tex_section_begin)
 
     if inscription:
-      txt = inscription.upper()
+      txt = inscription#.upper()
       
       if title:
+        self.f.write(r"\vspace{0.05in}" + "\n")
         tex_inscription = \
           r"\begin{center}" + "\n" + \
-          r"\makebox[2in][c]{ " + \
-          r"{\tiny\addfontfeature{LetterSpace=4.0}\fontdimen2\font=1em " + \
+          r"\parbox[]{2.5in}{ " + \
+          r"{" + insc_font + \
           txt + \
           r" }}" + "\n\n" + \
           r"\end{center}"
@@ -209,7 +211,7 @@ r"""\documentclass[11pt]{book}
           r" }" + "\n\n"
 
       self.f.write(tex_inscription)
-      self.f.write(r"\vspace{0.001in}")
+      self.f.write(r"\vspace{0.05in}" + "\n")
 
     elif title:
       self.f.write(r"\vspace{0.1in}")
@@ -222,11 +224,11 @@ r"""\documentclass[11pt]{book}
       tex_pre = ""
       tex_margin = \
         r" \marginpar{" + \
-        r"\emph{\noindent" + en_font + \
+        r"{\noindent" + en_font + \
         en[verse] + \
         "}} "
 
-      la_lower = la[verse].lower()
+      la_lower = la[verse]#.lower()
 
       if is_numbered:
         tex_pre = \
@@ -265,6 +267,6 @@ r"""\documentclass[11pt]{book}
 
       self.f.write(tex_line + r"\Needspace{4\baselineskip}" + "\n\n")
 
-    tex_section_end = r"\Needspace{8\baselineskip}" + "\n"
+    tex_section_end = r"\Needspace{10\baselineskip}" + "\n"
     self.f.write(tex_section_end)
 
