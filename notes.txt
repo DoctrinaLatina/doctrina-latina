@@ -7,3 +7,5 @@ search csv by column:
 awk -F '^' -v var="ch" '$1 ~ var {print $1}' ./vulgata/01-vetus-testamentum/21-psalmi/*.csv
 
 
+Jerusalem? https://en.wiktionary.org/wiki/Hierosolyma#Latin
+Sion -> Siōn, Siōnis

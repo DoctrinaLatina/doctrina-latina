@@ -1,12 +1,13 @@
 # Substitutions
-- Asaph (noun, indcl.) -> Āsāf(us), Āsāfī
-- Cush (noun, indcl.) -> Cūs, Cūsī
-- David (noun, indcl.) -> Dāvid, Dāvīdis
-- Ethan (noun, indcl.) -> Ētan, Ētānis
-- Ezechiel (noun, indcl.) -> Ezēchiēlis,
-- Gath (noun, indcl.)  -> Gāt, Gātis
-- Idithun (noun, indcl.) -> Iditūn, Iditūnis
-- Joseh (noun, indcl.) -> Jōsēf(us), Jōsēfī
+- Asaph (noun, m, indcl.) -> Āsāf(us), Āsāfī
+- Cush (noun, m, indcl.) -> Cūs, Cūsī
+- David (noun, m, indcl.) -> Dāvid, Dāvīdis
+- Ethan (noun, m, indcl.) -> Ētan, Ētānis
+- Ezechiel (noun, m, indcl.) -> Ezēchiēlis,
+- Gath (noun, m, indcl.)  -> Gāt, Gātis
+- Idithun (noun, m, indcl.) -> Iditūn, Iditūnis
+- Joseh (noun, m, indcl.) -> Jōsēf(us), Jōsēfī
+- Sion (noun, f, indcl.) -> Siōn, Siōnis
 - cum (conjunction) -> quum
 - eō, īre, iī (verb) -> iō, īre, īvī
 - ideō (adverb) -> idiō
