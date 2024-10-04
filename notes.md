@@ -12,7 +12,7 @@
 - eō, īre, iī (verb) -> iō, īre, īvī
 - ideō (adverb) -> idiō
 - multō (adverb) -> multē
-- ōra, ōrae (noun) -> orla, orlāe
+- ōra, ōrae (noun) -> orra, orrae
 
 # Suppressions
 - āct -> act
