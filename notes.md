@@ -16,7 +16,6 @@
 
 # Suppressions
 - āct -> act
-- āgn -> agn
 - ānc -> anc
 - āns -> ans
 - ārr -> arr
