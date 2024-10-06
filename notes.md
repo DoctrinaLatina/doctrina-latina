@@ -15,14 +15,7 @@
 - ōra, ōrae (noun) -> orra, orrae
 
 # Suppressions
-- āct -> act
-- āgn -> agn
-- ānc -> anc
 - āns -> ans
-- ārr -> arr
-- ēct -> ect
 - ēns -> ens
-- īct -> ict
 - īns -> ins
 - īnf -> inf
-- ūct -> uct
