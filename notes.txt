@@ -8,4 +8,13 @@ awk -F '^' -v var="ch" '$1 ~ var {print $1}' ./vulgata/01-vetus-testamentum/21-p
 
 Jerusalem? https://en.wiktionary.org/wiki/Hierosolyma#Latin
 
-synthetic future, start at 89
+synthetic future, start at 100
+
+future perfect:
+-erō -eris -erit -erimus -eritis -erint
+-ibō -ibis -ibit -ibimus -ibitis -ibunt
+
+apply to erō, vowel weakening when used in stem
+
+Note: the nominative/accusative ending vowel of 4th declension neuters is etymologically expected to be short, and is stated to be so by late grammarians. A long vowel would also be expected to be subject to iambic shortening in most forms. There are only two passages that conclusively require a long scansion.[1][2][3][4]
+https://en.wiktionary.org/wiki/genu#Latin
