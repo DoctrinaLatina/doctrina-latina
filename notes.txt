@@ -8,7 +8,7 @@ awk -F '^' -v var="ch" '$1 ~ var {print $1}' ./vulgata/01-vetus-testamentum/21-p
 
 Jerusalem? https://en.wiktionary.org/wiki/Hierosolyma#Latin
 
-synthetic future, start at 100
+synthetic future, start at 142
 
 future perfect:
 -erō -eris -erit -erimus -eritis -erint
