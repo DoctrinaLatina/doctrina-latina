@@ -46,7 +46,7 @@ class TeXOutput:
 
 class TeXPrinterOutput(TeXOutput):
   tex_head = \
-r"""\documentclass[11pt]{book}
+r"""\documentclass[12pt]{book}
 
 \usepackage{marginnote}
 \usepackage{microtype}
@@ -180,7 +180,7 @@ r"""\documentclass[11pt]{book}
     self.f.write(self.tex_section_end)
 
   def write_section2(self, la, en, title="", inscription="", is_numbered=True, repeated=0):
-    la_font = r" \fontseries{c}\selectfont\fontdimen2\font=0.4em "
+    la_font = r"\fontseries{c}\selectfont\fontdimen2\font=0.4em "
     en_font = r" \scriptsize "
     insc_font = r" \fontseries{c}\tiny\addfontfeature{LetterSpace=4.0}\fontdimen2\font=1em "
     repeat_font = r" \normalfont\scriptsize\addfontfeature{LetterSpace=12.0} "
@@ -232,7 +232,7 @@ r"""\documentclass[11pt]{book}
 
       if is_numbered:
         tex_pre = \
-          r"\hskip0.025in \raisebox{0.75ex}{\tiny " + \
+          r"\hskip0.025in \raisebox{0.75ex}{\footnotesize " + \
           verse + "." + \
           r"} \hskip0.05in "
 
