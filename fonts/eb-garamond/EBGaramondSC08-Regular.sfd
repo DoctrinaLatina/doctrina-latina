@@ -15,14 +15,14 @@ sfntRevision: 0x00010000
 LayerCount: 2
 Layer: 0 1 "Back" 1
 Layer: 1 1 "Fore" 0
-XUID: [1021 950 1894044646 11756458]
+XUID: [1021 950 1894044646 13957588]
 StyleMap: 0x0040
 FSType: 0
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1339019456
-ModificationTime: 1720287485
+ModificationTime: 1734572170
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -3349,7 +3349,7 @@ ShortTable: maxp 16
   114
   0
   157
-  2823
+  546
   4
   3
 EndShort
@@ -3386,7 +3386,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 27 9
+WinInfo: 270 27 9
 AnchorClass2: "Anchor-0" "'mark' Mark Positioning in Latin lookup 0 anchor 0" "Anchor-1" "'mark' Mark Positioning in Latin lookup 0 anchor 1" "Anchor-2" "'mark' Mark Positioning in Latin lookup 0 anchor 1" "Anchor-3" "'mark' Mark Positioning in Latin lookup 0 anchor 2" "Anchor-4" "'mark' Mark Positioning in Latin lookup 0 anchor 3" "Anchor-5" "'mkmk' Mark to Mark in Latin lookup 1 subtable" "Anchor-6" "'mkmk' Mark to Mark in Latin lookup 1 subtable" "Anchor-7" "'mkmk' Mark to Mark in Latin lookup 1 subtable"
 BeginChars: 66419 2081
 
@@ -6657,7 +6657,7 @@ EndChar
 
 StartChar: semicolon
 Encoding: 59 59 30
-Width: 231
+Width: 251
 GlyphClass: 2
 Flags: W
 TtInstrs:
@@ -6714,33 +6714,33 @@ EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
-123 353 m 0,0,1
- 146 353 146 353 161.5 334.5 c 128,-1,2
- 177 316 177 316 177 291 c 0,3,4
- 177 265 177 265 157 248.5 c 128,-1,5
- 137 232 137 232 110 232 c 0,6,7
- 87 232 87 232 70.5 248.5 c 128,-1,8
- 54 265 54 265 54 288 c 0,9,10
- 54 315 54 315 74.5 334 c 128,-1,11
- 95 353 95 353 123 353 c 0,0,1
-97 115 m 0,12,13
- 144 115 144 115 177.5 82.5 c 128,-1,14
- 211 50 211 50 211 5 c 0,15,16
- 211 -46 211 -46 164.5 -110 c 128,-1,17
- 118 -174 118 -174 75 -174 c 0,18,19
- 61 -174 61 -174 61 -161 c 0,20,21
- 61 -156 61 -156 97.5 -117 c 128,-1,22
- 134 -78 134 -78 134 -50 c 0,23,24
- 134 -42 134 -42 132.5 -35.5 c 128,-1,25
- 131 -29 131 -29 127.5 -23.5 c 128,-1,26
- 124 -18 124 -18 121.5 -14.5 c 128,-1,27
- 119 -11 119 -11 112 -6.5 c 128,-1,28
- 105 -2 105 -2 102.5 0 c 128,-1,29
- 100 2 100 2 91 7 c 128,-1,30
- 82 12 82 12 80 13 c 0,31,32
- 41 34 41 34 41 63 c 0,33,34
- 41 86 41 86 57.5 100.5 c 128,-1,35
- 74 115 74 115 97 115 c 0,12,13
+143 353 m 0,0,1
+ 166 353 166 353 181.5 334.5 c 128,-1,2
+ 197 316 197 316 197 291 c 0,3,4
+ 197 265 197 265 177 248.5 c 128,-1,5
+ 157 232 157 232 130 232 c 0,6,7
+ 107 232 107 232 90.5 248.5 c 128,-1,8
+ 74 265 74 265 74 288 c 0,9,10
+ 74 315 74 315 94.5 334 c 128,-1,11
+ 115 353 115 353 143 353 c 0,0,1
+117 115 m 0,12,13
+ 164 115 164 115 197.5 82.5 c 128,-1,14
+ 231 50 231 50 231 5 c 0,15,16
+ 231 -46 231 -46 184.5 -110 c 128,-1,17
+ 138 -174 138 -174 95 -174 c 0,18,19
+ 81 -174 81 -174 81 -161 c 0,20,21
+ 81 -156 81 -156 117.5 -117 c 128,-1,22
+ 154 -78 154 -78 154 -50 c 0,23,24
+ 154 -42 154 -42 152.5 -35.5 c 128,-1,25
+ 151 -29 151 -29 147.5 -23.5 c 128,-1,26
+ 144 -18 144 -18 141.5 -14.5 c 128,-1,27
+ 139 -11 139 -11 132 -6.5 c 128,-1,28
+ 125 -2 125 -2 122.5 0 c 128,-1,29
+ 120 2 120 2 111 7 c 128,-1,30
+ 102 12 102 12 100 13 c 0,31,32
+ 61 34 61 34 61 63 c 0,33,34
+ 61 86 61 86 77.5 100.5 c 128,-1,35
+ 94 115 94 115 117 115 c 0,12,13
 EndSplineSet
 Validated: 1
 Substitution2: "'sups' Superscript lookup 25 subtable" semicolon.sups
@@ -7068,7 +7068,7 @@ EndChar
 
 StartChar: question
 Encoding: 63 63 34
-Width: 266
+Width: 286
 GlyphClass: 2
 Flags: W
 TtInstrs:
@@ -7137,34 +7137,34 @@ EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
-162 65 m 0,0,1
- 162 37 162 37 145.5 18.5 c 128,-1,2
- 129 0 129 0 101 0 c 0,3,4
- 77 0 77 0 59.5 16.5 c 128,-1,5
- 42 33 42 33 42 57 c 0,6,7
- 42 83 42 83 60 100 c 128,-1,8
- 78 117 78 117 105 117 c 0,9,10
- 129 117 129 117 145.5 102.5 c 128,-1,11
- 162 88 162 88 162 65 c 0,0,1
-230 363 m 0,12,13
- 230 301 230 301 200 289 c 0,14,15
- 188 284 188 284 165 276.5 c 128,-1,16
- 142 269 142 269 126 263 c 0,17,18
- 124 262 124 262 111.5 232.5 c 128,-1,19
- 99 203 99 203 88 203 c 0,20,21
- 78 203 78 203 70 232.5 c 128,-1,22
- 62 262 62 262 62 286 c 0,23,24
- 62 335 62 335 79 342 c 0,25,26
- 91 347 91 347 112.5 353.5 c 128,-1,27
- 134 360 134 360 145 365 c 0,28,29
- 197 387 197 387 197 435 c 0,30,31
- 197 450 197 450 186 465.5 c 128,-1,32
- 175 481 175 481 163 485 c 0,33,34
- 115 498 115 498 89 508 c 0,35,36
- 53 521 53 521 53 555 c 0,37,38
- 53 627 53 627 71 627 c 0,39,40
- 157 627 157 627 193.5 558.5 c 128,-1,41
- 230 490 230 490 230 363 c 0,12,13
+182 65 m 0,0,1
+ 182 37 182 37 165.5 18.5 c 128,-1,2
+ 149 0 149 0 121 0 c 0,3,4
+ 97 0 97 0 79.5 16.5 c 128,-1,5
+ 62 33 62 33 62 57 c 0,6,7
+ 62 83 62 83 80 100 c 128,-1,8
+ 98 117 98 117 125 117 c 0,9,10
+ 149 117 149 117 165.5 102.5 c 128,-1,11
+ 182 88 182 88 182 65 c 0,0,1
+250 363 m 0,12,13
+ 250 301 250 301 220 289 c 0,14,15
+ 208 284 208 284 185 276.5 c 128,-1,16
+ 162 269 162 269 146 263 c 0,17,18
+ 144 262 144 262 131.5 232.5 c 128,-1,19
+ 119 203 119 203 108 203 c 0,20,21
+ 98 203 98 203 90 232.5 c 128,-1,22
+ 82 262 82 262 82 286 c 0,23,24
+ 82 335 82 335 99 342 c 0,25,26
+ 111 347 111 347 132.5 353.5 c 128,-1,27
+ 154 360 154 360 165 365 c 0,28,29
+ 217 387 217 387 217 435 c 0,30,31
+ 217 450 217 450 206 465.5 c 128,-1,32
+ 195 481 195 481 183 485 c 0,33,34
+ 135 498 135 498 109 508 c 0,35,36
+ 73 521 73 521 73 555 c 0,37,38
+ 73 627 73 627 91 627 c 0,39,40
+ 177 627 177 627 213.5 558.5 c 128,-1,41
+ 250 490 250 490 250 363 c 0,12,13
 EndSplineSet
 Validated: 1
 Substitution2: "'sups' Superscript lookup 25 subtable" question.sups
@@ -7839,7 +7839,7 @@ SplineSet
  46 420 46 420 151.5 514 c 128,-1,41
  257 608 257 608 408 608 c 0,0,1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 49 subtable" C.sc
 Substitution2: "'sups' Superscript lookup 25 subtable" C.sups
 Substitution2: "'sinf' Scientific Inferiors lookup 24 subtable" C.sinf
@@ -8476,7 +8476,7 @@ SplineSet
  92 1 92 1 73.5 -0.5 c 128,-1,89
  55 -2 55 -2 53 -2 c 0,0,1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 49 subtable" F.sc
 Substitution2: "'sups' Superscript lookup 25 subtable" F.sups
 Substitution2: "'sinf' Scientific Inferiors lookup 24 subtable" F.sinf
@@ -9435,7 +9435,7 @@ SplineSet
  394 513 l 2,112,113
  421 546 421 546 394 555 c 0,0,1
 EndSplineSet
-Validated: 33
+Validated: 1048609
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 49 subtable" K.sc
 Substitution2: "'sups' Superscript lookup 25 subtable" K.sups
 Substitution2: "'sinf' Scientific Inferiors lookup 24 subtable" K.sinf
@@ -9839,7 +9839,7 @@ SplineSet
  692 501 692 501 694 459 c 2,106,-1
  711 129 l 2,0,1
 EndSplineSet
-Validated: 33
+Validated: 1048609
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 49 subtable" M.sc
 Substitution2: "'sups' Superscript lookup 25 subtable" M.sups
 Substitution2: "'sinf' Scientific Inferiors lookup 24 subtable" M.sinf
@@ -10096,7 +10096,7 @@ SplineSet
  167 400 167 400 167 332 c 2,93,-1
  167 129 l 2,0,1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 49 subtable" N.sc
 Substitution2: "'sups' Superscript lookup 25 subtable" N.sups
 Substitution2: "'sinf' Scientific Inferiors lookup 24 subtable" N.sinf
@@ -10371,7 +10371,7 @@ SplineSet
  243 557 243 557 228.5 547 c 128,-1,62
  214 537 214 537 214 523 c 2,0,-1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 49 subtable" P.sc
 Substitution2: "'sups' Superscript lookup 25 subtable" P.sups
 Substitution2: "'sinf' Scientific Inferiors lookup 24 subtable" P.sinf
@@ -10730,7 +10730,7 @@ SplineSet
  214 360 l 2,85,86
  214 331 214 331 224 316 c 0,71,72
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 49 subtable" R.sc
 Substitution2: "'sups' Superscript lookup 25 subtable" R.sups
 Substitution2: "'sinf' Scientific Inferiors lookup 24 subtable" R.sinf
@@ -10943,7 +10943,7 @@ SplineSet
  54 492 54 492 106.5 546.5 c 128,-1,55
  159 601 159 601 232 601 c 0,0,1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 49 subtable" S.sc
 Substitution2: "'sups' Superscript lookup 25 subtable" S.sups
 Substitution2: "'sinf' Scientific Inferiors lookup 24 subtable" S.sinf
@@ -11157,7 +11157,7 @@ SplineSet
  266 66 266 66 266 129 c 2,79,-1
  266 505 l 2,0,1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 49 subtable" T.sc
 Substitution2: "'sups' Superscript lookup 25 subtable" T.sups
 Substitution2: "'sinf' Scientific Inferiors lookup 24 subtable" T.sinf
@@ -11500,7 +11500,7 @@ SplineSet
  448 506 448 506 438.5 524.5 c 128,-1,54
  429 543 429 543 394 555 c 0,0,1
 EndSplineSet
-Validated: 33
+Validated: 1048609
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 49 subtable" V.sc
 Substitution2: "'sups' Superscript lookup 25 subtable" V.sups
 Substitution2: "'sinf' Scientific Inferiors lookup 24 subtable" V.sinf
@@ -11670,7 +11670,7 @@ SplineSet
  453 539 453 539 448.5 545.5 c 128,-1,116
  444 552 444 552 433 555 c 0,0,1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 49 subtable" W.sc
 Substitution2: "'sups' Superscript lookup 25 subtable" W.sups
 Substitution2: "'sinf' Scientific Inferiors lookup 24 subtable" W.sinf
@@ -11853,7 +11853,7 @@ SplineSet
  304 561 304 561 289 556 c 0,89,90
  256 545 256 545 256 527 c 0,0,1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 49 subtable" X.sc
 Substitution2: "'sups' Superscript lookup 25 subtable" X.sups
 Substitution2: "'sinf' Scientific Inferiors lookup 24 subtable" X.sinf
@@ -12076,7 +12076,7 @@ SplineSet
  309 299 309 299 309 298 c 2,102,-1
  309 130 l 2,0,1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 49 subtable" Y.sc
 Substitution2: "'sups' Superscript lookup 25 subtable" Y.sups
 Substitution2: "'sinf' Scientific Inferiors lookup 24 subtable" Y.sinf
@@ -12260,7 +12260,7 @@ SplineSet
  502 -2 502 -2 387 0.5 c 128,-1,65
  272 3 272 3 258 3 c 0,0,1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 49 subtable" Z.sc
 Substitution2: "'sups' Superscript lookup 25 subtable" Z.sups
 Substitution2: "'sinf' Scientific Inferiors lookup 24 subtable" Z.sinf
@@ -13177,7 +13177,7 @@ SplineSet
  48 322 48 322 126.5 396 c 128,-1,37
  205 470 205 470 311 470 c 0,0,1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" c.sc
 Substitution2: "'sups' Superscript lookup 25 subtable" c.sups
 Substitution2: "'sinf' Scientific Inferiors lookup 24 subtable" c.sinf
@@ -13300,7 +13300,7 @@ SplineSet
  271 0 271 0 219 2 c 128,-1,64
  167 4 167 4 156 4 c 0,13,14
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" d.sc
 Substitution2: "'sups' Superscript lookup 25 subtable" d.sups
 Substitution2: "'sinf' Scientific Inferiors lookup 24 subtable" d.sinf
@@ -13850,7 +13850,7 @@ SplineSet
  298 205 298 205 278 205 c 2,95,-1
  221 205 l 2,0,1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" f.sc
 Substitution2: "'sups' Superscript lookup 25 subtable" f.sups
 Substitution2: "'sinf' Scientific Inferiors lookup 24 subtable" f.sinf
@@ -14066,7 +14066,7 @@ SplineSet
  437 165 437 165 437 135 c 2,56,-1
  437 77 l 2,0,1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" g.sc
 Substitution2: "'sups' Superscript lookup 25 subtable" g.sups
 Substitution2: "'sinf' Scientific Inferiors lookup 24 subtable" g.sinf
@@ -14295,7 +14295,7 @@ SplineSet
  216 203 l 2,133,134
  202 203 202 203 202 184 c 2,0,-1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" h.sc
 Substitution2: "'sups' Superscript lookup 25 subtable" h.sups
 Substitution2: "'sinf' Scientific Inferiors lookup 24 subtable" h.sinf
@@ -14838,7 +14838,7 @@ SplineSet
  432 394 432 394 411 380 c 0,121,122
  394 369 394 369 380 352 c 2,0,-1
 EndSplineSet
-Validated: 33
+Validated: 1048609
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" k.sc
 Substitution2: "'sups' Superscript lookup 25 subtable" k.sups
 Substitution2: "'sinf' Scientific Inferiors lookup 24 subtable" k.sinf
@@ -15011,7 +15011,7 @@ SplineSet
  345 -2 345 -2 265 1 c 128,-1,71
  185 4 185 4 152 4 c 0,0,1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" l.sc
 Substitution2: "'sups' Superscript lookup 25 subtable" l.sups
 Substitution2: "'sinf' Scientific Inferiors lookup 24 subtable" l.sinf
@@ -15802,7 +15802,7 @@ StartChar: q
 Encoding: 113 113 84
 Width: 560
 GlyphClass: 2
-Flags: WO
+Flags: W
 AnchorPoint: "Anchor-4" 160 -60 basechar 0
 AnchorPoint: "Anchor-2" 173 46 basechar 0
 AnchorPoint: "Anchor-1" 195 46 basechar 0
@@ -15813,10 +15813,10 @@ SplineSet
 144 238 m 128,-1,1
  144 169 144 169 184.5 102.5 c 128,-1,2
  225 36 225 36 303 36 c 0,3,4
- 313 36 313 36 362 61.5 c 4,5,6
- 389 76 389 76 403 106 c 132,-1,7
- 417 136 417 136 425.5 156 c 132,-1,8
- 434 176 434 176 434 216 c 4,9,10
+ 313 36 313 36 362 62 c 0,5,6
+ 389 76 389 76 403 106 c 128,-1,7
+ 417 136 417 136 425.5 156 c 128,-1,8
+ 434 176 434 176 434 216 c 0,9,10
  434 299 434 299 387.5 361.5 c 128,-1,11
  341 424 341 424 278.5 424 c 128,-1,12
  216 424 216 424 180 365.5 c 128,-1,0
@@ -15824,7 +15824,7 @@ SplineSet
 310 470 m 0,13,14
  392 470 392 470 458.5 404 c 128,-1,15
  525 338 525 338 525 244 c 0,16,17
- 525 210 525 210 512 153.5 c 0,18,19
+ 525 210 525 210 512 154 c 0,18,19
  501 107 501 107 469 72 c 0,20,21
  420 18 420 18 400 9 c 0,22,23
  392 5 392 5 391 4.5 c 128,-1,24
@@ -15848,6 +15848,7 @@ SplineSet
  39 322 39 322 120 396 c 128,-1,50
  201 470 201 470 310 470 c 0,13,14
 EndSplineSet
+Validated: 1
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" q.sc
 Substitution2: "'sups' Superscript lookup 25 subtable" q.sups
 Substitution2: "'sinf' Scientific Inferiors lookup 24 subtable" q.sinf
@@ -16060,7 +16061,7 @@ SplineSet
  177 448 177 448 215 451.5 c 128,-1,103
  253 455 253 455 272 455 c 0,12,13
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" r.sc
 Substitution2: "'sups' Superscript lookup 25 subtable" r.sups
 Substitution2: "'sinf' Scientific Inferiors lookup 24 subtable" r.sinf
@@ -16221,6 +16222,7 @@ SplineSet
  43 400 43 400 94.5 435 c 128,-1,47
  146 470 146 470 213 470 c 0,0,1
 EndSplineSet
+Validated: 1048577
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" s.sc
 Substitution2: "Single Substitution lookup 40 subtable" longs
 Substitution2: "'sups' Superscript lookup 25 subtable" s.sups
@@ -16402,7 +16404,7 @@ SplineSet
  221 127 221 127 221 129 c 2,70,-1
  221 343 l 2,0,1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" t.sc
 Substitution2: "'sups' Superscript lookup 25 subtable" t.sups
 Substitution2: "'sinf' Scientific Inferiors lookup 24 subtable" t.sinf
@@ -20396,7 +20398,7 @@ EndChar
 
 StartChar: questiondown
 Encoding: 191 191 119
-Width: 266
+Width: 286
 GlyphClass: 2
 Flags: W
 TtInstrs:
@@ -20882,7 +20884,7 @@ SplineSet
  388 529 388 529 373 540 c 128,-1,135
  358 551 358 551 313 556 c 0,12,13
 EndSplineSet
-Validated: 33
+Validated: 1048609
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 49 subtable" AE.sc
 Substitution2: "'cv22' Character Variants 22 lookup 46 subtable" AE.alt
 EndChar
@@ -22485,7 +22487,7 @@ EndChar
 
 StartChar: igrave
 Encoding: 236 236 164
-Width: 276
+Width: 300
 GlyphClass: 2
 Flags: W
 TtInstrs:
@@ -22500,7 +22502,7 @@ CALL
 EndTTInstrs
 LayerCount: 2
 Fore
-Refer: 431 768 N 1 0 0 1 36 34 2
+Refer: 431 768 N 1 0 0 1 26 34 2
 Refer: 233 305 N 1 0 0 1 0 0 3
 Validated: 1
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" igrave.sc
@@ -22509,7 +22511,7 @@ EndChar
 
 StartChar: iacute
 Encoding: 237 237 165
-Width: 276
+Width: 300
 GlyphClass: 2
 Flags: W
 TtInstrs:
@@ -22524,7 +22526,7 @@ CALL
 EndTTInstrs
 LayerCount: 2
 Fore
-Refer: 432 769 N 1 0 0 1 106 34 2
+Refer: 432 769 N 1 0 0 1 96 34 2
 Refer: 233 305 N 1 0 0 1 0 0 3
 Validated: 1
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" iacute.sc
@@ -22533,7 +22535,7 @@ EndChar
 
 StartChar: icircumflex
 Encoding: 238 238 166
-Width: 276
+Width: 300
 GlyphClass: 2
 Flags: W
 TtInstrs:
@@ -22548,7 +22550,7 @@ CALL
 EndTTInstrs
 LayerCount: 2
 Fore
-Refer: 433 770 N 1 0 0 1 22 34 2
+Refer: 433 770 N 1 0 0 1 12 34 2
 Refer: 233 305 N 1 0 0 1 0 0 3
 Validated: 1
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" icircumflex.sc
@@ -22557,7 +22559,7 @@ EndChar
 
 StartChar: idieresis
 Encoding: 239 239 167
-Width: 276
+Width: 300
 GlyphClass: 2
 Flags: W
 TtInstrs:
@@ -22572,7 +22574,7 @@ CALL
 EndTTInstrs
 LayerCount: 2
 Fore
-Refer: 439 776 N 1 0 0 1 8 34 2
+Refer: 439 776 N 1 0 0 1 -2 34 2
 Refer: 233 305 N 1 0 0 1 0 0 3
 Validated: 1
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" idieresis.sc
@@ -23999,7 +24001,7 @@ SplineSet
  162 387 162 387 138.5 340.5 c 128,-1,80
  115 294 115 294 115 233 c 0,68,69
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" dcroat.sc
 EndChar
 
@@ -24525,7 +24527,7 @@ EndChar
 
 StartChar: itilde
 Encoding: 297 297 225
-Width: 276
+Width: 300
 GlyphClass: 2
 Flags: W
 TtInstrs:
@@ -24540,7 +24542,7 @@ CALL
 EndTTInstrs
 LayerCount: 2
 Fore
-Refer: 434 771 N 1 0 0 1 -6 34 2
+Refer: 434 771 N 1 0 0 1 -16 34 2
 Refer: 233 305 N 1 0 0 1 0 0 3
 Validated: 1
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" itilde.sc
@@ -24573,7 +24575,7 @@ EndChar
 
 StartChar: imacron
 Encoding: 299 299 227
-Width: 276
+Width: 300
 GlyphClass: 2
 Flags: W
 TtInstrs:
@@ -24588,7 +24590,7 @@ CALL
 EndTTInstrs
 LayerCount: 2
 Fore
-Refer: 435 772 N 1 0 0 1 -18 34 2
+Refer: 435 772 N 1 0 0 1 -28 34 2
 Refer: 233 305 N 1 0 0 1 0 0 3
 Validated: 1
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" imacron.sc
@@ -24621,7 +24623,7 @@ EndChar
 
 StartChar: ibreve
 Encoding: 301 301 229
-Width: 276
+Width: 300
 GlyphClass: 2
 Flags: W
 TtInstrs:
@@ -24636,7 +24638,7 @@ CALL
 EndTTInstrs
 LayerCount: 2
 Fore
-Refer: 437 774 N 1 0 0 1 -10 34 2
+Refer: 437 774 N 1 0 0 1 -20 34 2
 Refer: 233 305 N 1 0 0 1 0 0 3
 Validated: 1
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" ibreve.sc
@@ -24707,7 +24709,7 @@ EndChar
 
 StartChar: dotlessi
 Encoding: 305 305 233
-Width: 276
+Width: 300
 GlyphClass: 2
 Flags: W
 TtInstrs:
@@ -24781,68 +24783,68 @@ NPUSHB
  19
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-4" 160 -80 basechar 0
-AnchorPoint: "Anchor-2" 173 15 basechar 0
-AnchorPoint: "Anchor-1" 195 15 basechar 0
-AnchorPoint: "Anchor-0" 160 630 basechar 0
+AnchorPoint: "Anchor-4" 150 -80 basechar 0
+AnchorPoint: "Anchor-2" 163 15 basechar 0
+AnchorPoint: "Anchor-1" 185 15 basechar 0
+AnchorPoint: "Anchor-0" 150 630 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-250 453 m 0,0,1
- 263 453 263 453 274 448 c 128,-1,2
- 285 443 285 443 285 435 c 0,3,4
- 285 419 285 419 270 414 c 0,5,6
- 222 400 222 400 215 394 c 0,7,8
- 202 384 202 384 202 344 c 2,9,-1
- 202 129 l 2,10,11
- 202 80 202 80 212 66 c 0,12,13
- 219 55 219 55 234 49 c 0,14,15
- 239 47 239 47 248 43.5 c 128,-1,16
- 257 40 257 40 263 37 c 128,-1,17
- 269 34 269 34 275.5 30.5 c 128,-1,18
- 282 27 282 27 285.5 23 c 128,-1,19
- 289 19 289 19 289 15 c 0,20,21
- 289 1 289 1 257 -2 c 0,22,23
- 255 -2 255 -2 239.5 -0.5 c 128,-1,24
- 224 1 224 1 200.5 2.5 c 128,-1,25
- 177 4 177 4 156 4 c 128,-1,26
- 135 4 135 4 113.5 2.5 c 128,-1,27
- 92 1 92 1 78.5 -0.5 c 128,-1,28
- 65 -2 65 -2 63 -2 c 0,29,30
- 30 1 30 1 30 15 c 0,31,32
- 30 19 30 19 33.5 23 c 128,-1,33
- 37 27 37 27 43.5 30.5 c 128,-1,34
- 50 34 50 34 56 37 c 128,-1,35
- 62 40 62 40 71 43.5 c 128,-1,36
- 80 47 80 47 85 49 c 128,-1,37
- 90 51 90 51 94 54 c 128,-1,38
- 98 57 98 57 101 59.5 c 128,-1,39
- 104 62 104 62 106.5 66 c 128,-1,40
- 109 70 109 70 110.5 72.5 c 128,-1,41
- 112 75 112 75 113 81 c 128,-1,42
- 114 87 114 87 114.5 89 c 128,-1,43
- 115 91 115 91 115.5 98.5 c 128,-1,44
- 116 106 116 106 116 108 c 128,-1,45
- 116 110 116 110 116 118.5 c 128,-1,46
- 116 127 116 127 116 129 c 2,47,-1
- 116 344 l 2,48,49
- 116 353 116 353 115.5 359.5 c 128,-1,50
- 115 366 115 366 115 371.5 c 128,-1,51
- 115 377 115 377 112.5 381.5 c 128,-1,52
- 110 386 110 386 109.5 389 c 128,-1,53
- 109 392 109 392 104 394.5 c 128,-1,54
- 99 397 99 397 98 398.5 c 128,-1,55
- 97 400 97 400 89.5 402.5 c 128,-1,56
- 82 405 82 405 79 406 c 128,-1,57
- 76 407 76 407 65.5 410 c 128,-1,58
- 55 413 55 413 50 414 c 0,59,60
- 34 419 34 419 34 435 c 0,61,62
- 34 443 34 443 45 448 c 128,-1,63
- 56 453 56 453 69 453 c 0,64,65
- 89 453 89 453 115.5 450.5 c 128,-1,66
- 142 448 142 448 160 448 c 128,-1,67
- 178 448 178 448 205.5 450.5 c 128,-1,68
- 233 453 233 453 250 453 c 0,0,1
+240 453 m 0,0,1
+ 253 453 253 453 264 448 c 128,-1,2
+ 275 443 275 443 275 435 c 0,3,4
+ 275 419 275 419 260 414 c 0,5,6
+ 212 400 212 400 205 394 c 0,7,8
+ 192 384 192 384 192 344 c 2,9,-1
+ 192 129 l 2,10,11
+ 192 80 192 80 202 66 c 0,12,13
+ 209 55 209 55 224 49 c 0,14,15
+ 229 47 229 47 238 43.5 c 128,-1,16
+ 247 40 247 40 253 37 c 128,-1,17
+ 259 34 259 34 265.5 30.5 c 128,-1,18
+ 272 27 272 27 275.5 23 c 128,-1,19
+ 279 19 279 19 279 15 c 0,20,21
+ 279 1 279 1 247 -2 c 0,22,23
+ 245 -2 245 -2 229.5 -0.5 c 128,-1,24
+ 214 1 214 1 190.5 2.5 c 128,-1,25
+ 167 4 167 4 146 4 c 128,-1,26
+ 125 4 125 4 103.5 2.5 c 128,-1,27
+ 82 1 82 1 68.5 -0.5 c 128,-1,28
+ 55 -2 55 -2 53 -2 c 0,29,30
+ 20 1 20 1 20 15 c 0,31,32
+ 20 19 20 19 23.5 23 c 128,-1,33
+ 27 27 27 27 33.5 30.5 c 128,-1,34
+ 40 34 40 34 46 37 c 128,-1,35
+ 52 40 52 40 61 43.5 c 128,-1,36
+ 70 47 70 47 75 49 c 128,-1,37
+ 80 51 80 51 84 54 c 128,-1,38
+ 88 57 88 57 91 59.5 c 128,-1,39
+ 94 62 94 62 96.5 66 c 128,-1,40
+ 99 70 99 70 100.5 72.5 c 128,-1,41
+ 102 75 102 75 103 81 c 128,-1,42
+ 104 87 104 87 104.5 89 c 128,-1,43
+ 105 91 105 91 105.5 98.5 c 128,-1,44
+ 106 106 106 106 106 108 c 128,-1,45
+ 106 110 106 110 106 118.5 c 128,-1,46
+ 106 127 106 127 106 129 c 2,47,-1
+ 106 344 l 2,48,49
+ 106 353 106 353 105.5 359.5 c 128,-1,50
+ 105 366 105 366 105 371.5 c 128,-1,51
+ 105 377 105 377 102.5 381.5 c 128,-1,52
+ 100 386 100 386 99.5 389 c 128,-1,53
+ 99 392 99 392 94 394.5 c 128,-1,54
+ 89 397 89 397 88 398.5 c 128,-1,55
+ 87 400 87 400 79.5 402.5 c 128,-1,56
+ 72 405 72 405 69 406 c 128,-1,57
+ 66 407 66 407 55.5 410 c 128,-1,58
+ 45 413 45 413 40 414 c 0,59,60
+ 24 419 24 419 24 435 c 0,61,62
+ 24 443 24 443 35 448 c 128,-1,63
+ 46 453 46 453 59 453 c 0,64,65
+ 79 453 79 453 105.5 450.5 c 128,-1,66
+ 132 448 132 448 150 448 c 128,-1,67
+ 168 448 168 448 195.5 450.5 c 128,-1,68
+ 223 453 223 453 240 453 c 0,0,1
 EndSplineSet
 Validated: 1
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" dotlessi.sc
@@ -26843,6 +26845,7 @@ LayerCount: 2
 Fore
 Refer: 432 769 N 1 0 0 1 136 34 2
 Refer: 86 115 N 1 0 0 1 0 0 3
+Validated: 1
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" sacute.sc
 MultipleSubs2: "'ss20' Style Set 20 lookup 21 subtable" r acutecomb
 EndChar
@@ -26890,6 +26893,7 @@ LayerCount: 2
 Fore
 Refer: 433 770 N 1 0 0 1 52 34 2
 Refer: 86 115 N 1 0 0 1 0 0 3
+Validated: 1
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" scircumflex.sc
 MultipleSubs2: "'ss20' Style Set 20 lookup 21 subtable" s uni0302
 EndChar
@@ -26927,6 +26931,7 @@ LayerCount: 2
 Fore
 Refer: 459 807 N 1 0 0 1 78 11 2
 Refer: 86 115 N 1 0 0 1 0 0 3
+Validated: 5
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" scedilla.sc
 MultipleSubs2: "'ss20' Style Set 20 lookup 21 subtable" s uni0327
 EndChar
@@ -26974,6 +26979,7 @@ LayerCount: 2
 Fore
 Refer: 443 780 N 1 0 0 1 50 34 2
 Refer: 86 115 N 1 0 0 1 0 0 3
+Validated: 1
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" scaron.sc
 MultipleSubs2: "'ss20' Style Set 20 lookup 21 subtable" s uni030C
 EndChar
@@ -27642,6 +27648,7 @@ AnchorPoint: "Anchor-0" 265 785 basechar 0
 LayerCount: 2
 Fore
 Refer: 86 115 N 1 0 0 1 0 0 3
+Validated: 1
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" s.sc
 EndChar
 
@@ -27952,7 +27959,7 @@ EndChar
 
 StartChar: uni01D0
 Encoding: 464 464 329
-Width: 276
+Width: 300
 GlyphClass: 2
 Flags: W
 TtInstrs:
@@ -27967,7 +27974,7 @@ CALL
 EndTTInstrs
 LayerCount: 2
 Fore
-Refer: 443 780 N 1 0 0 1 20 34 2
+Refer: 443 780 N 1 0 0 1 10 34 2
 Refer: 233 305 N 1 0 0 1 0 0 3
 Validated: 1
 MultipleSubs2: "'ss20' Style Set 20 lookup 21 subtable" i uni030C
@@ -29209,7 +29216,7 @@ EndChar
 
 StartChar: uni0209
 Encoding: 521 521 384
-Width: 276
+Width: 300
 GlyphClass: 2
 Flags: W
 TtInstrs:
@@ -29224,7 +29231,7 @@ CALL
 EndTTInstrs
 LayerCount: 2
 Fore
-Refer: 446 783 N 1 0 0 1 -24 34 2
+Refer: 446 783 N 1 0 0 1 -34 34 2
 Refer: 233 305 N 1 0 0 1 0 0 3
 Validated: 1
 MultipleSubs2: "'ss20' Style Set 20 lookup 21 subtable" i uni030F
@@ -29255,7 +29262,7 @@ EndChar
 
 StartChar: uni020B
 Encoding: 523 523 386
-Width: 276
+Width: 300
 GlyphClass: 2
 Flags: W
 TtInstrs:
@@ -29270,7 +29277,7 @@ CALL
 EndTTInstrs
 LayerCount: 2
 Fore
-Refer: 448 785 N 1 0 0 1 -11 34 2
+Refer: 448 785 N 1 0 0 1 -21 34 2
 Refer: 233 305 N 1 0 0 1 0 0 3
 Validated: 1
 MultipleSubs2: "'ss20' Style Set 20 lookup 21 subtable" i uni0311
@@ -29594,6 +29601,7 @@ LayerCount: 2
 Fore
 Refer: 458 806 N 1 0 0 1 96 0 2
 Refer: 86 115 N 1 0 0 1 0 0 3
+Validated: 1
 MultipleSubs2: "'ss20' Style Set 20 lookup 21 subtable" s uni0326
 EndChar
 
@@ -30518,7 +30526,7 @@ SplineSet
  82 518 82 518 62 503.5 c 128,-1,21
  42 489 42 489 40 489 c 0,0,1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" tildecomb.sc
 Substitution2: "'case' Case-Sensitive Forms lookup 6 subtable" tildecomb.cap
 EndChar
@@ -61310,7 +61318,7 @@ EndChar
 
 StartChar: uni1E2F
 Encoding: 7727 7727 686
-Width: 276
+Width: 300
 GlyphClass: 2
 Flags: W
 TtInstrs:
@@ -61325,8 +61333,8 @@ CALL
 EndTTInstrs
 LayerCount: 2
 Fore
-Refer: 1236 -1 N 1 0 0 1 101 114 2
-Refer: 439 776 N 1 0 0 1 -19 0 2
+Refer: 1236 -1 N 1 0 0 1 91 114 2
+Refer: 439 776 N 1 0 0 1 -29 0 2
 Refer: 233 305 N 1 0 0 1 0 0 3
 Validated: 1
 MultipleSubs2: "'ss20' Style Set 20 lookup 21 subtable" dotlessi uni0308 acutecomb.stack
@@ -62452,6 +62460,7 @@ LayerCount: 2
 Fore
 Refer: 438 775 N 1 0 0 1 81 0 2
 Refer: 86 115 N 1 0 0 1 0 0 3
+Validated: 1
 MultipleSubs2: "'ss20' Style Set 20 lookup 21 subtable" s uni0307
 EndChar
 
@@ -62497,6 +62506,7 @@ LayerCount: 2
 Fore
 Refer: 455 803 N 1 0 0 1 61 0 2
 Refer: 86 115 N 1 0 0 1 0 0 3
+Validated: 1
 MultipleSubs2: "'ss20' Style Set 20 lookup 21 subtable" s dotbelowcomb
 EndChar
 
@@ -62558,6 +62568,7 @@ LayerCount: 2
 Fore
 Refer: 438 775 N 1 0 0 1 144 208 2
 Refer: 275 347 N 1 0 0 1 0 0 3
+Validated: 1
 MultipleSubs2: "'ss20' Style Set 20 lookup 21 subtable" s acutecomb.flat uni0307.stack
 EndChar
 
@@ -62619,6 +62630,7 @@ LayerCount: 2
 Fore
 Refer: 438 775 N 1 0 0 1 80 211 2
 Refer: 281 353 N 1 0 0 1 0 0 3
+Validated: 1
 MultipleSubs2: "'ss20' Style Set 20 lookup 21 subtable" s uni030C.stack uni0307.stack
 EndChar
 
@@ -62680,6 +62692,7 @@ LayerCount: 2
 Fore
 Refer: 438 775 N 1 0 0 1 78 -45 2
 Refer: 738 7779 N 1 0 0 1 0 0 3
+Validated: 1
 MultipleSubs2: "'ss20' Style Set 20 lookup 21 subtable" s dotbelowcomb uni0307
 EndChar
 
@@ -63663,6 +63676,7 @@ LayerCount: 2
 Fore
 Refer: 438 775 N 1 0 0 1 180 189 2
 Refer: 311 383 N 1 0 0 1 0 0 3
+Validated: 1
 MultipleSubs2: "'ss20' Style Set 20 lookup 21 subtable" longs uni0307
 EndChar
 
@@ -64800,12 +64814,12 @@ EndChar
 
 StartChar: uni1EC9
 Encoding: 7881 7881 839
-Width: 276
+Width: 300
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 440 777 N 1 0 0 1 19 0 2
+Refer: 440 777 N 1 0 0 1 9 0 2
 Refer: 233 305 N 1 0 0 1 0 0 3
 Validated: 1
 MultipleSubs2: "'ss20' Style Set 20 lookup 21 subtable" dotlessi hookabovecomb
@@ -74282,6 +74296,7 @@ LayerCount: 2
 Fore
 Refer: 2075 -1 N 1 0 0 1 0 0 2
 Refer: 1180 57374 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: uniE00E
@@ -74293,6 +74308,7 @@ LayerCount: 2
 Fore
 Refer: 434 771 N 1 0 0 1 80 0 2
 Refer: 84 113 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniE01B
@@ -74316,6 +74332,7 @@ LayerCount: 2
 Fore
 Refer: 2076 -1 N 1 0 0 1 0 0 2
 Refer: 84 113 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: uniE01D
@@ -74327,6 +74344,7 @@ LayerCount: 2
 Fore
 Refer: 638 7635 N 1 0 0 1 -8 0 2
 Refer: 84 113 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniE01E
@@ -74338,6 +74356,7 @@ LayerCount: 2
 Fore
 Refer: 432 769 N 1 0 0 1 201 0 2
 Refer: 84 113 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: uniE104
@@ -77303,7 +77322,7 @@ SplineSet
  360 525 l 2,91,92
  360 567 360 567 344 593 c 0,0,1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: uniFB06
@@ -77932,7 +77951,7 @@ SplineSet
  824 -2 824 -2 704.5 1 c 128,-1,136
  585 4 585 4 523 4 c 0,9,10
 EndSplineSet
-Validated: 33
+Validated: 1048609
 EndChar
 
 StartChar: uni030C.cap
@@ -77971,7 +77990,7 @@ SplineSet
  5 806 5 806 5 812 c 0,22,23
  5 822 5 822 20 822 c 0,0,1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 49 subtable" uni030C.sc
 EndChar
 
@@ -78120,7 +78139,7 @@ SplineSet
  287 776 287 776 254 742.5 c 128,-1,22
  221 709 221 709 202 709 c 0,0,1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 49 subtable" tildecomb.sc
 EndChar
 
@@ -78284,7 +78303,7 @@ SplineSet
  5 742 5 742 11 759.5 c 128,-1,13
  17 777 17 777 29 777 c 2,0,-1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 49 subtable" uni0304.sc
 EndChar
 
@@ -78358,7 +78377,7 @@ SplineSet
  1 802 1 802 28.5 823 c 128,-1,21
  56 844 56 844 92 844 c 0,10,11
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 49 subtable" uni030A.sc
 EndChar
 
@@ -78391,7 +78410,7 @@ SplineSet
  5 770 5 770 22.5 787.5 c 128,-1,0
  40 805 40 805 64 805 c 128,-1,1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 49 subtable" uni0307.sc
 EndChar
 
@@ -78988,7 +79007,7 @@ SplineSet
  287 794 287 794 257.5 757 c 128,-1,23
  228 720 228 720 202 720 c 0,0,1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: uni0302.flat
@@ -79128,7 +79147,7 @@ SplineSet
  220 499 220 499 206 499 c 0,16,17
  199 499 199 499 179 504 c 0,0,1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: acutecomb.flat
@@ -79162,7 +79181,7 @@ SplineSet
  220 564 220 564 216 561 c 0,16,17
  182 542 182 542 41 504 c 0,0,1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: gravecomb.stack
@@ -79416,7 +79435,7 @@ SplineSet
  87 493 87 493 70.5 509.5 c 128,-1,11
  54 526 54 526 54 547 c 0,0,1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" uni0307.stacksc
 EndChar
 
@@ -79457,7 +79476,7 @@ SplineSet
  28 568 28 568 56 591.5 c 128,-1,10
  84 615 84 615 115 615 c 128,-1,11
 EndSplineSet
-Validated: 1
+Validated: 1048577
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" uni030A.stacksc
 EndChar
 
@@ -95653,7 +95672,7 @@ SplineSet
  48 322 48 322 126.5 396 c 128,-1,37
  205 470 205 470 311 470 c 0,0,1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: d.sc
@@ -95731,7 +95750,7 @@ SplineSet
  271 0 271 0 219 2 c 128,-1,64
  167 4 167 4 156 4 c 0,13,14
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: e.sc
@@ -95927,7 +95946,7 @@ SplineSet
  298 205 298 205 278 205 c 2,95,-1
  221 205 l 2,0,1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: g.sc
@@ -95989,7 +96008,7 @@ SplineSet
  437 165 437 165 437 135 c 2,56,-1
  437 77 l 2,0,1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: h.sc
@@ -96115,7 +96134,7 @@ SplineSet
  216 203 l 2,133,134
  202 203 202 203 202 184 c 2,0,-1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: i.sc
@@ -96386,7 +96405,7 @@ SplineSet
  432 394 432 394 411 380 c 0,121,122
  394 369 394 369 380 352 c 2,0,-1
 EndSplineSet
-Validated: 33
+Validated: 1048609
 EndChar
 
 StartChar: l.sc
@@ -96465,7 +96484,7 @@ SplineSet
  345 -2 345 -2 265 1 c 128,-1,71
  185 4 185 4 152 4 c 0,0,1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: m.sc
@@ -96952,7 +96971,7 @@ SplineSet
  177 448 177 448 215 451.5 c 128,-1,103
  253 455 253 455 272 455 c 0,12,13
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: s.sc
@@ -97007,7 +97026,7 @@ SplineSet
  43 400 43 400 94.5 435 c 128,-1,47
  146 470 146 470 213 470 c 0,0,1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: t.sc
@@ -97085,7 +97104,7 @@ SplineSet
  221 127 221 127 221 129 c 2,70,-1
  221 343 l 2,0,1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: u.sc
@@ -102117,7 +102136,7 @@ SplineSet
  82 518 82 518 62 503.5 c 128,-1,21
  42 489 42 489 40 489 c 0,0,1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: uni0304.sc
