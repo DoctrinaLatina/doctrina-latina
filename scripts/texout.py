@@ -243,7 +243,7 @@ r"""\documentclass[11pt]{book}
         en[verse] + \
         "}} "
 
-      la_lower = la[verse]#.lower()
+      la_lower = la[verse].lower()
 
       if is_numbered:
         tex_pre = \
