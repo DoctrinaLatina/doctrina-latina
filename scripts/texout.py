@@ -46,7 +46,7 @@ class TeXOutput:
 
 class TeXPrinterOutput(TeXOutput):
   tex_head = \
-r"""\documentclass[12pt]{book}
+r"""\documentclass[11pt]{book}
 
 \usepackage{marginnote}
 \usepackage{microtype}
@@ -77,16 +77,31 @@ r"""\documentclass[12pt]{book}
 %  FontFace={li}{it}{Font=*-BoldItalic},
 %]{Crimson}
 
+%\setmainfont [
+%  Path = $DIRFONTS/eb-garamond/,
+%  Extension = .ttf,
+%  UprightFont = *-Regular,
+%  BoldFont = *-Bold,
+%  ItalicFont = *-Italic,
+%  BoldItalicFont= *-BoldItalic,
+%  FontFace={c}{n}{Font=*SC08-Regular},
+%  FontFace={c}{it}{Font=*SC08-Regular},
+%]{EBGaramond}
+
 \setmainfont [
-  Path = $DIRFONTS/eb-garamond/,
+  Path = $DIRFONTS/alegreya/,
   Extension = .ttf,
   UprightFont = *-Regular,
   BoldFont = *-Bold,
   ItalicFont = *-Italic,
   BoldItalicFont= *-BoldItalic,
-  FontFace={c}{n}{Font=*SC08-Regular},
-  FontFace={c}{it}{Font=*SC08-Regular},
-]{EBGaramond}
+  FontFace={c}{n}{Font=*SC-Regular},
+  FontFace={c}{it}{Font=*SC-Italic},
+  FontFace={ub}{n}{Font=*SC-ExtraBold},
+  FontFace={ub}{it}{Font=*SC-ExtraBoldItalic},
+  Numbers=Lining,
+]{Alegreya}
+
 
 \usepackage{graphicx}
 \graphicspath{{$DIRIMAGES}}
@@ -180,15 +195,16 @@ r"""\documentclass[12pt]{book}
     self.f.write(self.tex_section_end)
 
   def write_section2(self, la, en, title="", inscription="", is_numbered=True, repeated=0):
-    la_font = r"\fontseries{c}\selectfont\fontdimen2\font=0.4em "
+    la_font = r"\fontseries{c}\selectfont\fontdimen2\font=0.5em "
     en_font = r" \scriptsize "
-    insc_font = r" \fontseries{c}\tiny\addfontfeature{LetterSpace=4.0}\fontdimen2\font=1em "
+    title_font = r" \fontseries{ub}\selectfont\fontdimen2\font=1em "
+    insc_font = r" \fontseries{c}\selectfont\fontdimen2\font=4em\footnotesize "
     repeat_font = r" \normalfont\scriptsize\addfontfeature{LetterSpace=12.0} "
 
     if title:
       tex_section_begin = \
         r"\pagebreak[3]\section{ " + \
-        title.upper() + \
+        title_font + title.upper() + \
         " }" + "\n"
       self.f.write(tex_section_begin)
 
@@ -199,9 +215,8 @@ r"""\documentclass[12pt]{book}
         self.f.write(r"\vspace{0.05in}" + "\n")
         tex_inscription = \
           r"\begin{center}" + "\n" + \
-          r"\parbox[]{2.5in}{ " + \
           r"{" + insc_font + \
-          txt + \
+          r"\textit{" + txt + \
           r" }}" + "\n\n" + \
           r"\end{center}"
       else:
@@ -232,9 +247,9 @@ r"""\documentclass[12pt]{book}
 
       if is_numbered:
         tex_pre = \
-          r"\hskip0.025in \raisebox{0.75ex}{\footnotesize " + \
+          r"\hskip0.025in \raisebox{0.75ex}{\textit{\scriptsize " + \
           verse + "." + \
-          r"} \hskip0.05in "
+          r"}} \hskip0.05in "
 
       elif la_lower.startswith(r"$v"):
         tex_pre = \

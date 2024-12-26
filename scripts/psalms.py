@@ -40,8 +40,10 @@ class Psalms:
   def GetChapterInscription(self, chapter):
     chapter_str = str(chapter)
 
-    if chapter not in self.__inscriptions_la:
+    if chapter_str not in self.__inscriptions_la:
       return "", ""
+
+    print("HERE")
 
     return \
       self.__inscriptions_la[chapter_str], \

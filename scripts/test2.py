@@ -8,7 +8,6 @@ out = TeXPrinterOutput()
 out.start()
 
 for n in range(1, 151):
-  print(n)
   la, en = ps.GetChapter(n)
   insc, _ = ps.GetChapterInscription(n)
   out.write_section2(la, en, "PSALMUS " + str(n), insc)
