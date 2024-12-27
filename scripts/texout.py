@@ -196,10 +196,10 @@ r"""\documentclass[11pt]{book}
 
   def write_section2(self, la, en, title="", inscription="", is_numbered=True, repeated=0):
     la_font = r"\fontseries{c}\selectfont\fontdimen2\font=0.5em "
-    en_font = r" \scriptsize "
-    title_font = r" \fontseries{ub}\selectfont\fontdimen2\font=1em "
-    insc_font = r" \fontseries{c}\selectfont\fontdimen2\font=4em\footnotesize "
-    repeat_font = r" \normalfont\scriptsize\addfontfeature{LetterSpace=12.0} "
+    en_font = r"\scriptsize "
+    title_font = r"\fontseries{ub}\selectfont\fontdimen2\font=1em "
+    insc_font = r"\footnotesize\fontseries{c}\selectfont\fontdimen2\font=0.5em "
+    repeat_font = r"\normalfont\scriptsize\addfontfeature{LetterSpace=12.0} "
 
     if title:
       tex_section_begin = \
@@ -209,14 +209,14 @@ r"""\documentclass[11pt]{book}
       self.f.write(tex_section_begin)
 
     if inscription:
-      txt = inscription#.upper()
+      txt = inscription.lower()
       
       if title:
         self.f.write(r"\vspace{0.05in}" + "\n")
         tex_inscription = \
           r"\begin{center}" + "\n" + \
-          r"{" + insc_font + \
-          r"\textit{" + txt + \
+          r"\parbox[]{2.3in}{ " + \
+          r"\textit{" + insc_font + txt + \
           r" }}" + "\n\n" + \
           r"\end{center}"
       else:
@@ -247,7 +247,7 @@ r"""\documentclass[11pt]{book}
 
       if is_numbered:
         tex_pre = \
-          r"\hskip0.025in \raisebox{0.75ex}{\textit{\scriptsize " + \
+          r"\hskip0.025in \raisebox{0.75ex}{\textit{\scriptsize " + title_font + \
           verse + "." + \
           r"}} \hskip0.05in "
 
