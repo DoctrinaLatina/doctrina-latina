@@ -7,6 +7,7 @@
 - Gath (noun, m, indcl.)  -> Gāt, Gātis
 - Idithun (noun, m, indcl.) -> Iditūn, Iditūnis
 - Joseh (noun, m, indcl.) -> Jōsēf(us), Jōsēfī
+- Jerusalem (noun, varies, indcl.) -> Jerosolima, Jerosolimae (f)
 - Sion (noun, f, indcl.) -> Siōn, Siōnis
 - cum (conjunction) -> quum
 - eō, īre, iī (verb) -> iō, īre, īvī
@@ -19,3 +20,6 @@
 - ēns -> ens
 - īns -> ins
 - īnf -> inf
+
+# Morphology
+- 3rd & 4th conjugation 1st person singular future -am -> -em
