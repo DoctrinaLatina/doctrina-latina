@@ -102,7 +102,6 @@ r"""\documentclass[11pt]{book}
   Numbers=Lining,
 ]{Alegreya}
 
-
 \usepackage{graphicx}
 \graphicspath{{$DIRIMAGES}}
 
@@ -122,7 +121,7 @@ r"""\documentclass[11pt]{book}
 \usepackage{needspace}
 
 \titleformat{\section}[block]
-  {\addfontfeature{LetterSpace=30.0}\bfseries\filcenter\small\fontdimen2\font=1em }
+  {\addfontfeature{LetterSpace=30.0}\fontseries{ub}\large\selectfont\filcenter\fontdimen2\font=1.5em }
   {\thesection}{}{ #1 }[]
 \titlespacing{\section}{0ex}{8ex}{0ex}
 
@@ -197,8 +196,9 @@ r"""\documentclass[11pt]{book}
   def write_section2(self, la, en, title="", inscription="", is_numbered=True, repeated=0):
     la_font = r"\fontseries{c}\selectfont\fontdimen2\font=0.5em "
     en_font = r"\scriptsize "
-    title_font = r"\fontseries{ub}\selectfont\fontdimen2\font=1em "
-    insc_font = r"\footnotesize\fontseries{c}\selectfont\fontdimen2\font=0.5em "
+    #title_font = r"\fontseries{ub}\selectfont\fontdimen2\font=1em "
+    title_font = ""
+    insc_font = r"\footnotesize\addfontfeature{LetterSpace=6.0}\fontseries{c}\selectfont\fontdimen2\font=0.6em"
     repeat_font = r"\normalfont\scriptsize\addfontfeature{LetterSpace=12.0} "
 
     if title:
@@ -247,7 +247,7 @@ r"""\documentclass[11pt]{book}
 
       if is_numbered:
         tex_pre = \
-          r"\hskip0.025in \raisebox{0.75ex}{\textit{\scriptsize " + title_font + \
+          r"\hskip0.025in \raisebox{0.75ex}{\textit{\fontseries{ub}\selectfont\scriptsize " + \
           verse + "." + \
           r"}} \hskip0.05in "
 
