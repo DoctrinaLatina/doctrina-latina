@@ -66,16 +66,6 @@ r"""\documentclass[11pt]{book}
 \pagenumbering{gobble}
 
 \usepackage{fontspec}
-%\setmainfont [
-%  Path = $DIRFONTS/crimson/OTF/,
-%  Extension = .otf,
-%  UprightFont = *-Roman,
-%  BoldFont = *-Bold,
-%  ItalicFont = *-Italic,
-%  BoldItalicFont= *-BoldItalic,
-%  FontFace={li}{n}{Font=*-Italic},
-%  FontFace={li}{it}{Font=*-BoldItalic},
-%]{Crimson}
 
 %\setmainfont [
 %  Path = $DIRFONTS/eb-garamond/,
@@ -215,7 +205,7 @@ r"""\documentclass[11pt]{book}
         self.f.write(r"\vspace{0.05in}" + "\n")
         tex_inscription = \
           r"\begin{center}" + "\n" + \
-          r"\parbox[]{2.3in}{ " + \
+          r"\parbox[]{2.3in}{\centering " + \
           r"\textit{" + insc_font + txt + \
           r" }}" + "\n\n" + \
           r"\end{center}"
