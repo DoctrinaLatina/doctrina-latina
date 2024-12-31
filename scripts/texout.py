@@ -55,15 +55,16 @@ r"""\documentclass[11pt]{book}
   layout=letterpaper,
   %right=1in,
   %left=1in,
-  inner=1in,
-  outer=4.4in,
-  top=0.70in,
-  bottom=0.70in,
-  marginparwidth=3.0in,
-  marginparsep=0.4in,
+  inner=1.3in,
+  outer=4.0in,
+  top=1.2in,
+  bottom=1.2in,
+  marginparwidth=2.7in,
+  marginparsep=0.5in,
 ]{geometry}
+\setlength{\headheight}{13.59999pt}
 
-\pagenumbering{gobble}
+%\pagenumbering{gobble}
 
 \usepackage{fontspec}
 
@@ -89,6 +90,8 @@ r"""\documentclass[11pt]{book}
   FontFace={c}{it}{Font=*SC-Italic},
   FontFace={ub}{n}{Font=*SC-ExtraBold},
   FontFace={ub}{it}{Font=*SC-ExtraBoldItalic},
+  FontFace={sb}{n}{Font=*SC-Medium},
+  FontFace={ub}{it}{Font=*SC-MediumItalic},
   Numbers=Lining,
 ]{Alegreya}
 
@@ -111,15 +114,21 @@ r"""\documentclass[11pt]{book}
 \usepackage{needspace}
 
 \titleformat{\section}[block]
-  {\addfontfeature{LetterSpace=30.0}\fontseries{ub}\large\selectfont\filcenter\fontdimen2\font=1.5em }
+  {\addfontfeature{LetterSpace=30.0}\fontseries{ub}\selectfont\large\filcenter\fontdimen2\font=1.5em }
   {\thesection}{}{ #1 }[]
 \titlespacing{\section}{0ex}{8ex}{0ex}
 
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
-\renewcommand{\headrulewidth}{0.0pt}
-\renewcommand{\footrulewidth}{0.0pt}
+\fancyheadoffset[LO,RE]{0.3in}
+\fancyhead[LO]{\textit{\small\addfontfeature{LetterSpace=40.0}\fontdimen2\font=2em\rightmark}}
+\fancyhead[RE]{\textit{\small\addfontfeature{LetterSpace=40.0}\fontdimen2\font=2em\rightmark}}
+\fancyfoot[LO]{\textit{\small\addfontfeature{LetterSpace=40.0} \thepage}}
+\fancyfoot[RE]{\textit{\small\addfontfeature{LetterSpace=40.0} \thepage}}
+%\cfoot{\textit{\small\addfontfeature{LetterSpace=40.0} \thepage}}
+\renewcommand{\headrulewidth}{0pt}
+\pagestyle{fancy}
 
 \setcounter{secnumdepth}{0}
 \usepackage{paracol}
@@ -184,11 +193,12 @@ r"""\documentclass[11pt]{book}
     self.f.write(self.tex_section_end)
 
   def write_section2(self, la, en, title="", inscription="", is_numbered=True, repeated=0):
-    la_font = r"\fontseries{c}\selectfont\fontdimen2\font=0.5em "
+    la_font = r"\fontseries{sb}\selectfont\fontdimen2\font=0.5em "
     en_font = r"\scriptsize "
     #title_font = r"\fontseries{ub}\selectfont\fontdimen2\font=1em "
     title_font = ""
-    insc_font = r"\footnotesize\addfontfeature{LetterSpace=6.0}\fontseries{c}\selectfont\fontdimen2\font=0.6em"
+    number_font = r"\scriptsize\fontseries{ub}\selectfont "
+    insc_font = r"\footnotesize\addfontfeature{LetterSpace=6.0}\fontseries{c}\selectfont\fontdimen2\font=0.4em"
     repeat_font = r"\normalfont\scriptsize\addfontfeature{LetterSpace=12.0} "
 
     if title:
@@ -202,10 +212,10 @@ r"""\documentclass[11pt]{book}
       txt = inscription.lower()
       
       if title:
-        self.f.write(r"\vspace{0.05in}" + "\n")
+        self.f.write(r"\vspace{0.1in}" + "\n")
         tex_inscription = \
           r"\begin{center}" + "\n" + \
-          r"\parbox[]{2.3in}{\centering " + \
+          r"\parbox[]{2.8in}{\centering " + \
           r"\textit{" + insc_font + txt + \
           r" }}" + "\n\n" + \
           r"\end{center}"
@@ -237,9 +247,9 @@ r"""\documentclass[11pt]{book}
 
       if is_numbered:
         tex_pre = \
-          r"\hskip0.025in \raisebox{0.75ex}{\textit{\fontseries{ub}\selectfont\scriptsize " + \
-          verse + "." + \
-          r"}} \hskip0.05in "
+          r"\hskip0.025in \raisebox{0.75ex}{" + \
+          number_font + verse + "." + \
+          r"} \hskip0.08in "
 
       elif la_lower.startswith(r"$v"):
         tex_pre = \
@@ -270,7 +280,7 @@ r"""\documentclass[11pt]{book}
         tex_text + tex_repeated + \
         r" }" + "\n"
 
-      self.f.write(tex_line + r"\Needspace{4\baselineskip}" + "\n\n")
+      self.f.write(tex_line + r"\Needspace{5\baselineskip}" + "\n\n")
 
     tex_section_end = r"\Needspace{10\baselineskip}" + "\n"
     self.f.write(tex_section_end)
