@@ -11,7 +11,6 @@
 - Sion (noun, f, indcl.) -> Siōn, Siōnis
 - cum (conjunction) -> quum
 - eō, īre, iī (verb) -> iō, īre, īvī
-- ideō (adverb) -> idiō
 - multō (adverb) -> multē
 - ōra, ōrae (noun) -> orra, orrae
 
