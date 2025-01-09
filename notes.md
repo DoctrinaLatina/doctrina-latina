@@ -11,9 +11,14 @@
 - Sion (noun, f, indcl.) -> Siōn, Siōnis
 - cum (conjunction) -> quum
 - eō, īre, iī (verb) -> iō, īre, īvī
-- ideō (adverb) -> idiō
 - multō (adverb) -> multē
 - ōra, ōrae (noun) -> orra, orrae
+
+- abeō -> abiō (fourth declension)
+- adeō -> adiō (fourth declension)
+- exeō -> exiō (fourth declension)
+- intereō -> interiō (fourth declension)
+- transeō -> transiō (fourth declension)
 
 # Suppressions
 - āns -> ans
