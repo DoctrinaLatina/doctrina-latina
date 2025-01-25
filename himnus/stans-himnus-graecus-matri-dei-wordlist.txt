@@ -1,0 +1,138 @@
+# Nouns
+aestus, aestūs (4, M): heat, rage, fire, vacillation
+agnus, agnī (2, M): lamb
+angelus, angelī (2, M): angel, messenger
+altitūdō, altitūdinis (3, F): height, spiritual or emotional depth
+alvus, alvus
+caelum, caelī (2, N): heaven, sky
+canticum, canticī (2, N): song, canticle
+capitulum, capitulī (2, N): head-like object or structure
+castitās, castitātis (3, F): purity, chastity
+cīvitās, cīvitātis (3, F): city, state, citizenship
+cōgitātiō, cōgitātiōnis (3, F): thought, thinking, reasoning
+conceptiō, conceptiōnis (3, F): conception, idea, notion
+consilium, consiliī (2, N): plan, purpose, council
+creātūra, creātūrae (1, F): a created thing, creation
+daemonium, daemoniī (2, N): demon
+deus, deī (2, M): god
+dogma, dogmātis (3, N): dogma, doctrine
+fīlius, fīliī (2, M): son
+fūrtum, fūrtī (2, N): theft, robbery
+gaudium, gaudiī (2, N): joy, delight
+grātia, grātiae (1, F): Grace, thankfulness, thanks
+lūx, lūcis (3, F): light
+imperātor, imperātōris (3, M): commander, ruler
+imperium, imperiī (2, N): empire, right or power to command, dominion, authority
+incarnātiō, incarnātiōnis (3, F): incarnation, made flesh
+infans, infantis (3, M/F): infant
+initiātrīx, initiātrīcis (3, F): female initiator
+lacrima, lacrimae (1, F): tear drop
+magistrāta, magistrātae (1, F): female commander, captain
+maledictiō, maledictiōnis (3, F): curse, evil speech, condemnation, slander
+mens, mentis (3, F): mind, intellect, reasoning
+nēmō, nēminis (3, M/F): (singular only) no one, nobody
+nōtitia, nōtitiae (1, F): knowledge
+oculus, oculī (2, M): eye
+perīculum, perīculī (2, N): trial, hazard, danger
+plasmātor, plasmātōris (3, M): a former, fashioner, creator
+praesentia, praesentiae (1, F): presence, being present in time
+prīmitia, prīmitiae (1, F): (chiefly in plural) first fruits
+princeps, principis (3, M): prince, leader
+prōfunditās, prōfunditātis (3, F): depth, vastness
+prōpugnātrīx, prōpugnātrīcis (3, F): female champion, defender
+prūdentia, prūdentiae (1, F): knowledge, sagacity, prudence
+redēmptiō, redēmptiōnis (3, F): redemption
+timor, timōris (3, M): fear, dread
+salūs, salūtis (3, F): salvation, safety
+scientia, scientiae (1, F): knowledge, learning
+sponsa, sponsae (1, F): bride
+solium, soliī (2, N): seat, throne
+stella, stellae (1, F): star
+sōl, sōlis (3, M): sun
+spīritus, spīritūs (4, M): spirit, breath, breeze
+uterus, uterī (2, M): womb
+venter, ventris (3, M): belly, womb
+victōria, victōriae (1, F): victory
+virgō, virginis (3, F): virgin, young maiden
+virtūs, virtūtin (3, F): manliness, virtue, power
+vōx, vōcis (1, F): voice
+vulnus, vulneris (1, N): wound
+
+# Verbs
+adōrō, adōrāre, adōrāvī, adōrātum (1): to adore, honor, revere, worship, entreat, beseech
+audiō, audīre, audīvī, audītum (4): to hear, listen
+clāmō, clāmāre, clāmāvī, clāmātum (1): to cry out, call out, shout
+consequor, consequī, consecūtus sum, x (3): to move after, follow after, go after, attend
+currō, currere, cucurrī, cursum (3): to run, hasten
+dēficiō, dēficere, dēfēcī, dēfectum (3); fail, exhaust, finish, die
+dēmōnstrō, dēmōnstrāre, dēmōnstrāvī, dēmōnstrātum (1); to show, demonstrate
+dēscendō, dēscendere, dēscenduī, dēscensum (3): to descend, climb down
+dīcō, dīcere, dīxī, dictum (3): to say, speak, declare
+discō, discere, didicī, discitum (3): to learn
+doceō, docēre, docuī, doctum (2): to teach, instruct
+gaudeō, gaudēre, gāvīsus sum, x (2): (semi-deponent) to rejoice
+generō, generāre, generāvī, generātum (1): to bring to life, beget, generate, produce
+incorporō, incorporāre, incorporāvī, incorporātum (1): to embody
+inquiō, inquīre, inquīvī, inquītum (4): to say
+lāmentō, lāmentāre, lāmentāvī, lāmentātum (1): to lament, bewail
+laudō, laudāre, laudāvī, laudātum (1): to praise, laud, extol
+līberō, līberāre, līberāvī, līberātum (1): to set free, liberate, deliver
+mittō, mittere, mīsī, missum (3): to send, dispatch
+ministrō, ministrāre, ministrāvī, ministrātum (1): to minister, attend, manage
+metō, metere, messuī, messum (3): to reap, harvest
+nāscor, nāscī, nātus sum, x (3): to be born 
+nōscō, nōscere, nōvī, nōtum (3): to learn, to become knowledgeable of
+obumbrō, obumbrāre, obumbrāvī, obumbrātum (1): to overshadow, obscure
+pāscō, pāscere, pāvī, pāstum (1): to feed, nourish
+pavēscō, pavēscere, x, x (3): to become alarmed, become afraid
+portō, portāre, portāvī, portātum (1): to carry, bear, bring
+quaerō, quaerere, quaesīvī, quaesītum (3): to seek, search, look for, strive for 
+redimō, redimere, redēmī, redēmptum (3): to redeem, buy back, rescue
+renovō, renovāre, renovāvī, renovātum (1): to renew, restore, revive
+sapiō, sapere, sapīvī, x (3): to discern, taste, know
+splendeō, splendēre, splenduī, x (2): to shine, glisten, be bright
+sponsō, sponsāre, sponsāvī, sponsātum (1): to betroth, marry
+stō, stāre, stetī, statum (1): to stand
+suspicor, suspicārī, suspicātus sum, x (1): to mistrust, suspect
+videō, vidēre, vīdī, vīsum (2): to see, look at, perceive
+
+# Adjectives
+altus, alta, altum: high, tall
+carnālis, carnāle: fleshly, carnal
+castus, casta, castum: pure, chaste, holy
+dīrus, dīra, dīrum: fearful, dreadful, horrible, cruel
+dīvīnus, dīvīna, dīvīnum: divine, of a diety, supernatural
+dubius, dubia, dubium: uncertain, doubting, wavering
+dulcis, dulce: sweet
+excellō, excellere, excelluī, excelsum: to elevate, raise up, exult
+fāmōsus, fāmōsa, fāmōsum: famed, renowned
+fidēlis, fidēle: faithful
+frūctifer, frūctifera, frūctiferum: fruitful, bearing fruit
+hūmānus, hūmāna, hūmānum: human, humane
+ignōtus, ignōta, ignōtum: unknown, strange, unacquainted with
+immaculātus, immaculāta, immaculātum: unstained
+impollūtus, impollūta, impollūtum: unstained, unpolluted
+inaccessibilis, inaccessibile: unapproachable, inaccessible
+incorporeus, incorpora, incorporum: incorporeal
+inexpugnābilis, inexpugnābile: impregnable, unconquerable
+innūptus, innūpta, innūptum: unmarried
+inspōnsātus, inspōnsāta, inspōnsātum: unwedded, unbetrothed; see sponsō
+invīsibilis, invīsibile: invisible, unseeable
+lāpsus, lāpsa, lāpsum: perfect active participle lābor; fallen
+mīrābilis, mīrābile: wonderful, miraculous, glorious
+portāns: present participle of portō: carrying, bearing
+possibilis, possibile: possible, that may exist
+sanctus, sancta, sanctum: holy
+tālis, tāle: such, distinguished
+terrēnus, terrēna, terrēnum: earthly, terrestrial
+
+# Adverbs
+fīdūciāliter: confidently, boldly
+quōmodō: how, in what manner
+sīc: thus, so, in this way
+sīcut: as, just as, like
+tamquam: just as, as much as, as if
+vēlōciter: quickly, swiftly
+
+# Interjection
+āve: hail
