@@ -1,20 +1,25 @@
 # Nouns
 abundantia, abundantiae (1, F): abundance
+adōrātiō, adōrātiōnis (3, F): adoration, worship
 aestus, aestūs (4, M): heat, rage, fire, vacillation
 agnus, agnī (2, M): lamb
 altitūdō, altitūdinis (3, F): height, spiritual or emotional depth
+amātor, amātōris (3, M): a lover (male)
 angelus, angelī (2, M): angel, messenger
 anima, animae (1, F): soul, spirit, breath
 apostolus, apostolī (2, M): apostle
 apertiō, apertiōnis (3, F): opening, unfolding
 arvum, arvī (2, N): field
 aula, aulae (1, F): court, palace
+Babilōn, Babilōnis (3, F): Babylon
 bēstia, bēstiae (1, F): beast
 caelum, caelī (2, N): heaven, sky
 Caldaeus, Caldaeī (2, M): a Chaldean
+camīnus, camīni (2, M): fireplace, furnace
 canticum, canticī (2, N): song, canticle
 capitulum, capitulī (2, N): head-like object or structure
 castitās, castitātis (3, F): purity, chastity
+Chrīstus, Chrīstī (2, M): Jesus Christ, the Annointed One
 cīvitās, cīvitātis (3, F): city, state, citizenship
 cōgitātiō, cōgitātiōnis (3, F): thought, thinking, reasoning
 cognitiō, cognitiōnis (3, F): learning, cognition
@@ -25,7 +30,9 @@ creātūra, creātūrae (1, F): a created thing, creation
 daemonium, daemoniī (2, N): demon
 deus, deī (2, M): god
 dogma, dogmātis (3, N): dogma, doctrine
+dūx, dūcis (3, M/F): leader, commander, guide
 ēsca, ēscae (1, F): food
+error, errōris (3, M): error, mistake, going astray
 fidēs, fideī (5, F): faith
 fīdūcia, fīdūciae (1, F); trust, confidence, boldness
 fīlius, fīliī (2, M): son
@@ -33,10 +40,13 @@ forma, formae (1, F): form, shape
 frūctus, frūctūs (4, M): fruit
 fūrtum, fūrtī (2, N): theft, robbery
 gaudium, gaudiī (2, N): joy, delight
+generātiō, generātiōnis (3, F): generation, offspring
 germen, germinis (3, N): shoot, sprout, germ, seed
 glōria, glōriae (1, F): glory, honor
 grātia, grātiae (1, F): grace, thankfulness, thanks
+Hērōdēs, Hērōdis (3, M): Herod
 lūx, lūcis (3, F): light
+ignis, ignis (3, M): fire
 imperātor, imperātōris (3, M): commander, ruler
 imperium, imperiī (2, N): empire, right or power to command, dominion, authority
 incarnātiō, incarnātiōnis (3, F): incarnation, made flesh
@@ -45,6 +55,7 @@ infernus, infernī (2, M): the underworld, Hades
 initiātrīx, initiātrīcis (3, F): female initiator
 intercessiō, intercessiōnis (3, F): intervention, intercession
 lacrima, lacrimae (1, F): tear drop
+laetitia, laetitiae (1, F): joy, gladness
 lampas, lampadis (3, F): lantern, torch
 lucerna, lucernae (1, F): lamp
 magistrāta, magistrātae (1, F): female commander, captain
@@ -59,6 +70,7 @@ mūnus, mūneris (3, N): service, gift
 nēmō, nēminis (3, M/F): (singular only) no one, nobody
 nōtitia, nōtitiae (1, F): knowledge
 oculus, oculī (2, M): eye
+opus, operis (3, N): work, labor
 orbis, orbis (3, M): circle, orb, the world, Earth
 ōs, ōris (3, N): mouth
 ōstium, ōstiī (2, N): door, gate, entrance
@@ -70,15 +82,20 @@ perīculum, perīculī (2, N): trial, hazard, danger
 plantātor, plantātōris (3, M): planter, sower, settler
 portus, portūs (4, M): harbor, port, refuge
 plasmātor, plasmātōris (3, M): a former, fashioner, creator
+praedicātor, praedicātōris (3, M): proclaimer, crier
 praesentia, praesentiae (1, F): presence, being present in time
 prīmitia, prīmitiae (1, F): (chiefly in plural) first fruits
-princeps, principis (3, M): prince, leader
+prīnceps, prīncipis (3, M): prince, leader
+prīncipātus, prīncipātūs (4, M): rule, dominion, principality
+profētīa, profētīae (1, F): prophecy
 prōfunditās, prōfunditātis (3, F): depth, vastness
 propitiātiō, propitiātiōnis (3, F): appeasement, clemency, propitiation
 prōpugnātrīx, prōpugnātrīcis (3, F): female champion, defender
 prūdentia, prūdentiae (1, F): knowledge, sagacity, prudence
+pudīcitia, pudīcitiae (1, F): chastity, modisty
 puer, puerī (2, M): son
 redēmptiō, redēmptiōnis (3, F): redemption
+religiō, religiōnis (3, F): religion, devotion, reverence
 rēx, rēgis (3, M): king
 timor, timōris (3, M): fear, dread
 salūs, salūtis (3, F): salvation, safety
@@ -92,6 +109,8 @@ stella, stellae (1, F): star
 sōl, sōlis (3, M): sun
 spīritus, spīritūs (4, M): spirit, breath, breeze
 stella, stellae (1, F): star
+tirannus, tirannī (2, M): tyrant
+Trīnitās, Trīnitātis (3, F): the Trinity
 ultiō, ultiōnis (3, F): vengence, revenge
 uterus, uterī (2, M): womb
 venter, ventris (3, M): belly, womb
@@ -99,6 +118,7 @@ victōria, victōriae (1, F): victory
 virgō, virginis (3, F): virgin, young maiden
 virtūs, virtūtin (3, F): manliness, virtue, power
 vītis, vītis (3, F): vine
+vitium, vitiī (2, N): vice, defect, wrong
 voluntās, voluntātis (3, F): will, desire
 vōx, vōcis (1, F): voice
 vulnus, vulneris (1, N): wound
@@ -114,14 +134,20 @@ clāmō, clāmāre, clāmāvī, clāmātum (1): to cry out, call out, shout
 coexsultō, coexsultāre, coexsultāvī, coexsultātum (1): to leap up together, rejoice together 
 consequor, consequī, consecūtus sum, x (3): to obtain, reach, accompany, follow
 currō, currere, cucurrī, cursum (3): to run, hasten
+custōdiō, custōdīre, custōdīvī, custōdītum (4): to guard, protect, defend
 dēficiō, dēficere, dēfēcī, dēfectum (3); fail, exhaust, finish, die
 dēmōnstrō, dēmōnstrāre, dēmōnstrāvī, dēmōnstrātum (1); to show, demonstrate
 dēscendō, dēscendere, dēscenduī, dēscensum (3): to descend, climb down
+dēsinō, dēsinere, dēsīvī, dēsitum (3): to cease, end, leave off
 dīcō, dīcere, dīxī, dictum (3): to say, speak, declare
 discō, discere, didicī, discitum (3): to learn
 doceō, docēre, docuī, doctum (2): to teach, instruct
+ējiciō, ējicere, ējēcī, ējectum (3): to cast out, expell, eject
+ēripiō, ēripere, ēripuī, ēreptum (3): to rescue, deliver, snatch away, take by force
+ēruō, ēruere, ēruīvī, ērutum (3): to cast out, pluck out
 excellō, excellere, excelluī, excelsum (3): to elevate, raise up, exult
-exsultō, exsultāre, exsultāvī, exsultātum (1): to leap up, rejoice, revel
+extinguō, extinguere, extīnxī, extīnctum (3): to extinguish, quench, put out 
+exultō, exultāre, exultāvī, exultātum (1): to leap up, rejoice, revel
 famulor, famulārī, famulātus sum, x (1): to be a servant, to serve (with dative)
 festīnō, festīnāre, festīnāvī, festīnātum (1): to hasten, make haste, hurry
 gaudeō, gaudēre, gāvīsus sum, x (2): (semi-deponent) to rejoice
@@ -130,8 +156,10 @@ germinō, germināre, germināvī, germinātum (1): to sprout, bud, grow
 gestō, gestāre, gestāvī, gestātum (1): to bear, carry, hold
 incorporō, incorporāre, incorporāvī, incorporātum (1): to embody
 induō, induere, induī, indūtum (3): to put on, clothe
+initiō, initiāre, initiāvī, initiātum (1): to begin, originate, initiate, consecrate
 inquiō, inquīre, inquīvī, inquītum (4): to say
 intellegō, intellegere, intellēxī, intellēctum (3): to understand, comprehend, perceive, discern
+irrīdeō, irrīdēre, irrīsī, irrīsum (3): to laugh at, to ridicule, joke, make a laughing stock of
 lāmentō, lāmentāre, lāmentāvī, lāmentātum (1): to lament, bewail
 laudō, laudāre, laudāvī, laudātum (1): to praise, laud, extol
 laetor, laetārī, laetātus sum, x (1): to rejoice, feel joy, be glad
@@ -140,21 +168,30 @@ mittō, mittere, mīsī, missum (3): to send, dispatch
 ministrō, ministrāre, ministrāvī, ministrātum (1): to minister, attend, manage
 metō, metere, messuī, messum (3): to reap, harvest
 nāscor, nāscī, nātus sum, x (3): to be born 
+nesciō, nescīre, nescīvī, nescītum (4): to not know, be ignorant, not understand
 nōscō, nōscere, nōvī, nōtum (3): to learn, to become knowledgeable of
 nūdō, nūdāre, nūdāvī, nūdātum (1): to strip, make naked
+occidō, occidere, occidī, occisum (3): to fall, go down, set
 obumbrō, obumbrāre, obumbrāvī, obumbrātum (1): to overshadow, obscure
+ostendō, ostendere, ostendī, ostentum (3): to show, reveal, make known
+orior, orīrī, ortus sum, x (3): to rise, get up
 pāscō, pāscere, pāvī, pāstum (1): to feed, nourish
 pavēscō, pavēscere, x, x (3): to become alarmed, become afraid
+perficiō, perficere, perfēcī, perfectum (3): to finish, complete, perfect
 portō, portāre, portāvī, portātum (1): to carry, bear, bring
-praeparō, praeparāre, praeparāvī, praeparātum (1): to prepare
 possum, posse, potuī (irregular): to be able to
+praedicō, praedicāre, praedicāvī, praedicātum (1): to proclaim, announce
+praeparō, praeparāre, praeparāvī, praeparātum (1): to prepare
+psallō, psallere, psalsī, x (3): to chant, sing, give praise, sing psalms
 pullulō, pullulāre, pullulāvī, pullulātum (1): to bring forth young
 quaerō, quaerere, quaesīvī, quaesītum (3): to seek, search, look for, strive for 
 redimō, redimere, redēmī, redēmptum (3): to redeem, buy back, rescue
 renovō, renovāre, renovāvī, renovātum (1): to renew, restore, revive
+revertor, revertī, reversus sum, x (3): to return, turn back
 sapiō, sapere, sapīvī, x (3): to discern, taste, know
 scrūtor, scrūtārī, scrūtātus sum (1): to search carefully, seek for
 sequor, sequī, secūtus sum, x (3): to follow after, go after, pursue
+sinō, sinere, sīvī, situm (3): to let, permit, allow
 splendeō, splendēre, splenduī, x (2): to shine, glisten, be bright
 sponsō, sponsāre, sponsāvī, sponsātum (1): to betroth, marry
 stō, stāre, stetī, statum (1): to stand
@@ -164,6 +201,7 @@ videō, vidēre, vīdī, vīsum (2): to see, look at, perceive
 # Adjectives
 acceptābilis, acceptābile: acceptable
 altus, alta, altum: high, tall
+barbarus, barbara, barbarum: foreign, barbaric
 benedictus, benedicta, benedictum: blessed
 bonus, bona, bonum: good, right
 caelestis, caeleste: heavenly, celestial
@@ -186,6 +224,7 @@ impollūtus, impollūta, impollūtum: unstained, unpolluted
 inaccessibilis, inaccessibile: unapproachable, inaccessible
 incorporeus, incorpora, incorporum: incorporeal
 inexpugnābilis, inexpugnābile: impregnable, unconquerable
+inhūmānus, inhūmāna, inhūmānum: inhuman, inhumane
 innūptus, innūpta, innūptum: unmarried
 inspōnsātus, inspōnsāta, inspōnsātum: unwedded, unbetrothed; see sponsō
 intacibilis, intacibile: not silent
@@ -194,6 +233,7 @@ invīsibilis, invīsibile: invisible, unseeable
 lāpsus, lāpsa, lāpsum: perfect active participle lābor; fallen
 mīrābilis, mīrābile: wonderful, miraculous, glorious
 mortālis, mortāle: mortal
+omnis, omne: every, all
 portāns: present participle of portō: carrying, bearing
 possibilis, possibile: possible, that may exist
 ratiōnābilis, ratiōnābile: rational, reasonable
