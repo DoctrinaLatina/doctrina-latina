@@ -24,6 +24,7 @@ Chrīstus, Chrīstī (2, M): Jesus Christ, the Annointed One
 cīvitās, cīvitātis (3, F): city, state, citizenship
 cōgitātiō, cōgitātiōnis (3, F): thought, thinking, reasoning
 cognitiō, cognitiōnis (3, F): learning, cognition
+columna, columnae (1, F): column, pillar
 conceptiō, conceptiōnis (3, F): conception, idea, notion
 consilium, consiliī (2, N): plan, purpose, council
 cōpia, cōpiae (1, F): abundance, wealth, fulness
@@ -32,11 +33,13 @@ daemon, daemonis (3, M): a demon
 daemonium, daemoniī (2, N): a lesser demon
 deus, deī (2, M): god
 dogma, dogmātis (3, N): dogma, doctrine
+dolus, dolī (2, M): deception, trickery
 dūx, dūcis (3, M/F): leader, commander, guide
 ēsca, ēscae (1, F): food
 ērēctiō, ērēctiōnis (3, F): building up, uplifting
 error, errōris (3, M): error, mistake, going astray
 falsitās, falsitātis (3, F): falsehood, fraud, deceit
+Faraō, Faraōnis (3, M): Pharaoh
 fidēs, fideī (5, F): faith
 fīdūcia, fīdūciae (1, F); trust, confidence, boldness
 fīlius, fīliī (2, M): son
@@ -52,6 +55,7 @@ grātia, grātiae (1, F): grace, thankfulness, thanks
 Hērōdēs, Hērōdis (3, M): Herod
 homō, hominis (3, M): man
 lūx, lūcis (3, F): light
+īdōlum, īdōlī (2, N): idol
 ignis, ignis (3, M): fire
 illūminātiō, illūminātiōnis (3, F): illumination, glory
 imperātor, imperātōris (3, M): commander, ruler
@@ -61,21 +65,28 @@ infans, infantis (3, M/F): infant
 infernus, infernī (2, M): the underworld, Hades
 initiātrīx, initiātrīcis (3, F): female initiator
 intercessiō, intercessiōnis (3, F): intervention, intercession
+lac, lactis (3, N): milk
 lacrima, lacrimae (1, F): tear drop
 laetitia, laetitiae (1, F): joy, gladness
 lampas, lampadis (3, F): lantern, torch
 lucerna, lucernae (1, F): lamp
 magistrāta, magistrātae (1, F): female commander, captain
 maledictiō, maledictiōnis (3, F): curse, evil speech, condemnation, slander
+manna, mannae (2, F): food given to the Israelites while in the desert from heaven
 manus, manūs (4, F): hand
+mare, maris (3, N): sea, ocean
 martir, martiris (3, M/F): martyr
 māter, mātris (3, F): mother
+mel, mellis (3, N): honey
 mens, mentis (3, F): mind, intellect, reasoning
 mensa, mensae (1, F): table
 miserātiō, miserātiōnis (3, F): pity, compassion
+ministra, ministrae (1, F): female minister, attendant
+mundus, mundī (2, M): world, earth
 mūnus, mūneris (3, N): service, gift
 nēmō, nēminis (3, M/F): (singular only) no one, nobody
 nōtitia, nōtitiae (1, F): knowledge
+*nūbis, nūbis (3, F): cloud
 oculus, oculī (2, M): eye
 opus, operis (3, N): work, labor
 orbis, orbis (3, M): circle, orb, the world, Earth
@@ -86,6 +97,7 @@ paradīsus, paradīsī (2, M): paradise, orchard
 pāstor, pāstōris (3, M): shepherd
 possessiō, possessiōnis (3, F): the act of possession
 perīculum, perīculī (2, N): trial, hazard, danger
+petra, petrae (1, F): rock
 plantātor, plantātōris (3, M): planter, sower, settler
 plasmātor, plasmātōris (3, M): a former, fashioner, creator
 portus, portūs (4, M): harbor, port, refuge
@@ -120,7 +132,9 @@ stella, stellae (1, F): star
 sōl, sōlis (3, M): sun
 spīritus, spīritūs (4, M): spirit, breath, breeze
 stella, stellae (1, F): star
+tegumentum, tegumentī (2, N): covering, armour
 tenebra, tenebrae (1, F): ignorance, (in plural) darkness
+terra, terrae (1, F): earth, land, ground
 tirannus, tirannī (2, M): tyrant
 Trīnitās, Trīnitātis (3, F): the Trinity
 ultiō, ultiōnis (3, F): vengence, revenge
@@ -142,6 +156,7 @@ accurrō accurrere, accucurrī, accursum (3): to run, hasten, charge, rush
 adōrō, adōrāre, adōrāvī, adōrātum (1): to adore, honor, revere, worship, entreat, beseech
 advertō, advertere, advertuī, adversum (3): to turn towards, call attention
 agricolor, agricolārī, agricolātus sum, x (1): to cultivate land, farm
+arguō, arguere, *argūvī, argūtum (3): to make clear, expose, accuse
 audiō, audīre, audīvī, audītum (4): to hear, listen
 clāmō, clāmāre, clāmāvī, clāmātum (1): to cry out, call out, shout
 coexsultō, coexsultāre, coexsultāvī, coexsultātum (1): to leap up together, rejoice together 
@@ -159,7 +174,7 @@ discō, discere, didicī, discitum (3): to learn
 doceō, docēre, docuī, doctum (2): to teach, instruct
 ējiciō, ējicere, ējēcī, ējectum (3): to cast out, expell, eject
 ēripiō, ēripere, ēripuī, ēreptum (3): to rescue, deliver, snatch away, take by force
-*ēruō, ēruere, ērūxī, ērūxum (3): to cast out, pluck out
+ēruō, ēruere, *ērūxī, *ērūxum (3): to cast out, pluck out
 excellō, excellere, excelluī, excelsum (3): to elevate, raise up, exult
 exclāmō, exclāmāre, exclāmāvī, exclāmātum (1): to cry out, exclaim
 extinguō, extinguere, extīnxī, extīnctum (3): to extinguish, quench, put out 
@@ -167,6 +182,7 @@ exultō, exultāre, exultāvī, exultātum (1): to leap up, rejoice, revel
 famulor, famulārī, famulātus sum, x (1): to be a servant, to serve (with dative)
 ferō, ferre, tulī, lātum (3, irregular): to bear, carry, support, endure, suffer
 festīnō, festīnāre, festīnāvī, festīnātum (1): to hasten, make haste, hurry
+fluō, fluere, flūxī, flūxum (3): to flow, pour
 gaudeō, gaudēre, gāvīsus sum, x (2): (semi-deponent) to rejoice
 generō, generāre, generāvī, generātum (1): to bring to life, beget, generate, produce
 germinō, germināre, germināvī, germinātum (1): to sprout, bud, grow
@@ -183,6 +199,7 @@ laetor, laetārī, laetātus sum, x (1): to rejoice, feel joy, be glad
 līberō, līberāre, līberāvī, līberātum (1): to set free, liberate, deliver
 mittō, mittere, mīsī, missum (3): to send, dispatch
 ministrō, ministrāre, ministrāvī, ministrātum (1): to minister, attend, manage
+mergō, mergere, mersī, mersum (3): to plunge into water, immerse, drown
 metō, metere, messuī, messum (3): to reap, harvest
 nāscor, nāscī, nātus sum, x (3): to be born 
 nesciō, nescīre, nescīvī, nescītum (4): to not know, be ignorant, not understand
@@ -199,19 +216,21 @@ portō, portāre, portāvī, portātum (1): to carry, bear, bring
 possum, posse, potuī (irregular): to be able to
 praedicō, praedicāre, praedicāvī, praedicātum (1): to proclaim, announce
 praeparō, praeparāre, praeparāvī, praeparātum (1): to prepare
-*psallō, psallere, psalsī, x (3): to chant, sing, give praise, sing psalms
+psallō, psallere, *psalsī, x (3): to chant, sing, give praise, sing psalms
 pullulō, pullulāre, pullulāvī, pullulātum (1): to bring forth young
 quaerō, quaerere, quaesīvī, quaesītum (3): to seek, search, look for, strive for 
 redimō, redimere, redēmī, redēmptum (3): to redeem, buy back, rescue
 renovō, renovāre, renovāvī, renovātum (1): to renew, restore, revive
 revertor, revertī, reversus sum, x (3): to return, turn back
 sapiō, sapere, sapīvī, x (3): to discern, taste, know
+saturō, saturāre, saturāvī, saturātum (1): to satisfy, sate hunger or thirst
 scrūtor, scrūtārī, scrūtātus sum (1): to search carefully, seek for
 sequor, sequī, secūtus sum, x (3): to follow after, go after, pursue
 sinō, sinere, sīvī, situm (3): to let, permit, allow
 splendeō, splendēre, splenduī, x (2): to shine, glisten, be bright
 sponsō, sponsāre, sponsāvī, sponsātum (1): to betroth, marry
 stō, stāre, stetī, statum (1): to stand
+succēdō, succēdere, successī, successum (3): to go up, follow, succeed
 suspicor, suspicārī, suspicātus sum, x (1): to mistrust, suspect
 videō, vidēre, vīdī, vīsum (2): to see, look at, perceive
 
@@ -233,6 +252,7 @@ fidēlis, fidēle: faithful
 firmus, firma, firmum: firm
 frūctifer, frūctifera, frūctiferum: fruitful, bearing fruit
 hūmānus, hūmāna, hūmānum: human, humane
+igneus, ignea, igneum: fiery, burning
 ignōtus, ignōta, ignōtum: unknown, strange, unacquainted with
 immarcēscibilis, immarcēscibile: unfading
 immaculātus, immaculāta, immaculātum: unstained
