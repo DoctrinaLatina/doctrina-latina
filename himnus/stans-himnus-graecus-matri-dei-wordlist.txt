@@ -20,6 +20,7 @@ Caldaeus, Caldaeī (2, M): a Chaldean
 camīnus, camīni (2, M): fireplace, furnace
 canticum, canticī (2, N): song, canticle
 capitulum, capitulī (2, N): head-like object or structure
+captīvus, captīvī (2, M): captive, prisoner
 castitās, castitātis (3, F): purity, chastity
 Chrīstus, Chrīstī (2, M): Jesus Christ, the Annointed One
 cīvitās, cīvitātis (3, F): city, state, citizenship
@@ -222,12 +223,14 @@ nāscor, nāscī, nātus sum, x (3): to be born
 nesciō, nescīre, nescīvī, nescītum (4): to not know, be ignorant, not understand
 nōscō, nōscere, nōvī, nōtum (3): to learn, to become knowledgeable of
 nūdō, nūdāre, nūdāvī, nūdātum (1): to strip, make naked
+nūtriō, nūtrīre, nūtrīvī, nūtrītum (4): to nourish, feed, nurse
 occidō, occidere, occidī, occisum (3): to fall, go down, set
 obumbrō, obumbrāre, obumbrāvī, obumbrātum (1): to overshadow, obscure
 obstupēscō, obstupēscere, obstupuī, x (3): to be amazed, stupified
 ostendō, ostendere, ostendī, ostentum (3): to show, reveal, make known
 orior, orīrī, ortus sum, x (3): to rise, get up
 ostendō, ostendere, *ostetendī, ostentum (3): to expose, show, reveal
+pariō, parere, peperī, partum (3): to bear, give birth to
 pāscō, pāscere, pāvī, pāstum (1): to feed, nourish
 pavēscō, pavēscere, x, x (3): to become alarmed, become afraid
 perficiō, perficere, perfēcī, perfectum (3): to finish, complete, perfect
@@ -253,6 +256,7 @@ sponsō, sponsāre, sponsāvī, sponsātum (1): to betroth, marry
 stō, stāre, stetī, statum (1): to stand
 succēdō, succēdere, successī, successum (3): to go up, follow, succeed
 suspicor, suspicārī, suspicātus sum, x (1): to mistrust, suspect
+tegō, tegere, tēxī, tēctum (3): to cover, clothe, conceal, protect
 videō, vidēre, vīdī, vīsum (2): to see, look at, perceive
 
 # Adjectives
@@ -298,9 +302,11 @@ portāns: present participle of portō: carrying, bearing
 possibilis, possibile: possible, that may exist
 ratiōnābilis, ratiōnābile: rational, reasonable
 sanctus, sancta, sanctum: holy
+splendidus, splendida, splendidum: splendid, bright, glittering
 tālis, tāle: such, distinguished
 terrēnus, terrēna, terrēnum: earthly, terrestrial
 terrestris, terrestre: pertaining to the earth
+umbrōsus, umbrōsa, umbrōsum: shady, shadowy
 
 # Adverbs
 fīdūciāliter: confidently, boldly
