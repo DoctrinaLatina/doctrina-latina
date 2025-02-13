@@ -13,6 +13,7 @@ anima, animae (1, F): soul, spirit, breath
 apostolus, apostolī (2, M): apostle
 apertiō, apertiōnis (3, F): opening, unfolding
 arvum, arvī (2, N): field
+audītiō, audītiōnis (3, F): hearing, rumor, report
 aula, aulae (1, F): court, palace
 Babilōn, Babilōnis (3, F): Babylon
 bēstia, bēstiae (1, F): beast
@@ -41,8 +42,10 @@ daemonium, daemoniī (2, N): a lesser demon
 dēbitum, dēbitī (2, N): debt, obligation
 dēlictum, dēlictī (2, N): crime, fault, offense
 deus, deī (2, M): god
+dispēnsātiō, dispēnsātiōnis (3, F): dispensation, management, stewardship
 dogma, dogmātis (3, N): dogma, doctrine
 dolus, dolī (2, M): deception, trickery
+domus, domūs (4, F): home, dwelling
 ductor, ductōris (3, M): leader, guide
 dūx, dūcis (3, M/F): leader, commander, guide
 ēsca, ēscae (1, F): food
@@ -85,6 +88,7 @@ lac, lactis (3, N): milk
 lacrima, lacrimae (1, F): tear drop
 laetitia, laetitiae (1, F): joy, gladness
 lampas, lampadis (3, F): lantern, torch
+līmen, līminis (3, N): threshold, entry, doorstep
 lucerna, lucernae (1, F): lamp
 magistrāta, magistrātae (1, F): female commander, captain
 maledictiō, maledictiōnis (3, F): curse, evil speech, condemnation, slander
@@ -97,6 +101,7 @@ mel, mellis (3, N): honey
 mens, mentis (3, F): mind, intellect, reasoning
 mensa, mensae (1, F): table
 miserātiō, miserātiōnis (3, F): pity, compassion
+mistērium, mistēriī (2, N): mystery, secret
 ministra, ministrae (1, F): female minister, attendant
 mundus, mundī (2, M): world, earth
 mūnus, mūneris (3, N): service, gift
@@ -131,6 +136,7 @@ prūdentia, prūdentiae (1, F): knowledge, sagacity, prudence
 pudīcitia, pudīcitiae (1, F): chastity, modisty
 puer, puerī (2, M): son
 redēmptiō, redēmptiōnis (3, F): redemption
+regiō, regiōnis (3, F): region, country land, boundary
 religiō, religiōnis (3, F): religion, devotion, reverence
 rēx, rēgis (3, M): king
 timor, timōris (3, M): fear, dread
@@ -157,6 +163,7 @@ tegumentum, tegumentī (2, N): covering, armour
 tenebra, tenebrae (1, F): ignorance, (in plural) darkness
 terra, terrae (1, F): earth, land, ground
 tirannus, tirannī (2, M): tyrant
+translātiō, translātiōnis (3, F): translation, transfer
 Trīnitās, Trīnitātis (3, F): the Trinity
 ultiō, ultiōnis (3, F): vengence, revenge
 uterus, uterī (2, M): womb
@@ -179,6 +186,7 @@ adōrō, adōrāre, adōrāvī, adōrātum (1): to adore, honor, revere, worship
 advertō, advertere, advertuī, adversum (3): to turn towards, call attention
 agricolor, agricolārī, agricolātus sum, x (1): to cultivate land, farm
 arguō, arguere, *argūvī, argūtum (3): to make clear, expose, accuse
+ascendō, ascendere, *ascenduī, ascensum (3): to ascend, mount
 attrahō, attrahere, attrāxī, attractum (3): to draw, pull, drag towards
 audiō, audīre, audīvī, audītum (4): to hear, listen
 clāmō, clāmāre, clāmāvī, clāmātum (1): to cry out, call out, shout
@@ -198,13 +206,16 @@ dīcō, dīcere, dīxī, dictum (3): to say, speak, declare
 discēdō, discēdere, discessī, discessum (3): to leave, depart, die
 discō, discere, didicī, discitum (3): to learn
 doceō, docēre, docuī, doctum (2): to teach, instruct
+dubitō, dubitāre, dubitāvī, dubitātum (1): to doubt
 ējiciō, ējicere, ējēcī, ējectum (3): to cast out, expell, eject
+ēligō, ēligere, ēlēgī, ēlēctum (3): to choose, pluck out, elect
 ēripiō, ēripere, ēripuī, ēreptum (3): to rescue, deliver, snatch away, take by force
 ēruō, ēruere, *ērūxī, *ērūxum (3): to cast out, pluck out
 excellō, excellere, excelluī, excelsum (3): to elevate, raise up, exult
 exclāmō, exclāmāre, exclāmāvī, exclāmātum (1): to cry out, exclaim
 extinguō, extinguere, extīnxī, extīnctum (3): to extinguish, quench, put out 
 exultō, exultāre, exultāvī, exultātum (1): to leap up, rejoice, revel
+faciō, facere, fēcī, factum (3, irregular): to do, make, produce
 famulor, famulārī, famulātus sum, x (1): to be a servant, to serve (with dative)
 ferō, ferre, tulī, lātum (3, irregular): to bear, carry, support, endure, suffer
 festīnō, festīnāre, festīnāvī, festīnātum (1): to hasten, make haste, hurry
@@ -267,6 +278,7 @@ succēdō, succēdere, successī, successum (3): to go up, follow, succeed
 suspicor, suspicārī, suspicātus sum, x (1): to mistrust, suspect
 tegō, tegere, tēxī, tēctum (3): to cover, clothe, conceal, protect
 trānspōnō, trānspōnere, trānsposuī, trānspositum (3): to transport over or across, place over
+veneror, venerārī, venerātus sum, x (1): to woship, venerate
 videō, vidēre, vīdī, vīsum (2): to see, look at, perceive
 volō, velle, voluī, volitūrus (irregular): to wish, desire
 
@@ -293,12 +305,16 @@ igneus, ignea, igneum: fiery, burning
 ignōtus, ignōta, ignōtum: unknown, strange, unacquainted with
 immarcēscibilis, immarcēscibile: unfading
 immaculātus, immaculāta, immaculātum: unstained
+immensus, immensa, immensum: immeasureable, boundless, immense
 immortālis, immortāle: immortal
 impollūtus, impollūta, impollūtum: unstained, unpolluted
 inaccessibilis, inaccessibile: unapproachable, inaccessible
+incircumscrīptus, circumscrīpta, circumscrīptum: uncircumscribed
 incorporeus, incorpora, incorporum: incorporeal
 incorruptus, incorrupta, incorruptum: incorrpupt
 inexpugnābilis, inexpugnābile: impregnable, unconquerable
+inferus, infera, inferum: low
+infidēlis, infidēle: unfaithful
 inhūmānus, inhūmāna, inhūmānum: inhuman, inhumane
 innūptus, innūpta, innūptum: unmarried
 inspōnsātus, inspōnsāta, inspōnsātum: unwedded, unbetrothed; see sponsō
@@ -306,6 +322,7 @@ intacibilis, intacibile: not silent
 invictus, invicta, invictum: unconquered, undefeated
 invīsibilis, invīsibile: invisible, unseeable
 lāpsus, lāpsa, lāpsum: perfect active participle lābor; fallen
+locālis, locāle: belonging to a place, local
 mīrābilis, mīrābile: wonderful, miraculous, glorious
 mortālis, mortāle: mortal
 novus, nova, novum: new
@@ -316,17 +333,22 @@ possibilis, possibile: possible, that may exist
 ratiōnābilis, ratiōnābile: rational, reasonable
 sanctus, sancta, sanctum: holy
 splendidus, splendida, splendidum: splendid, bright, glittering
+supernus, superna, supernum: upper, lofty, heavenly
 tālis, tāle: such, distinguished
 terrēnus, terrēna, terrēnum: earthly, terrestrial
 terrestris, terrestre: pertaining to the earth
+tōtus, tōta, tōtum: total, whole
 umbrōsus, umbrōsa, umbrōsum: shady, shadowy
 
 # Adverbs
 fidēliter: faithfully
 fīdūciāliter: confidently, boldly
+infrā: below
+nullō modō: in no way
 quōmodō: how, in what manner
 sīc: thus, so, in this way
 sīcut: as, just as, like
+suprā: above
 tamquam: just as, as much as, as if
 vēlōciter: quickly, swiftly
 
