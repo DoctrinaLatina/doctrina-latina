@@ -1,4 +1,5 @@
 # Nouns
+āctus, āctūs (4, M): act, deed
 abundantia, abundantiae (1, F): abundance
 adōrātiō, adōrātiōnis (3, F): adoration, worship
 Aegiptus, Aegiptī (2, M): Egypt
@@ -27,10 +28,12 @@ captīvus, captīvī (2, M): captive, prisoner
 castitās, castitātis (3, F): purity, chastity
 Chrīstus, Chrīstī (2, M): Jesus Christ, the Annointed One
 cīvitās, cīvitātis (3, F): city, state, citizenship
+clāvis, clāvis (3, F): key
 cōgitātiō, cōgitātiōnis (3, F): thought, thinking, reasoning
 cognitiō, cognitiōnis (3, F): learning, cognition
 columna, columnae (1, F): column, pillar
 conceptiō, conceptiōnis (3, F): conception, idea, notion
+concordia, concordiae (1, F): concord, unity, peace
 continentia, continentiae (1, F): chastity
 consilium, consiliī (2, N): plan, purpose, council
 cōpia, cōpiae (1, F): abundance, wealth, fulness
@@ -135,11 +138,13 @@ prōpugnātrīx, prōpugnātrīcis (3, F): female champion, defender
 prūdentia, prūdentiae (1, F): knowledge, sagacity, prudence
 pudīcitia, pudīcitiae (1, F): chastity, modisty
 puer, puerī (2, M): son
+puerperium, puerperiī (2, N): childbirth, delivery
 redēmptiō, redēmptiōnis (3, F): redemption
 regiō, regiōnis (3, F): region, country land, boundary
 religiō, religiōnis (3, F): religion, devotion, reverence
 rēx, rēgis (3, M): king
 timor, timōris (3, M): fear, dread
+rēgnum, rēgnī (2, N): kingdom, royal power
 ruīna, ruīnae (1, F): ruin, destruction
 saeculum, saeculī (2, N): age, era, generation
 salūs, salūtis (3, F): salvation, safety
@@ -152,6 +157,7 @@ sēmen, sēminis (3, N): seed
 servus, servī (2, M): servant
 sōl, sōlis (3, M): sun
 solium, soliī (2, N): seat, throne
+spēs, speī (5, F): hope, expectation
 splendor, splendōris (3, M): splendor, brightness, lustre
 sponsa, sponsae (1, F): bride
 stabilitiō, stabilitiōnis (3, F): support, stability
@@ -163,6 +169,7 @@ tegumentum, tegumentī (2, N): covering, armour
 tenebra, tenebrae (1, F): ignorance, (in plural) darkness
 terra, terrae (1, F): earth, land, ground
 tirannus, tirannī (2, M): tyrant
+transgressiō, transgressiōnis (3, F): transgression, violation
 translātiō, translātiōnis (3, F): translation, transfer
 Trīnitās, Trīnitātis (3, F): the Trinity
 ultiō, ultiōnis (3, F): vengence, revenge
@@ -170,6 +177,7 @@ uterus, uterī (2, M): womb
 venter, ventris (3, M): belly, womb
 vēritās, vēritātis (3, F): truth
 victōria, victōriae (1, F): victory
+virginitās, virginitātis (3, F): virginity, maidenhood.
 virgō, virginis (3, F): virgin, young maiden
 virtūs, virtūtin (3, F): manliness, virtue, power
 vīta, vītae (1, F): life
@@ -180,10 +188,12 @@ vōx, vōcis (1, F): voice
 vulnus, vulneris (1, N): wound
 
 # Verbs
+absolvō, absolvere, *absolūvī, absolūtum (3): to absolve, release, discharge 
 accipiō, accipere, accēpī, acceptum (3): to accept, receive
 accurrō accurrere, accucurrī, accursum (3): to run, hasten, charge, rush
 adōrō, adōrāre, adōrāvī, adōrātum (1): to adore, honor, revere, worship, entreat, beseech
 advertō, advertere, advertuī, adversum (3): to turn towards, call attention
+aperiō, aperīre, aperuī, apertum (4): to uncover, reveal
 agricolor, agricolārī, agricolātus sum, x (1): to cultivate land, farm
 arguō, arguere, *argūvī, argūtum (3): to make clear, expose, accuse
 ascendō, ascendere, *ascenduī, ascensum (3): to ascend, mount
@@ -191,7 +201,8 @@ attrahō, attrahere, attrāxī, attractum (3): to draw, pull, drag towards
 audiō, audīre, audīvī, audītum (4): to hear, listen
 clāmō, clāmāre, clāmāvī, clāmātum (1): to cry out, call out, shout
 coexsultō, coexsultāre, coexsultāvī, coexsultātum (1): to leap up together, rejoice together
-cognōscō, cognōscere, cognōvī, cognitum (3): to learn, get to know 
+cognōscō, cognōscere, cognōvī, cognitum (3): to learn, get to know
+commoror, commorārī, commorātus sum, x (1): to remain, stop, stay, linger
 conculcō, conculcāre, conculcāvī, conculcātum (1): to trample down, crush
 consequor, consequī, consecūtus sum, x (3): to obtain, reach, accompany, follow
 cōnservō, cōnservāre, cōnservāvī, cōnservātum (1): to conserve, preserve
@@ -230,6 +241,7 @@ initiō, initiāre, initiāvī, initiātum (1): to begin, originate, initiate, c
 inquiō, inquīre, inquīvī, inquītum (4): to say
 intellegō, intellegere, intellēxī, intellēctum (3): to understand, comprehend, perceive, discern
 irrīdeō, irrīdēre, irrīsī, irrīsum (3): to laugh at, to ridicule, joke, make a laughing stock of
+jungō, jungere, jūnxī, jūnctum (3): to join together, unite
 lāmentō, lāmentāre, lāmentāvī, lāmentātum (1): to lament, bewail
 laudō, laudāre, laudāvī, laudātum (1): to praise, laud, extol
 laetor, laetārī, laetātus sum, x (1): to rejoice, feel joy, be glad
@@ -239,7 +251,8 @@ mittō, mittere, mīsī, missum (3): to send, dispatch
 ministrō, ministrāre, ministrāvī, ministrātum (1): to minister, attend, manage
 mergō, mergere, mersī, mersum (3): to plunge into water, immerse, drown
 metō, metere, messuī, messum (3): to reap, harvest
-nāscor, nāscī, nātus sum, x (3): to be born 
+nātūra, nātūrae (1, F): nature, substance
+nāscor, nāscī, nātus sum, x (3): to be born
 nesciō, nescīre, nescīvī, nescītum (4): to not know, be ignorant, not understand
 nōscō, nōscere, nōvī, nōtum (3): to learn, to become knowledgeable of
 nūdō, nūdāre, nūdāvī, nūdātum (1): to strip, make naked
@@ -273,6 +286,7 @@ sequor, sequī, secūtus sum, x (3): to follow after, go after, pursue
 sinō, sinere, sīvī, situm (3): to let, permit, allow
 splendeō, splendēre, splenduī, x (2): to shine, glisten, be bright
 sponsō, sponsāre, sponsāvī, sponsātum (1): to betroth, marry
+stupeō, stupēre, stupuī, x (3): to be stunned, astounded, amazed
 stō, stāre, stetī, statum (1): to stand
 succēdō, succēdere, successī, successum (3): to go up, follow, succeed
 suspicor, suspicārī, suspicātus sum, x (1): to mistrust, suspect
@@ -283,7 +297,9 @@ videō, vidēre, vīdī, vīsum (2): to see, look at, perceive
 volō, velle, voluī, volitūrus (irregular): to wish, desire
 
 # Adjectives
+accessibilis, accessibile: approachable, accessible
 acceptābilis, acceptābile: acceptable
+aeternus, aeterna, aeternum: eternal, permanet
 altus, alta, altum: high, tall
 barbarus, barbara, barbarum: foreign, barbaric
 benedictus, benedicta, benedictum: blessed
@@ -291,6 +307,7 @@ bonus, bona, bonum: good, right
 caelestis, caeleste: heavenly, celestial
 carnālis, carnāle: fleshly, carnal
 castus, casta, castum: pure, chaste, holy
+contrārius, contrāria, contrārium: contrary, opposite, conflicting
 dīrus, dīra, dīrum: fearful, dreadful, horrible, cruel
 dīvīnus, dīvīna, dīvīnum: divine, of a diety, supernatural
 dubius, dubia, dubium: uncertain, doubting, wavering
