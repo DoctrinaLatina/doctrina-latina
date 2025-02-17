@@ -122,6 +122,7 @@ pāstor, pāstōris (3, M): shepherd
 possessiō, possessiōnis (3, F): the act of possession
 perīculum, perīculī (2, N): trial, hazard, danger
 petra, petrae (1, F): rock
+piscis, piscis (3, M): fish
 plantātor, plantātōris (3, M): planter, sower, settler
 plasmātor, plasmātōris (3, M): a former, fashioner, creator
 portus, portūs (4, M): harbor, port, refuge
@@ -145,6 +146,7 @@ religiō, religiōnis (3, F): religion, devotion, reverence
 rēx, rēgis (3, M): king
 timor, timōris (3, M): fear, dread
 rēgnum, rēgnī (2, N): kingdom, royal power
+rhētor, rhētoris (3, M): teacher of rhetoric, rhetorician
 ruīna, ruīnae (1, F): ruin, destruction
 saeculum, saeculī (2, N): age, era, generation
 salūs, salūtis (3, F): salvation, safety
@@ -188,9 +190,10 @@ vōx, vōcis (1, F): voice
 vulnus, vulneris (1, N): wound
 
 # Verbs
-absolvō, absolvere, *absolūvī, absolūtum (3): to absolve, release, discharge 
+absolvō, absolvere, *absolūvī, absolūtum (3): to absolve, release, discharge
 accipiō, accipere, accēpī, acceptum (3): to accept, receive
 accurrō accurrere, accucurrī, accursum (3): to run, hasten, charge, rush
+admīror, admīrārī, admīrātus sum, x (1): to admire, respect, regard with wonder
 adōrō, adōrāre, adōrāvī, adōrātum (1): to adore, honor, revere, worship, entreat, beseech
 advertō, advertere, advertuī, adversum (3): to turn towards, call attention
 aperiō, aperīre, aperuī, apertum (4): to uncover, reveal
@@ -246,6 +249,7 @@ lāmentō, lāmentāre, lāmentāvī, lāmentātum (1): to lament, bewail
 laudō, laudāre, laudāvī, laudātum (1): to praise, laud, extol
 laetor, laetārī, laetātus sum, x (1): to rejoice, feel joy, be glad
 līberō, līberāre, līberāvī, līberātum (1): to set free, liberate, deliver
+maneō, manēre, mānsī, mānsum (2): to stay, remain, (transitive) await for
 manifestō, manifestāre, manifestāvī, manifestātum (1): to make manifest, public
 mittō, mittere, mīsī, missum (3): to send, dispatch
 ministrō, ministrāre, ministrāvī, ministrātum (1): to minister, attend, manage
@@ -320,6 +324,7 @@ hūmānus, hūmāna, hūmānum: human, humane
 humilis, humile: lowly, small
 igneus, ignea, igneum: fiery, burning
 ignōtus, ignōta, ignōtum: unknown, strange, unacquainted with
+insonos, insona, insonum: soundless, silent
 immarcēscibilis, immarcēscibile: unfading
 immaculātus, immaculāta, immaculātum: unstained
 immensus, immensa, immensum: immeasureable, boundless, immense
@@ -342,6 +347,7 @@ lāpsus, lāpsa, lāpsum: perfect active participle lābor; fallen
 locālis, locāle: belonging to a place, local
 mīrābilis, mīrābile: wonderful, miraculous, glorious
 mortālis, mortāle: mortal
+multisonus, multisona, multisonum: loud sounding, many sounding
 novus, nova, novum: new
 nūdus, nūda, nūdum: naked
 omnis, omne: every, all
