@@ -34,6 +34,7 @@ cognitiō, cognitiōnis (3, F): learning, cognition
 columna, columnae (1, F): column, pillar
 conceptiō, conceptiōnis (3, F): conception, idea, notion
 concordia, concordiae (1, F): concord, unity, peace
+conquīsītor, conquīsītōris (3, M): someone who makes an inquiry, disputant
 continentia, continentiae (1, F): chastity
 consilium, consiliī (2, N): plan, purpose, council
 cōpia, cōpiae (1, F): abundance, wealth, fulness
@@ -55,12 +56,14 @@ dūx, dūcis (3, M/F): leader, commander, guide
 ērēctiō, ērēctiōnis (3, F): building up, uplifting
 error, errōris (3, M): error, mistake, going astray
 exōrātiō, exōrātiōnis (3, F): petition, prayer
+fābula, fābulae (1, F): fable, story
 falsitās, falsitātis (3, F): falsehood, fraud, deceit
 Faraō, Faraōnis (3, M): Pharaoh
 fidēs, fideī (5, F): faith
 fīdūcia, fīdūciae (1, F); trust, confidence, boldness
 figūra, figūrae (1, F): figure, shape 
-fīlius, fīliī (2, M): son 
+fīlius, fīliī (2, M): son
+filosofus, filosofī (2, M): philosopher
 flōs, flōris (3, M): flower
 forma, formae (1, F): form, shape
 frūctus, frūctūs (4, M): fruit
@@ -109,6 +112,7 @@ ministra, ministrae (1, F): female minister, attendant
 mundus, mundī (2, M): world, earth
 mūnus, mūneris (3, N): service, gift
 nēmō, nēminis (3, M/F): (singular only) no one, nobody
+nexus, nexūs (4, M): connection, binding
 nōtitia, nōtitiae (1, F): knowledge
 *nūbis, nūbis (3, F): cloud
 oculus, oculī (2, M): eye
@@ -123,6 +127,7 @@ possessiō, possessiōnis (3, F): the act of possession
 perīculum, perīculī (2, N): trial, hazard, danger
 petra, petrae (1, F): rock
 piscis, piscis (3, M): fish
+piscātor, piscātōris (3, M): fisherman
 plantātor, plantātōris (3, M): planter, sower, settler
 plasmātor, plasmātōris (3, M): a former, fashioner, creator
 portus, portūs (4, M): harbor, port, refuge
@@ -136,10 +141,12 @@ profētīa, profētīae (1, F): prophecy
 prōfunditās, prōfunditātis (3, F): depth, vastness
 propitiātiō, propitiātiōnis (3, F): appeasement, clemency, propitiation
 prōpugnātrīx, prōpugnātrīcis (3, F): female champion, defender
+prōvidentia, prōvidentiae (2, F): ability to see something in advance, providence
 prūdentia, prūdentiae (1, F): knowledge, sagacity, prudence
 pudīcitia, pudīcitiae (1, F): chastity, modisty
 puer, puerī (2, M): son
 puerperium, puerperiī (2, N): childbirth, delivery
+receptāculum, receptāculī (2, N): receptacle, container
 redēmptiō, redēmptiōnis (3, F): redemption
 regiō, regiōnis (3, F): region, country land, boundary
 religiō, religiōnis (3, F): religion, devotion, reverence
@@ -149,10 +156,13 @@ rēgnum, rēgnī (2, N): kingdom, royal power
 rhētor, rhētoris (3, M): teacher of rhetoric, rhetorician
 ruīna, ruīnae (1, F): ruin, destruction
 saeculum, saeculī (2, N): age, era, generation
+sagēna, sagēnae (1, F): large fishing net
 salūs, salūtis (3, F): salvation, safety
 salvātor, salvātōris (3, M): savior
 sapientia, sapientiae (1, F): wisdom
 scientia, scientiae (1, F): knowledge, learning
+scrīptor, scrīptōris (3, M): writer, author
+signum, signī (2, N): sign, seal
 Simeōn, Simeōnis (3, M): Simeon
 simulācrum, simulācrī (2, N): image, likeness, idol, effigy
 sēmen, sēminis (3, N): seed
@@ -219,6 +229,7 @@ dēsinō, dēsinere, dēsīvī, dēsitum (3): to cease, end, leave off
 dīcō, dīcere, dīxī, dictum (3): to say, speak, declare
 discēdō, discēdere, discessī, discessum (3): to leave, depart, die
 discō, discere, didicī, discitum (3): to learn
+dīvellō, dīvellere, dīvulsī, dīvulsum: to rend, tear apart, remove
 doceō, docēre, docuī, doctum (2): to teach, instruct
 dubitō, dubitāre, dubitāvī, dubitātum (1): to doubt
 ējiciō, ējicere, ējēcī, ējectum (3): to cast out, expell, eject
@@ -264,7 +275,6 @@ nūtriō, nūtrīre, nūtrīvī, nūtrītum (4): to nourish, feed, nurse
 occidō, occidere, occidī, occisum (3): to fall, go down, set
 obumbrō, obumbrāre, obumbrāvī, obumbrātum (1): to overshadow, obscure
 obstupēscō, obstupēscere, obstupuī, x (3): to be amazed, stupified
-ostendō, ostendere, ostendī, ostentum (3): to show, reveal, make known
 orior, orīrī, ortus sum, x (3): to rise, get up
 ostendō, ostendere, *ostetendī, ostentum (3): to expose, show, reveal
 pariō, parere, peperī, partum (3): to bear, give birth to
@@ -282,6 +292,7 @@ quaerō, quaerere, quaesīvī, quaesītum (3): to seek, search, look for, strive
 redimō, redimere, redēmī, redēmptum (3): to redeem, buy back, rescue
 reddō, reddere, reddidī, redditum (3): to give back, return, restore, pay back
 renovō, renovāre, renovāvī, renovātum (1): to renew, restore, revive
+repleō, replēre, replēvī, replētum (2): to refill, replenish, satisfy
 revertor, revertī, reversus sum, x (3): to return, turn back
 sapiō, sapere, sapīvī, x (3): to discern, taste, know
 saturō, saturāre, saturāvī, saturātum (1): to satisfy, sate hunger or thirst
@@ -305,6 +316,7 @@ accessibilis, accessibile: approachable, accessible
 acceptābilis, acceptābile: acceptable
 aeternus, aeterna, aeternum: eternal, permanet
 altus, alta, altum: high, tall
+Atēniensis, Atēniense: Athenian
 barbarus, barbara, barbarum: foreign, barbaric
 benedictus, benedicta, benedictum: blessed
 bonus, bona, bonum: good, right
@@ -343,6 +355,7 @@ inspōnsātus, inspōnsāta, inspōnsātum: unwedded, unbetrothed; see sponsō
 intacibilis, intacibile: not silent
 invictus, invicta, invictum: unconquered, undefeated
 invīsibilis, invīsibile: invisible, unseeable
+irratiōnālis, irratiōnāle: not capbable of exercising reason, irrational 
 lāpsus, lāpsa, lāpsum: perfect active participle lābor; fallen
 locālis, locāle: belonging to a place, local
 mīrābilis, mīrābile: wonderful, miraculous, glorious
@@ -356,6 +369,7 @@ possibilis, possibile: possible, that may exist
 ratiōnābilis, ratiōnābile: rational, reasonable
 sanctus, sancta, sanctum: holy
 splendidus, splendida, splendidum: splendid, bright, glittering
+stultus, stulta, stultum: stupid, foolish
 supernus, superna, supernum: upper, lofty, heavenly
 tālis, tāle: such, distinguished
 terrēnus, terrēna, terrēnum: earthly, terrestrial
