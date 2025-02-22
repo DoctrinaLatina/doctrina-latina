@@ -76,6 +76,7 @@ glōria, glōriae (1, F): glory, honor
 grātia, grātiae (1, F): grace, thankfulness, thanks
 Hērōdēs, Hērōdis (3, M): Herod
 homō, hominis (3, M): man
+ignōrantia, ignōrantiae (1, F): ignorance
 lūx, lūcis (3, F): light
 īdōlum, īdōlī (2, N): idol
 ignis, ignis (3, M): fire
@@ -111,6 +112,7 @@ mistērium, mistēriī (2, N): mystery, secret
 ministra, ministrae (1, F): female minister, attendant
 mundus, mundī (2, M): world, earth
 mūnus, mūneris (3, N): service, gift
+nauta, nautae (1, M): seafarer, sailor
 nēmō, nēminis (3, M/F): (singular only) no one, nobody
 nexus, nexūs (4, M): connection, binding
 nōtitia, nōtitiae (1, F): knowledge
@@ -118,6 +120,7 @@ nōtitia, nōtitiae (1, F): knowledge
 oculus, oculī (2, M): eye
 opus, operis (3, N): work, labor
 orbis, orbis (3, M): circle, orb, the world, Earth
+ōrnātor, ōrnātōris (3, M): fashioner, adorner
 ōs, ōris (3, N): mouth
 ōstium, ōstiī (2, N): door, gate, entrance
 ovis, ovis (3, F): sheep
@@ -138,8 +141,8 @@ prīmitia, prīmitiae (1, F): (chiefly in plural) first fruits
 prīnceps, prīncipis (3, M): prince, leader
 prīncipātus, prīncipātūs (4, M): rule, dominion, principality
 profētīa, profētīae (1, F): prophecy
-prōfunditās, prōfunditātis (3, F): depth, vastness
-propitiātiō, propitiātiōnis (3, F): appeasement, clemency, propitiation
+*prōfunditās, *prōfunditātis (3, F): depth, vastness
+*prōpitiātiō, *prōpitiātiōnis (3, F): appeasement, clemency, propitiation
 prōpugnātrīx, prōpugnātrīcis (3, F): female champion, defender
 prōvidentia, prōvidentiae (2, F): ability to see something in advance, providence
 prūdentia, prūdentiae (1, F): knowledge, sagacity, prudence
@@ -208,6 +211,7 @@ adōrō, adōrāre, adōrāvī, adōrātum (1): to adore, honor, revere, worship
 advertō, advertere, advertuī, adversum (3): to turn towards, call attention
 aperiō, aperīre, aperuī, apertum (4): to uncover, reveal
 agricolor, agricolārī, agricolātus sum, x (1): to cultivate land, farm
+appāreō, appārēre, appāruī, appāritum (2): to appear, be visible
 arguō, arguere, *argūvī, argūtum (3): to make clear, expose, accuse
 ascendō, ascendere, *ascenduī, ascensum (3): to ascend, mount
 attrahō, attrahere, attrāxī, attractum (3): to draw, pull, drag towards
@@ -238,7 +242,8 @@ dubitō, dubitāre, dubitāvī, dubitātum (1): to doubt
 ēruō, ēruere, *ērūxī, *ērūxum (3): to cast out, pluck out
 excellō, excellere, excelluī, excelsum (3): to elevate, raise up, exult
 exclāmō, exclāmāre, exclāmāvī, exclāmātum (1): to cry out, exclaim
-extinguō, extinguere, extīnxī, extīnctum (3): to extinguish, quench, put out 
+extinguō, extinguere, extīnxī, extīnctum (3): to extinguish, quench, put out
+extrahō, extrahere, extrāxī, extractum (3): to extract, pull or draw out from, remove
 exultō, exultāre, exultāvī, exultātum (1): to leap up, rejoice, revel
 faciō, facere, fēcī, factum (3, irregular): to do, make, produce
 famulor, famulārī, famulātus sum, x (1): to be a servant, to serve (with dative)
@@ -249,6 +254,7 @@ gaudeō, gaudēre, gāvīsus sum, x (2): (semi-deponent) to rejoice
 generō, generāre, generāvī, generātum (1): to bring to life, beget, generate, produce
 germinō, germināre, germināvī, germinātum (1): to sprout, bud, grow
 gestō, gestāre, gestāvī, gestātum (1): to bear, carry, hold
+illūminō, illūmināre, illūmināvī, illūminātum (1): to illumine, enlighten
 incorporō, incorporāre, incorporāvī, incorporātum (1): to embody
 induō, induere, induī, indūtum (3): to put on, clothe
 initiō, initiāre, initiāvī, initiātum (1): to begin, originate, initiate, consecrate
@@ -285,6 +291,7 @@ portō, portāre, portāvī, portātum (1): to carry, bear, bring
 possum, posse, potuī (irregular): to be able to
 praedicō, praedicāre, praedicāvī, praedicātum (1): to proclaim, announce
 praeparō, praeparāre, praeparāvī, praeparātum (1): to prepare
+praenūntiō, praenūntiāre, praenūntiāvī, praenūntiatum: to announce, foretell
 praesum, praeesse, praefuī, praefutūrus (irregular): to be before, preside
 psallō, psallere, *psalsī, x (3): to chant, sing, give praise, sing psalms
 pullulō, pullulāre, pullulāvī, pullulātum (1): to bring forth young
@@ -295,6 +302,7 @@ renovō, renovāre, renovāvī, renovātum (1): to renew, restore, revive
 repleō, replēre, replēvī, replētum (2): to refill, replenish, satisfy
 revertor, revertī, reversus sum, x (3): to return, turn back
 sapiō, sapere, sapīvī, x (3): to discern, taste, know
+salvō, salvāre, salvāvī, salvātum (1): to save
 saturō, saturāre, saturāvī, saturātum (1): to satisfy, sate hunger or thirst
 scrūtor, scrūtārī, scrūtātus sum (1): to search carefully, seek for
 sequor, sequī, secūtus sum, x (3): to follow after, go after, pursue
@@ -368,6 +376,7 @@ peregrīnus, peregrīna, peregrīnum: foreign, exotic
 possibilis, possibile: possible, that may exist
 ratiōnābilis, ratiōnābile: rational, reasonable
 sanctus, sancta, sanctum: holy
+similis, similis: similar
 splendidus, splendida, splendidum: splendid, bright, glittering
 stultus, stulta, stultum: stupid, foolish
 supernus, superna, supernum: upper, lofty, heavenly
