@@ -17,6 +17,7 @@ arvum, arvī (2, N): field
 audītiō, audītiōnis (3, F): hearing, rumor, report
 aula, aulae (1, F): court, palace
 Babilōn, Babilōnis (3, F): Babylon
+benignitās, benignitātis (3, F): kindness, friendliness
 bēstia, bēstiae (1, F): beast
 bracchium, bracchiī (2, N): arm
 caelum, caelī (2, N): heaven, sky
@@ -39,6 +40,7 @@ continentia, continentiae (1, F): chastity
 consilium, consiliī (2, N): plan, purpose, council
 cōpia, cōpiae (1, F): abundance, wealth, fulness
 corōna, corōnae (1, F): crown
+corruptor, corruptōris (3, M): corruptor, seducer
 creātor, creātōris (3, M): creator, author, founder
 creātūra, creātūrae (1, F): a created thing, creation
 daemon, daemonis (3, M): a demon
@@ -117,6 +119,8 @@ nēmō, nēminis (3, M/F): (singular only) no one, nobody
 nexus, nexūs (4, M): connection, binding
 nōtitia, nōtitiae (1, F): knowledge
 *nūbis, nūbis (3, F): cloud
+nūptiae, nūptiārum (2, M): (plural only) marriage
+nūtrix, nūtrīcis (3, F): a child's nurse, that which provides nutrition 
 oculus, oculī (2, M): eye
 opus, operis (3, N): work, labor
 orbis, orbis (3, M): circle, orb, the world, Earth
@@ -132,13 +136,14 @@ petra, petrae (1, F): rock
 piscis, piscis (3, M): fish
 piscātor, piscātōris (3, M): fisherman
 plantātor, plantātōris (3, M): planter, sower, settler
+plasmātiō, plasmātiōnis (3, F): formation, forming, fashioning
 plasmātor, plasmātōris (3, M): a former, fashioner, creator
 portus, portūs (4, M): harbor, port, refuge
 potentia, potentiae (1, F): power, ability
 praedicātor, praedicātōris (3, M): proclaimer, crier
 praesentia, praesentiae (1, F): presence, being present in time
 prīmitia, prīmitiae (1, F): (chiefly in plural) first fruits
-prīnceps, prīncipis (3, M): prince, leader
+prīnceps, prīncipis (3, M): leader, first, prince
 prīncipātus, prīncipātūs (4, M): rule, dominion, principality
 profētīa, profētīae (1, F): prophecy
 *prōfunditās, *prōfunditātis (3, F): depth, vastness
@@ -149,6 +154,7 @@ prūdentia, prūdentiae (1, F): knowledge, sagacity, prudence
 pudīcitia, pudīcitiae (1, F): chastity, modisty
 puer, puerī (2, M): son
 puerperium, puerperiī (2, N): childbirth, delivery
+ratiō, ratiōnis (3, F): reason, rationality
 receptāculum, receptāculī (2, N): receptacle, container
 redēmptiō, redēmptiōnis (3, F): redemption
 regiō, regiōnis (3, F): region, country land, boundary
@@ -169,6 +175,7 @@ signum, signī (2, N): sign, seal
 Simeōn, Simeōnis (3, M): Simeon
 simulācrum, simulācrī (2, N): image, likeness, idol, effigy
 sēmen, sēminis (3, N): seed
+sēminātor, sēminātōris (3, M): originator, producer, sower
 servus, servī (2, M): servant
 sōl, sōlis (3, M): sun
 solium, soliī (2, N): seat, throne
@@ -180,12 +187,14 @@ stella, stellae (1, F): star
 spīritus, spīritūs (4, M): spirit, breath, breeze
 stella, stellae (1, F): star
 stola, stolae (1, F): robe
+talamus, talamī (2, M): bridal chamber
 tegumentum, tegumentī (2, N): covering, armour
 tenebra, tenebrae (1, F): ignorance, (in plural) darkness
 terra, terrae (1, F): earth, land, ground
 tirannus, tirannī (2, M): tyrant
 transgressiō, transgressiōnis (3, F): transgression, violation
 translātiō, translātiōnis (3, F): translation, transfer
+tribūtrix, tribūtrīcis (3, F): (female) a giver, imparter 
 Trīnitās, Trīnitātis (3, F): the Trinity
 ultiō, ultiōnis (3, F): vengence, revenge
 uterus, uterī (2, M): womb
@@ -221,6 +230,8 @@ coexsultō, coexsultāre, coexsultāvī, coexsultātum (1): to leap up together,
 cognōscō, cognōscere, cognōvī, cognitum (3): to learn, get to know
 commoror, commorārī, commorātus sum, x (1): to remain, stop, stay, linger
 conculcō, conculcāre, conculcāvī, conculcātum (1): to trample down, crush
+condō, condere, condidī, conditum (3): to put together, form, fashion, establish
+conjungō, conjungere, conjunxī, conjunctum (3): to bind together, join
 consequor, consequī, consecūtus sum, x (3): to obtain, reach, accompany, follow
 cōnservō, cōnservāre, cōnservāvī, cōnservātum (1): to conserve, preserve
 *coruō, corruere, corrūxī, corrūxum (3): to fall down, collapse
@@ -254,6 +265,7 @@ gaudeō, gaudēre, gāvīsus sum, x (2): (semi-deponent) to rejoice
 generō, generāre, generāvī, generātum (1): to bring to life, beget, generate, produce
 germinō, germināre, germināvī, germinātum (1): to sprout, bud, grow
 gestō, gestāre, gestāvī, gestātum (1): to bear, carry, hold
+gignō, gignere, genuī, genitum (3): to bring forth, give birth to
 illūminō, illūmināre, illūmināvī, illūminātum (1): to illumine, enlighten
 incorporō, incorporāre, incorporāvī, incorporātum (1): to embody
 induō, induere, induī, indūtum (3): to put on, clothe
@@ -272,6 +284,7 @@ mittō, mittere, mīsī, missum (3): to send, dispatch
 ministrō, ministrāre, ministrāvī, ministrātum (1): to minister, attend, manage
 mergō, mergere, mersī, mersum (3): to plunge into water, immerse, drown
 metō, metere, messuī, messum (3): to reap, harvest
+mūrus, mūrī (2, M): wall, city wall, bulwark
 nātūra, nātūrae (1, F): nature, substance
 nāscor, nāscī, nātus sum, x (3): to be born
 nesciō, nescīre, nescīvī, nescītum (4): to not know, be ignorant, not understand
@@ -295,9 +308,10 @@ praenūntiō, praenūntiāre, praenūntiāvī, praenūntiatum: to announce, fore
 praesum, praeesse, praefuī, praefutūrus (irregular): to be before, preside
 psallō, psallere, *psalsī, x (3): to chant, sing, give praise, sing psalms
 pullulō, pullulāre, pullulāvī, pullulātum (1): to bring forth young
-quaerō, quaerere, quaesīvī, quaesītum (3): to seek, search, look for, strive for 
+quaerō, quaerere, quaesīvī, quaesītum (3): to seek, search, look for, strive for
 redimō, redimere, redēmī, redēmptum (3): to redeem, buy back, rescue
 reddō, reddere, reddidī, redditum (3): to give back, return, restore, pay back
+regenerō, regenerāre, regenerāvī, regenerātum (1): to produce or bring forth again, reproduce, regenerate
 renovō, renovāre, renovāvī, renovātum (1): to renew, restore, revive
 repleō, replēre, replēvī, replētum (2): to refill, replenish, satisfy
 revertor, revertī, reversus sum, x (3): to return, turn back
@@ -352,6 +366,7 @@ immortālis, immortāle: immortal
 impollūtus, impollūta, impollūtum: unstained, unpolluted
 inaccessibilis, inaccessibile: unapproachable, inaccessible
 incircumscrīptus, circumscrīpta, circumscrīptum: uncircumscribed
+incontāminātus, incontāmināta, incontāminātum: uncontaminated, undefiled, pure
 incorporeus, incorpora, incorporum: incorporeal
 incorruptus, incorrupta, incorruptum: incorrpupt
 inexpugnābilis, inexpugnābile: impregnable, unconquerable
@@ -377,6 +392,7 @@ possibilis, possibile: possible, that may exist
 ratiōnābilis, ratiōnābile: rational, reasonable
 sanctus, sancta, sanctum: holy
 similis, similis: similar
+spīritālis, spīritāle: 
 splendidus, splendida, splendidum: splendid, bright, glittering
 stultus, stulta, stultum: stupid, foolish
 supernus, superna, supernum: upper, lofty, heavenly
