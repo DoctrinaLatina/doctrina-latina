@@ -69,6 +69,7 @@ filosofus, filosofī (2, M): philosopher
 flōs, flōris (3, M): flower
 forma, formae (1, F): form, shape
 frūctus, frūctūs (4, M): fruit
+fulgur, fulguris (3, N): lightning
 fūrtum, fūrtī (2, N): theft, robbery
 gaudium, gaudiī (2, N): joy, delight
 generātiō, generātiōnis (3, F): generation, offspring
@@ -76,6 +77,7 @@ genetrīx, genetrīcis (3, F): mother
 germen, germinis (3, N): shoot, sprout, germ, seed
 glōria, glōriae (1, F): glory, honor
 grātia, grātiae (1, F): grace, thankfulness, thanks
+harēna, harēnae (1, F): sand
 Hērōdēs, Hērōdis (3, M): Herod
 homō, hominis (3, M): man
 ignōrantia, ignōrantiae (1, F): ignorance
@@ -90,6 +92,7 @@ incorruptiō, incorruptiōnis (3, F): incorruptibility
 indulgentia, indulgentiae (1, F): pardon, concession, indulgence
 infans, infantis (3, M/F): infant
 infernus, infernī (2, M): the underworld, Hades
+inimīcus, inimīcī (2, M): enemy, foe
 initiātrīx, initiātrīcis (3, F): female initiator
 intercessiō, intercessiōnis (3, F): intervention, intercession
 jūdex, jūdicis (3, M): judge
@@ -154,6 +157,7 @@ prūdentia, prūdentiae (1, F): knowledge, sagacity, prudence
 pudīcitia, pudīcitiae (1, F): chastity, modisty
 puer, puerī (2, M): son
 puerperium, puerperiī (2, N): childbirth, delivery
+radius, radiī (2, M): ray of light, rod
 ratiō, ratiōnis (3, F): reason, rationality
 receptāculum, receptāculī (2, N): receptacle, container
 redēmptiō, redēmptiōnis (3, F): redemption
@@ -192,6 +196,7 @@ tegumentum, tegumentī (2, N): covering, armour
 tenebra, tenebrae (1, F): ignorance, (in plural) darkness
 terra, terrae (1, F): earth, land, ground
 tirannus, tirannī (2, M): tyrant
+tonitrus, tonitrūs (4, M): thunder
 transgressiō, transgressiōnis (3, F): transgression, violation
 translātiō, translātiōnis (3, F): translation, transfer
 tribūtrix, tribūtrīcis (3, F): (female) a giver, imparter 
@@ -266,7 +271,9 @@ generō, generāre, generāvī, generātum (1): to bring to life, beget, generat
 germinō, germināre, germināvī, germinātum (1): to sprout, bud, grow
 gestō, gestāre, gestāvī, gestātum (1): to bear, carry, hold
 gignō, gignere, genuī, genitum (3): to bring forth, give birth to
-illūminō, illūmināre, illūmināvī, illūminātum (1): to illumine, enlighten
+honōrificō, honōrificāre, honōrificāvī, honōrificātum (1): to honor
+illūminō, illūmināre, illūmināvī, illūminātum (1): to illumine, brighten
+illūstrō, illūstrāre, illūstrāvī, illūstrātum (1): to illuminate, illustrate
 incorporō, incorporāre, incorporāvī, incorporātum (1): to embody
 induō, induere, induī, indūtum (3): to put on, clothe
 initiō, initiāre, initiāvī, initiātum (1): to begin, originate, initiate, consecrate
@@ -294,12 +301,14 @@ nūtriō, nūtrīre, nūtrīvī, nūtrītum (4): to nourish, feed, nurse
 occidō, occidere, occidī, occisum (3): to fall, go down, set
 obumbrō, obumbrāre, obumbrāvī, obumbrātum (1): to overshadow, obscure
 obstupēscō, obstupēscere, obstupuī, x (3): to be amazed, stupified
+offerō, offerre, obtulī, oblātum (3, suppletive): to bring before, present, offer, dedicate 
 orior, orīrī, ortus sum, x (3): to rise, get up
 ostendō, ostendere, *ostetendī, ostentum (3): to expose, show, reveal
 pariō, parere, peperī, partum (3): to bear, give birth to
 pāscō, pāscere, pāvī, pāstum (1): to feed, nourish
 pavēscō, pavēscere, x, x (3): to become alarmed, become afraid
 perficiō, perficere, perfēcī, perfectum (3): to finish, complete, perfect
+perterreō, perterrēre, perterruī, perterritum (2): to terrify thoroughly
 portō, portāre, portāvī, portātum (1): to carry, bear, bring
 possum, posse, potuī (irregular): to be able to
 praedicō, praedicāre, praedicāvī, praedicātum (1): to proclaim, announce
@@ -341,6 +350,7 @@ altus, alta, altum: high, tall
 Atēniensis, Atēniense: Athenian
 barbarus, barbara, barbarum: foreign, barbaric
 benedictus, benedicta, benedictum: blessed
+benignus, benigna, benignum: kind, good, beneficient
 bonus, bona, bonum: good, right
 caelestis, caeleste: heavenly, celestial
 carnālis, carnāle: fleshly, carnal
@@ -359,12 +369,14 @@ humilis, humile: lowly, small
 igneus, ignea, igneum: fiery, burning
 ignōtus, ignōta, ignōtum: unknown, strange, unacquainted with
 insonos, insona, insonum: soundless, silent
+intellegibilis, intellegibile: intelligible, perceivable
 immarcēscibilis, immarcēscibile: unfading
 immaculātus, immaculāta, immaculātum: unstained
 immensus, immensa, immensum: immeasureable, boundless, immense
 immortālis, immortāle: immortal
 impollūtus, impollūta, impollūtum: unstained, unpolluted
 inaccessibilis, inaccessibile: unapproachable, inaccessible
+incapax (genetive incapācis): incapable 
 incircumscrīptus, circumscrīpta, circumscrīptum: uncircumscribed
 incontāminātus, incontāmināta, incontāminātum: uncontaminated, undefiled, pure
 incorporeus, incorpora, incorporum: incorporeal
