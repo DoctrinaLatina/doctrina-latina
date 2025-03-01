@@ -13,9 +13,11 @@ angelus, angelī (2, M): angel, messenger
 anima, animae (1, F): soul, spirit, breath
 apostolus, apostolī (2, M): apostle
 apertiō, apertiōnis (3, F): opening, unfolding
+aqua, aquae (1, F): water
 arvum, arvī (2, N): field
 audītiō, audītiōnis (3, F): hearing, rumor, report
 aula, aulae (1, F): court, palace
+aurōra, aurōrae (1, F): dawn
 Babilōn, Babilōnis (3, F): Babylon
 benignitās, benignitātis (3, F): kindness, friendliness
 bēstia, bēstiae (1, F): beast
@@ -30,6 +32,7 @@ castitās, castitātis (3, F): purity, chastity
 Chrīstus, Chrīstī (2, M): Jesus Christ, the Annointed One
 cīvitās, cīvitātis (3, F): city, state, citizenship
 clāvis, clāvis (3, F): key
+clāritātās, clāritātis (3, F): clarity, brightness, fame
 cōgitātiō, cōgitātiōnis (3, F): thought, thinking, reasoning
 cognitiō, cognitiōnis (3, F): learning, cognition
 columna, columnae (1, F): column, pillar
@@ -67,6 +70,7 @@ figūra, figūrae (1, F): figure, shape
 fīlius, fīliī (2, M): son
 filosofus, filosofī (2, M): philosopher
 flōs, flōris (3, M): flower
+flūmen, flūminis (3, N): river
 forma, formae (1, F): form, shape
 frūctus, frūctūs (4, M): fruit
 fulgur, fulguris (3, N): lightning
@@ -399,6 +403,7 @@ multisonus, multisona, multisonum: loud sounding, many sounding
 novus, nova, novum: new
 nūdus, nūda, nūdum: naked
 omnis, omne: every, all
+plēnus, plēna, plēnum: full of
 peregrīnus, peregrīna, peregrīnum: foreign, exotic
 possibilis, possibile: possible, that may exist
 ratiōnābilis, ratiōnābile: rational, reasonable
