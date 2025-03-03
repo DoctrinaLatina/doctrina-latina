@@ -19,6 +19,7 @@ audītiō, audītiōnis (3, F): hearing, rumor, report
 aula, aulae (1, F): court, palace
 aurōra, aurōrae (1, F): dawn
 Babilōn, Babilōnis (3, F): Babylon
+baptisma, baptismatis (3, N): baptism
 benignitās, benignitātis (3, F): kindness, friendliness
 bēstia, bēstiae (1, F): beast
 bracchium, bracchiī (2, N): arm
@@ -40,10 +41,12 @@ conceptiō, conceptiōnis (3, F): conception, idea, notion
 concordia, concordiae (1, F): concord, unity, peace
 conquīsītor, conquīsītōris (3, M): someone who makes an inquiry, disputant
 continentia, continentiae (1, F): chastity
+conscientia, conscientiae (1, F): conscience
 consilium, consiliī (2, N): plan, purpose, council
 cōpia, cōpiae (1, F): abundance, wealth, fulness
 corōna, corōnae (1, F): crown
 corruptor, corruptōris (3, M): corruptor, seducer
+crātēr, crātēris (3, M): basin, large bowl for mixing
 creātor, creātōris (3, M): creator, author, founder
 creātūra, creātūrae (1, F): a created thing, creation
 daemon, daemonis (3, M): a demon
@@ -71,6 +74,7 @@ fīlius, fīliī (2, M): son
 filosofus, filosofī (2, M): philosopher
 flōs, flōris (3, M): flower
 flūmen, flūminis (3, N): river
+fons, fontem (3, M): font, spring
 forma, formae (1, F): form, shape
 frūctus, frūctūs (4, M): fruit
 fulgur, fulguris (3, N): lightning
@@ -78,6 +82,7 @@ fūrtum, fūrtī (2, N): theft, robbery
 gaudium, gaudiī (2, N): joy, delight
 generātiō, generātiōnis (3, F): generation, offspring
 genetrīx, genetrīcis (3, F): mother
+genitūra, genitūrae (1, F): a begetting, bearing, birth, generation
 germen, germinis (3, N): shoot, sprout, germ, seed
 glōria, glōriae (1, F): glory, honor
 grātia, grātiae (1, F): grace, thankfulness, thanks
@@ -85,6 +90,7 @@ harēna, harēnae (1, F): sand
 Hērōdēs, Hērōdis (3, M): Herod
 homō, hominis (3, M): man
 ignōrantia, ignōrantiae (1, F): ignorance
+lūtēr, lūtēris (3, M): hand basin, laver
 lūx, lūcis (3, F): light
 īdōlum, īdōlī (2, N): idol
 ignis, ignis (3, M): fire
@@ -106,6 +112,7 @@ laetitia, laetitiae (1, F): joy, gladness
 lampas, lampadis (3, F): lantern, torch
 līmen, līminis (3, N): threshold, entry, doorstep
 lucerna, lucernae (1, F): lamp
+macula, maculae (1, F): stain
 magistrāta, magistrātae (1, F): female commander, captain
 maledictiō, maledictiōnis (3, F): curse, evil speech, condemnation, slander
 manna, mannae (2, F): food given to the Israelites while in the desert from heaven
@@ -129,6 +136,7 @@ nōtitia, nōtitiae (1, F): knowledge
 nūptiae, nūptiārum (2, M): (plural only) marriage
 nūtrix, nūtrīcis (3, F): a child's nurse, that which provides nutrition 
 oculus, oculī (2, M): eye
+odor, odōris (3, M): smell, aroma, fragrence
 opus, operis (3, N): work, labor
 orbis, orbis (3, M): circle, orb, the world, Earth
 ōrnātor, ōrnātōris (3, M): fashioner, adorner
@@ -137,7 +145,7 @@ orbis, orbis (3, M): circle, orb, the world, Earth
 ovis, ovis (3, F): sheep
 paradīsus, paradīsī (2, M): paradise, orchard
 pāstor, pāstōris (3, M): shepherd
-possessiō, possessiōnis (3, F): the act of possession
+peccātum, peccātī (2, N): sin
 perīculum, perīculī (2, N): trial, hazard, danger
 petra, petrae (1, F): rock
 piscis, piscis (3, M): fish
@@ -146,6 +154,7 @@ plantātor, plantātōris (3, M): planter, sower, settler
 plasmātiō, plasmātiōnis (3, F): formation, forming, fashioning
 plasmātor, plasmātōris (3, M): a former, fashioner, creator
 portus, portūs (4, M): harbor, port, refuge
+possessiō, possessiōnis (3, F): the act of possession
 potentia, potentiae (1, F): power, ability
 praedicātor, praedicātōris (3, M): proclaimer, crier
 praesentia, praesentiae (1, F): presence, being present in time
@@ -169,7 +178,9 @@ regiō, regiōnis (3, F): region, country land, boundary
 religiō, religiōnis (3, F): religion, devotion, reverence
 rēx, rēgis (3, M): king
 timor, timōris (3, M): fear, dread
+registrum, registrī (2, N): register, record
 rēgnum, rēgnī (2, N): kingdom, royal power
+remissiō, remissiōnis (3, F): remission, release, forgiveness
 rhētor, rhētoris (3, M): teacher of rhetoric, rhetorician
 ruīna, ruīnae (1, F): ruin, destruction
 saeculum, saeculī (2, N): age, era, generation
@@ -227,8 +238,9 @@ accurrō accurrere, accucurrī, accursum (3): to run, hasten, charge, rush
 admīror, admīrārī, admīrātus sum, x (1): to admire, respect, regard with wonder
 adōrō, adōrāre, adōrāvī, adōrātum (1): to adore, honor, revere, worship, entreat, beseech
 advertō, advertere, advertuī, adversum (3): to turn towards, call attention
-aperiō, aperīre, aperuī, apertum (4): to uncover, reveal
 agricolor, agricolārī, agricolātus sum, x (1): to cultivate land, farm
+aliēnō, aliēnāre, aliēnāvī, aliēnātum (1): to alienate, estrange
+aperiō, aperīre, aperuī, apertum (4): to uncover, reveal
 appāreō, appārēre, appāruī, appāritum (2): to appear, be visible
 arguō, arguere, *argūvī, argūtum (3): to make clear, expose, accuse
 ascendō, ascendere, *ascenduī, ascensum (3): to ascend, mount
@@ -258,6 +270,7 @@ doceō, docēre, docuī, doctum (2): to teach, instruct
 dubitō, dubitāre, dubitāvī, dubitātum (1): to doubt
 ējiciō, ējicere, ējēcī, ējectum (3): to cast out, expell, eject
 ēligō, ēligere, ēlēgī, ēlēctum (3): to choose, pluck out, elect
+ēmundō, ēmundāre, ēmundāvī, ēmundātum (1): to cleanse thoroughly
 ēripiō, ēripere, ēripuī, ēreptum (3): to rescue, deliver, snatch away, take by force
 ēruō, ēruere, *ērūxī, *ērūxum (3): to cast out, pluck out
 excellō, excellere, excelluī, excelsum (3): to elevate, raise up, exult
@@ -316,6 +329,7 @@ perterreō, perterrēre, perterruī, perterritum (2): to terrify thoroughly
 portō, portāre, portāvī, portātum (1): to carry, bear, bring
 possum, posse, potuī (irregular): to be able to
 praedicō, praedicāre, praedicāvī, praedicātum (1): to proclaim, announce
+praefigūrō, praefigūrāre, praefigūrāvī, praefigūrātum (1): to prefigure
 praeparō, praeparāre, praeparāvī, praeparātum (1): to prepare
 praenūntiō, praenūntiāre, praenūntiāvī, praenūntiatum: to announce, foretell
 praesum, praeesse, praefuī, praefutūrus (irregular): to be before, preside
@@ -326,8 +340,9 @@ redimō, redimere, redēmī, redēmptum (3): to redeem, buy back, rescue
 reddō, reddere, reddidī, redditum (3): to give back, return, restore, pay back
 regenerō, regenerāre, regenerāvī, regenerātum (1): to produce or bring forth again, reproduce, regenerate
 renovō, renovāre, renovāvī, renovātum (1): to renew, restore, revive
-repleō, replēre, replēvī, replētum (2): to refill, replenish, satisfy
+repleō, replēre, replēvī, replētum (2): to fill completely, refill, replenish, satisfy
 revertor, revertī, reversus sum, x (3): to return, turn back
+rumpō, rumpere, rūpī, ruptum (3): to tear apart, break, rupture
 sapiō, sapere, sapīvī, x (3): to discern, taste, know
 salvō, salvāre, salvāvī, salvātum (1): to save
 saturō, saturāre, saturāvī, saturātum (1): to satisfy, sate hunger or thirst
@@ -341,6 +356,7 @@ stō, stāre, stetī, statum (1): to stand
 succēdō, succēdere, successī, successum (3): to go up, follow, succeed
 suspicor, suspicārī, suspicātus sum, x (1): to mistrust, suspect
 tegō, tegere, tēxī, tēctum (3): to cover, clothe, conceal, protect
+tollō, tollere, sustulī, sublātum (3): to take away, lift up
 trānspōnō, trānspōnere, trānsposuī, trānspositum (3): to transport over or across, place over
 veneror, venerārī, venerātus sum, x (1): to woship, venerate
 videō, vidēre, vīdī, vīsum (2): to see, look at, perceive
@@ -351,6 +367,7 @@ accessibilis, accessibile: approachable, accessible
 acceptābilis, acceptābile: acceptable
 aeternus, aeterna, aeternum: eternal, permanet
 altus, alta, altum: high, tall
+antīquus, antīqua, antīquum: old, ancient, antique
 Atēniensis, Atēniense: Athenian
 barbarus, barbara, barbarum: foreign, barbaric
 benedictus, benedicta, benedictum: blessed
@@ -398,11 +415,13 @@ irratiōnālis, irratiōnāle: not capbable of exercising reason, irrational
 lāpsus, lāpsa, lāpsum: perfect active participle lābor; fallen
 locālis, locāle: belonging to a place, local
 mīrābilis, mīrābile: wonderful, miraculous, glorious
+misticus, mistica, misticum: mystical
 mortālis, mortāle: mortal
 multisonus, multisona, multisonum: loud sounding, many sounding
 novus, nova, novum: new
 nūdus, nūda, nūdum: naked
 omnis, omne: every, all
+orīginālis, orīgināle: original
 plēnus, plēna, plēnum: full of
 peregrīnus, peregrīna, peregrīnum: foreign, exotic
 possibilis, possibile: possible, that may exist
