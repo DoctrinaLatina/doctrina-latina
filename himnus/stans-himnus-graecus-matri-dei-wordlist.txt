@@ -208,6 +208,7 @@ stella, stellae (1, F): star
 stola, stolae (1, F): robe
 talamus, talamī (2, M): bridal chamber
 tegumentum, tegumentī (2, N): covering, armour
+templum, templī (2, N): temple
 tenebra, tenebrae (1, F): ignorance, (in plural) darkness
 terra, terrae (1, F): earth, land, ground
 tirannus, tirannī (2, M): tyrant
@@ -254,8 +255,9 @@ conculcō, conculcāre, conculcāvī, conculcātum (1): to trample down, crush
 condō, condere, condidī, conditum (3): to put together, form, fashion, establish
 conjungō, conjungere, conjunxī, conjunctum (3): to bind together, join
 consequor, consequī, consecūtus sum, x (3): to obtain, reach, accompany, follow
-cōnservō, cōnservāre, cōnservāvī, cōnservātum (1): to conserve, preserve
-*coruō, corruere, corrūxī, corrūxum (3): to fall down, collapse
+conservō, conservāre, conservāvī, conservātum (1): to conserve, preserve
+contineō, continēre, continuī, contentum (2): to hold, contain, keep
+corruō, corruere, *corruxī, *corruxum (3): to fall down, collapse
 currō, currere, cucurrī, cursum (3): to run, hasten
 custōdiō, custōdīre, custōdīvī, custōdītum (4): to guard, protect, defend
 dēficiō, dēficere, dēfēcī, dēfectum (3); fail, exhaust, finish, die
@@ -367,6 +369,7 @@ accessibilis, accessibile: approachable, accessible
 acceptābilis, acceptābile: acceptable
 aeternus, aeterna, aeternum: eternal, permanet
 altus, alta, altum: high, tall
+animātus, animātam, animātum: animated, living
 antīquus, antīqua, antīquum: old, ancient, antique
 Atēniensis, Atēniense: Athenian
 barbarus, barbara, barbarum: foreign, barbaric
