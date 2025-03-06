@@ -14,6 +14,7 @@ anima, animae (1, F): soul, spirit, breath
 apostolus, apostolī (2, M): apostle
 apertiō, apertiōnis (3, F): opening, unfolding
 aqua, aquae (1, F): water
+arca, arcae (1, F): chest, ark
 arvum, arvī (2, N): field
 audītiō, audītiōnis (3, F): hearing, rumor, report
 aula, aulae (1, F): court, palace
@@ -54,6 +55,7 @@ daemonium, daemoniī (2, N): a lesser demon
 dēbitum, dēbitī (2, N): debt, obligation
 dēlictum, dēlictī (2, N): crime, fault, offense
 deus, deī (2, M): god
+diadēma, diadēmatis (3, N): diadem, crown
 dispēnsātiō, dispēnsātiōnis (3, F): dispensation, management, stewardship
 dogma, dogmātis (3, N): dogma, doctrine
 dolus, dolī (2, M): deception, trickery
@@ -85,6 +87,7 @@ genetrīx, genetrīcis (3, F): mother
 genitūra, genitūrae (1, F): a begetting, bearing, birth, generation
 germen, germinis (3, N): shoot, sprout, germ, seed
 glōria, glōriae (1, F): glory, honor
+glōrificātiō, glōrificātiōnis (3, F): glorificiation
 grātia, grātiae (1, F): grace, thankfulness, thanks
 harēna, harēnae (1, F): sand
 Hērōdēs, Hērōdis (3, M): Herod
@@ -183,6 +186,7 @@ rēgnum, rēgnī (2, N): kingdom, royal power
 remissiō, remissiōnis (3, F): remission, release, forgiveness
 rhētor, rhētoris (3, M): teacher of rhetoric, rhetorician
 ruīna, ruīnae (1, F): ruin, destruction
+sacerdōs, sacerdōtis (3, M): priest, cleric
 saeculum, saeculī (2, N): age, era, generation
 sagēna, sagēnae (1, F): large fishing net
 salūs, salūtis (3, F): salvation, safety
@@ -206,11 +210,13 @@ stella, stellae (1, F): star
 spīritus, spīritūs (4, M): spirit, breath, breeze
 stella, stellae (1, F): star
 stola, stolae (1, F): robe
+tabernāculum, tabernāculī (2, N): tabernacle, tent
 talamus, talamī (2, M): bridal chamber
 tegumentum, tegumentī (2, N): covering, armour
 templum, templī (2, N): temple
 tenebra, tenebrae (1, F): ignorance, (in plural) darkness
 terra, terrae (1, F): earth, land, ground
+tēsaurus, tēsaurī (2, M): treasury, repository, treasure vault
 tirannus, tirannī (2, M): tyrant
 tonitrus, tonitrūs (4, M): thunder
 transgressiō, transgressiōnis (3, F): transgression, violation
@@ -250,6 +256,7 @@ audiō, audīre, audīvī, audītum (4): to hear, listen
 clāmō, clāmāre, clāmāvī, clāmātum (1): to cry out, call out, shout
 coexsultō, coexsultāre, coexsultāvī, coexsultātum (1): to leap up together, rejoice together
 cognōscō, cognōscere, cognōvī, cognitum (3): to learn, get to know
+colō, colere, coluī, cultum (3): to cultivate, serve, worship
 commoror, commorārī, commorātus sum, x (1): to remain, stop, stay, linger
 conculcō, conculcāre, conculcāvī, conculcātum (1): to trample down, crush
 condō, condere, condidī, conditum (3): to put together, form, fashion, establish
@@ -260,6 +267,7 @@ contineō, continēre, continuī, contentum (2): to hold, contain, keep
 corruō, corruere, *corruxī, *corruxum (3): to fall down, collapse
 currō, currere, cucurrī, cursum (3): to run, hasten
 custōdiō, custōdīre, custōdīvī, custōdītum (4): to guard, protect, defend
+dēaurō, dēaurāre, dēaurāvī, dēaurātum (1): to gild, covered with gold
 dēficiō, dēficere, dēfēcī, dēfectum (3); fail, exhaust, finish, die
 dēmōnstrō, dēmōnstrāre, dēmōnstrāvī, dēmōnstrātum (1); to show, demonstrate
 dēscendō, dēscendere, dēscenduī, dēscensum (3): to descend, climb down
@@ -343,6 +351,7 @@ reddō, reddere, reddidī, redditum (3): to give back, return, restore, pay back
 regenerō, regenerāre, regenerāvī, regenerātum (1): to produce or bring forth again, reproduce, regenerate
 renovō, renovāre, renovāvī, renovātum (1): to renew, restore, revive
 repleō, replēre, replēvī, replētum (2): to fill completely, refill, replenish, satisfy
+revereor, reverērī, reveritus sum, x (2): to stand in awe of, respect, reverence
 revertor, revertī, reversus sum, x (3): to return, turn back
 rumpō, rumpere, rūpī, ruptum (3): to tear apart, break, rupture
 sapiō, sapere, sapīvī, x (3): to discern, taste, know
@@ -397,12 +406,14 @@ intellegibilis, intellegibile: intelligible, perceivable
 immarcēscibilis, immarcēscibile: unfading
 immaculātus, immaculāta, immaculātum: unstained
 immensus, immensa, immensum: immeasureable, boundless, immense
+immōbilis, immōbile: immobile, immoveable, unalterable
 immortālis, immortāle: immortal
 impollūtus, impollūta, impollūtum: unstained, unpolluted
 inaccessibilis, inaccessibile: unapproachable, inaccessible
 incapax (genetive incapācis): incapable 
 incircumscrīptus, circumscrīpta, circumscrīptum: uncircumscribed
 incontāminātus, incontāmināta, incontāminātum: uncontaminated, undefiled, pure
+inconsummābilis, inconsummābile: inexaustable, unconsumable
 incorporeus, incorpora, incorporum: incorporeal
 incorruptus, incorrupta, incorruptum: incorrpupt
 inexpugnābilis, inexpugnābile: impregnable, unconquerable
@@ -425,6 +436,7 @@ novus, nova, novum: new
 nūdus, nūda, nūdum: naked
 omnis, omne: every, all
 orīginālis, orīgināle: original
+pius, pia, pium: pious, devout, holy
 plēnus, plēna, plēnum: full of
 peregrīnus, peregrīna, peregrīnum: foreign, exotic
 possibilis, possibile: possible, that may exist
